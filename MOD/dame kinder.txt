@@ -1,0 +1,11 @@
+<<<<<<< HEAD
+me compro ropa
+luego la vendo
+asi consigo este rollo que yo tengo
+=======
+<<<<<<< HEAD
+damelo todo
+=======
+me gusta el kinder
+>>>>>>> Pepe
+>>>>>>> carlos
