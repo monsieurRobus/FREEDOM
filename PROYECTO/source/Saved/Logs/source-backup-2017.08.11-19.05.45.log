@@ -1,0 +1,1194 @@
+﻿Log file open, 08/11/17 13:02:51
+LogInit:Display: Running engine for game: source
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(449925531) SRandInit(449925532).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.114294
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: B:/UnrealEngine/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.11-12.02.52:420][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.11-12.02.52:420][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.11-12.02.52:449][  0]LogInit: Computer: DESKTOP-IS750JK
+[2017.08.11-12.02.52:449][  0]LogInit: User: Pepe
+[2017.08.11-12.02.52:449][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.11-12.02.52:449][  0]LogInit: High frequency timer resolution =3.417998 MHz
+[2017.08.11-12.02.52:450][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.08.11-12.02.52:450][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.11-12.02.52:450][  0]LogMemory: Process Physical Memory: 273.81 MB used, 273.81 MB peak
+[2017.08.11-12.02.52:450][  0]LogMemory: Process Virtual Memory: 260.71 MB used, 260.71 MB peak
+[2017.08.11-12.02.52:450][  0]LogMemory: Physical Memory: 4768.04 MB used,  3372.23 MB free, 8140.28 MB total
+[2017.08.11-12.02.52:450][  0]LogMemory: Virtual Memory: 638.34 MB used,  3372.23 MB free, 134217728.00 MB total
+[2017.08.11-12.02.52:548][  0]LogInit: Overriding language with editor language configuration option (en).
+[2017.08.11-12.02.52:548][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2017.08.11-12.02.53:790][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.11-12.02.53:825][  0]LogD3D11RHI:    0. 'Radeon (TM) RX 470 Graphics' (Feature Level 11_0)
+[2017.08.11-12.02.53:825][  0]LogD3D11RHI:       4044/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2017.08.11-12.02.53:828][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.11-12.02.53:828][  0]LogD3D11RHI:       0/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.11-12.02.53:828][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.11-12.02.53:839][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.11-12.02.53:839][  0]LogD3D11RHI:     GPU DeviceId: 0x67df (for the marketing name, search the web for "GPU Device Id")
+[2017.08.11-12.02.53:839][  0]LogWindows: EnumDisplayDevices:
+[2017.08.11-12.02.53:839][  0]LogWindows:    0. 'Radeon (TM) RX 470 Graphics' (P:1 D:1)
+[2017.08.11-12.02.53:840][  0]LogWindows:    1. 'Radeon (TM) RX 470 Graphics' (P:0 D:1)
+[2017.08.11-12.02.53:840][  0]LogWindows:    2. 'Radeon (TM) RX 470 Graphics' (P:0 D:0)
+[2017.08.11-12.02.53:841][  0]LogWindows:    3. 'Radeon (TM) RX 470 Graphics' (P:0 D:0)
+[2017.08.11-12.02.53:841][  0]LogWindows:    4. 'Radeon (TM) RX 470 Graphics' (P:0 D:0)
+[2017.08.11-12.02.53:842][  0]LogWindows:    5. 'Radeon (TM) RX 470 Graphics' (P:0 D:0)
+[2017.08.11-12.02.53:843][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2017.08.11-12.02.53:843][  0]LogD3D11RHI:     Adapter Name: Radeon (TM) RX 470 Graphics
+[2017.08.11-12.02.53:843][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.1.1 (internal:22.19.162.4, unified:22.19.162.4)
+[2017.08.11-12.02.53:843][  0]LogD3D11RHI:      Driver Date: 4-24-2017
+[2017.08.11-12.02.53:843][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.11-12.02.54:009][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.11-12.02.54:021][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2017.08.11-12.02.54:022][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (../../../../../FreedomReal/FREEDOM/PROYECTO/source/Intermediate/Shaders/WorkingDirectory/9100/).
+[2017.08.11-12.02.54:022][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Pepe/AppData/Local/Temp/UnrealShaderWorkingDir/EDD5B03F4882AF7C0C864A8EE901BD7E/'.
+[2017.08.11-12.02.54:022][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.11-12.02.55:709][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.11-12.02.55:789][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.11-12.02.55:861][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.11-12.02.55:936][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.11-12.02.56:021][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.11-12.02.56:097][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.11-12.02.56:172][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.11-12.02.56:248][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.11-12.02.56:311][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.11-12.02.56:386][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.11-12.02.56:459][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.11-12.02.56:533][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.11-12.02.56:609][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.11-12.02.56:685][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.11-12.02.56:760][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.11-12.02.56:905][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.11-12.02.56:905][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.11-12.02.56:966][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.11-12.02.57:094][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.11-12.02.57:138][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.11-12.02.57:210][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.11-12.02.57:285][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.11-12.02.57:357][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.11-12.02.57:431][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.11-12.02.57:431][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.11-12.02.58:158][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.11-12.02.58:341][  0]LogDerivedDataCache: Loaded boot cache 0.18s 90MB C:/Users/Pepe/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.11-12.02.58:341][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Pepe/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.11-12.02.58:341][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../FreedomReal/FREEDOM/PROYECTO/source/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.11-12.02.58:341][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.11-12.02.58:341][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../FreedomReal/FREEDOM/PROYECTO/source/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.11-12.02.58:342][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.11-12.02.58:367][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.11-12.02.58:381][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Pepe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.11-12.02.58:398][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.11-12.02.58:398][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.11-12.02.58:399][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.11-12.02.58:399][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.11-12.02.58:890][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.11-12.02.59:048][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.11-12.02.59:271][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.11-12.02.59:336][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.11-12.02.59:412][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.11-12.02.59:412][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.11-12.02.59:412][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.11-12.03.00:210][  0]LogNetVersion: source , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2297492709)
+[2017.08.11-12.03.00:291][  0]LogAssetRegistry: FAssetRegistry took 0.0292 seconds to start up
+[2017.08.11-12.03.00:436][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.109992 seconds
+[2017.08.11-12.03.00:444][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.11-12.03.00:444][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.08.11-12.03.00:444][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.11-12.03.00:534][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.11-12.03.04:012][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.11-12.03.04:067][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.11-12.03.04:821][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.11-12.03.05:393][  0]SourceControl: Info Source control is disabled
+[2017.08.11-12.03.05:395][  0]SourceControl: Info Source control is disabled
+[2017.08.11-12.03.05:467][  0]SourceControl: Info Source control is disabled
+[2017.08.11-12.03.05:538][  0]SourceControl: Info Source control is disabled
+[2017.08.11-12.03.06:578][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.11-12.03.07:459][  0]LogEngine: Initializing Engine...
+[2017.08.11-12.03.07:461][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.11-12.03.07:811][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.11-12.03.07:811][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.11-12.03.08:003][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.11-12.03.08:041][  0]LogInit: XAudio2 using 'Altavoces (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.08.11-12.03.08:059][  0]LogInit: FAudioDevice initialized.
+[2017.08.11-12.03.08:147][  0]LogDerivedDataCache: Saved boot cache 0.09s 90MB C:/Users/Pepe/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.11-12.03.08:169][  0]LogInit: Texture streaming: Enabled
+[2017.08.11-12.03.08:310][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.11-12.03.08:628][  0]LogInit: Transaction tracking system initialized
+[2017.08.11-12.03.09:087][  0]BlueprintLog: New page: Editor Load
+[2017.08.11-12.03.10:541][  0]LocalizationService: Info Localization service is disabled
+[2017.08.11-12.03.11:550][  0]LogConsoleResponse:Display: 
+[2017.08.11-12.03.11:815][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.11-12.03.11:815][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.11-12.03.12:632][  0]LogFileCache: Scanning file cache for directory 'B:/FreedomReal/FREEDOM/PROYECTO/source/Content/' took 0.04s
+[2017.08.11-12.03.13:406][  0]SourceControl: Info Source control is disabled
+[2017.08.11-12.03.13:407][  0]Cmd: MAP LOAD FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.11-12.03.13:432][  0]LightingResults: New page: Lighting Build
+[2017.08.11-12.03.13:497][  0]MapCheck: New page: Map Check
+[2017.08.11-12.03.13:497][  0]LightingResults: New page: Lighting Build
+[2017.08.11-12.03.15:043][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.08.11-12.03.15:157][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.11-12.03.15:192][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.11-12.03.15:271][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 79.014ms to complete.
+[2017.08.11-12.03.15:271][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.865
+[2017.08.11-12.03.15:850][  0]LogCollectionManager: Loaded 0 collections in 0.002131 seconds
+[2017.08.11-12.03.16:039][  0]LogFileCache: Scanning file cache for directory 'B:/FreedomReal/FREEDOM/PROYECTO/source/Saved/Collections/' took 0.01s
+[2017.08.11-12.03.16:040][  0]LogFileCache: Scanning file cache for directory 'B:/FreedomReal/FREEDOM/PROYECTO/source/Content/Developers/Pepe/Collections/' took 0.01s
+[2017.08.11-12.03.16:040][  0]LogFileCache: Scanning file cache for directory 'B:/FreedomReal/FREEDOM/PROYECTO/source/Content/Collections/' took 0.01s
+[2017.08.11-12.03.16:040][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.08.11-12.03.16:064][  0]LogContentBrowser: Native class hierarchy populated in 0.0156 seconds. Added 2329 classes and 491 folders.
+[2017.08.11-12.03.16:196][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.08.11-12.03.17:479][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.08.11-12.03.17:614][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.08.11-12.03.17:935][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.11-12.03.17:996][  0]LogSlate: Took 0.000760 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.11-12.03.18:003][  0]LogSlate: Took 0.000653 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.11-12.03.18:054][  0]LogSlate: Took 0.020735 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.11-12.03.18:469][  0]LogRenderer: Reallocating scene render targets to support 744x328 NumSamples 1 (Frame:1).
+[2017.08.11-12.03.18:864][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.11-12.03.18:949][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.08.11-12.03.18:949][  0]LogLoad: (Engine Initialization) Total time: 29.69 seconds
+[2017.08.11-12.03.18:949][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.13 seconds
+[2017.08.11-12.03.18:949][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.08.11-12.03.19:288][  0]LogOcInput: OculusInput pre-init called
+[2017.08.11-12.03.19:288][  0]LogHMD: Starting GearVRController plugin
+[2017.08.11-12.03.19:338][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.11-12.03.19:964][  2]LogAssetRegistry: Asset discovery search completed in 19.6943 seconds
+[2017.08.11-12.03.19:967][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.11-12.03.19:967][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000042 seconds (updated 0 objects)
+[2017.08.11-12.03.23:712][ 13]LogSlate: Took 0.020802 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.11-12.03.39:275][667]LogSlate: Took 0.000286 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.11-12.03.39:338][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Aim_Space_Hip.Aim_Space_Hip
+[2017.08.11-12.03.39:356][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Aim_Space_Ironsights.Aim_Space_Ironsights
+[2017.08.11-12.03.39:378][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Walk_Rt_Rifle_Hip.Crouch_Walk_Rt_Rifle_Hip
+[2017.08.11-12.03.39:382][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Walk_Lt_Rifle_Hip.Crouch_Walk_Lt_Rifle_Hip
+[2017.08.11-12.03.39:387][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Hip.Crouch_Walk_Fwd_Rifle_Hip
+[2017.08.11-12.03.39:392][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Hip.Crouch_Walk_Bwd_Rifle_Hip
+[2017.08.11-12.03.39:411][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Jog_Bwd_Rifle.Jog_Bwd_Rifle
+[2017.08.11-12.03.39:425][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Jog_Fwd_Rifle.Jog_Fwd_Rifle
+[2017.08.11-12.03.39:429][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Jog_Lt_Rifle.Jog_Lt_Rifle
+[2017.08.11-12.03.39:432][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Jog_Rt_Rifle.Jog_Rt_Rifle
+[2017.08.11-12.03.39:439][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Idle_Rifle_Hip.Crouch_Idle_Rifle_Hip
+[2017.08.11-12.03.39:453][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Idle_Rifle_Ironsights.Crouch_Idle_Rifle_Ironsights
+[2017.08.11-12.03.39:468][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_to_Stand_Rifle_Hip.Crouch_to_Stand_Rifle_Hip
+[2017.08.11-12.03.39:473][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_to_Stand_Rifle_Ironsights.Crouch_to_Stand_Rifle_Ironsights
+[2017.08.11-12.03.39:477][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Ironsights.Crouch_Walk_Bwd_Rifle_Ironsights
+[2017.08.11-12.03.39:484][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Ironsights.Crouch_Walk_Fwd_Rifle_Ironsights
+[2017.08.11-12.03.39:492][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Walk_Lt_Rifle_Ironsights.Crouch_Walk_Lt_Rifle_Ironsights
+[2017.08.11-12.03.39:501][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Walk_Rt_Rifle_Ironsights.Crouch_Walk_Rt_Rifle_Ironsights
+[2017.08.11-12.03.39:509][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Death_1.Death_1
+[2017.08.11-12.03.39:516][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Death_2.Death_2
+[2017.08.11-12.03.39:523][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Death_3.Death_3
+[2017.08.11-12.03.39:530][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Death_Ironsights_1.Death_Ironsights_1
+[2017.08.11-12.03.39:538][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Death_Ironsights_2.Death_Ironsights_2
+[2017.08.11-12.03.39:544][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Equip_Pistol_Standing.Equip_Pistol_Standing
+[2017.08.11-12.03.39:551][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Equip_Rifle_Standing.Equip_Rifle_Standing
+[2017.08.11-12.03.39:557][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Fire_Rifle_Hip.Fire_Rifle_Hip
+[2017.08.11-12.03.39:560][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Fire_Rifle_Ironsights.Fire_Rifle_Ironsights
+[2017.08.11-12.03.39:564][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Fire_Shotgun_Hip.Fire_Shotgun_Hip
+[2017.08.11-12.03.39:569][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Fire_Shotgun_Ironsights.Fire_Shotgun_Ironsights
+[2017.08.11-12.03.39:574][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Hit_React_1.Hit_React_1
+[2017.08.11-12.03.39:579][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Hit_React_2.Hit_React_2
+[2017.08.11-12.03.39:584][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Hit_React_3.Hit_React_3
+[2017.08.11-12.03.39:589][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Hit_React_4.Hit_React_4
+[2017.08.11-12.03.39:594][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Idle_Pistol.Idle_Pistol
+[2017.08.11-12.03.39:609][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Idle_Rifle_Hip.Idle_Rifle_Hip
+[2017.08.11-12.03.39:622][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Idle_Rifle_Hip_Break1.Idle_Rifle_Hip_Break1
+[2017.08.11-12.03.39:634][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Idle_Rifle_Hip_Break2.Idle_Rifle_Hip_Break2
+[2017.08.11-12.03.39:644][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Idle_Rifle_Ironsights.Idle_Rifle_Ironsights
+[2017.08.11-12.03.39:658][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Jump_From_Jog.Jump_From_Jog
+[2017.08.11-12.03.39:662][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Jump_From_Stand.Jump_From_Stand
+[2017.08.11-12.03.39:667][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Jump_From_Stand_Ironsights.Jump_From_Stand_Ironsights
+[2017.08.11-12.03.39:673][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Prone_Death_1.Prone_Death_1
+[2017.08.11-12.03.39:678][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Prone_Death_2.Prone_Death_2
+[2017.08.11-12.03.39:685][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Prone_Fire_1.Prone_Fire_1
+[2017.08.11-12.03.39:688][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Prone_Fire_2.Prone_Fire_2
+[2017.08.11-12.03.39:692][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Prone_Idle.Prone_Idle
+[2017.08.11-12.03.39:711][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Prone_Reload_Rifle.Prone_Reload_Rifle
+[2017.08.11-12.03.39:720][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Prone_Reload_Shotgun.Prone_Reload_Shotgun
+[2017.08.11-12.03.39:731][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Prone_To_Stand.Prone_To_Stand
+[2017.08.11-12.03.39:737][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Reload_Pistol.Reload_Pistol
+[2017.08.11-12.03.39:743][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Reload_Rifle_Hip.Reload_Rifle_Hip
+[2017.08.11-12.03.39:750][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Reload_Rifle_Ironsights.Reload_Rifle_Ironsights
+[2017.08.11-12.03.39:757][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Reload_Shotgun_Hip.Reload_Shotgun_Hip
+[2017.08.11-12.03.39:770][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Reload_Shotgun_Ironsights.Reload_Shotgun_Ironsights
+[2017.08.11-12.03.40:003][667]LogTexture:Display: Building textures: UE4Man_Logo_N (BC5, 512X512)
+[2017.08.11-12.03.40:087][667]LogTexture:Display: Building textures: T_ML_Rubber_Blue_01_D (DXT1, 512X512)
+[2017.08.11-12.03.40:286][667]LogTexture:Display: Building textures: T_ML_Rubber_Blue_01_N (BC5, 512X512)
+[2017.08.11-12.03.40:344][667]LogTexture:Display: Building textures: T_ML_Aluminum01 (DXT1, 512X512)
+[2017.08.11-12.03.40:490][667]LogSlate: Took 0.000331 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.11-12.03.40:509][667]LogTexture:Display: Building textures: T_ML_Aluminum01_N (BC5, 512X512)
+[2017.08.11-12.03.40:574][667]LogTexture:Display: Building textures: UE4_Mannequin_MAT_MASKA (AutoDXT, 1024X1024)
+[2017.08.11-12.03.40:905][667]LogTexture:Display: Building textures: UE4_Mannequin__normals (BC5, 2048X2048)
+[2017.08.11-12.03.41:504][667]LogTexture:Display: Building textures: UE4_Mannequin_occlusion_Mobile (DXT1, 512X512)
+[2017.08.11-12.03.41:641][667]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2017.08.11-12.03.41:862][667]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2017.08.11-12.03.42:145][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Walk_Fwd_Rifle_Ironsights.Walk_Fwd_Rifle_Ironsights
+[2017.08.11-12.03.42:253][667]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2017.08.11-12.03.42:282][667]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2017.08.11-12.03.42:286][667]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2017.08.11-12.03.42:303][667]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2017.08.11-12.03.42:310][667]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 512X256)
+[2017.08.11-12.03.42:332][667]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2017.08.11-12.03.42:339][667]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 512X256)
+[2017.08.11-12.03.42:348][667]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8, 64X32)
+[2017.08.11-12.03.42:351][667]LogAIModule: Creating AISystem for world Showcase
+[2017.08.11-12.03.42:351][667]LogActorComponent: RegisterComponentWithWorld: (/Game/AnimStarterPack/Showcase.Showcase:PersistentLevel.WorldSettings.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.11-12.03.42:481][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Sprint_Fwd_Rifle.Sprint_Fwd_Rifle
+[2017.08.11-12.03.42:485][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Stand_to_Crouch_Rifle_Hip.Stand_to_Crouch_Rifle_Hip
+[2017.08.11-12.03.42:491][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Stand_to_Crouch_Rifle_Ironsights.Stand_to_Crouch_Rifle_Ironsights
+[2017.08.11-12.03.42:496][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Stand_To_Prone.Stand_To_Prone
+[2017.08.11-12.03.42:797][667]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2017.08.11-12.03.42:797][667]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2017.08.11-12.03.42:797][667]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2017.08.11-12.03.42:798][667]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2017.08.11-12.03.42:798][667]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2017.08.11-12.03.42:798][667]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2017.08.11-12.03.42:802][667]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning [0053.54] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 11 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2017.08.11-12.03.42:803][667]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning [0053.54] Compile of Ue4ASP_Character successful, but with 7 Warning(s) [in 1 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2017.08.11-12.03.42:803][667]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning [0053.54] Compile of Ue4ASP_Character successful, but with 8 Warning(s) [in 0 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2017.08.11-12.03.42:870][667]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2017.08.11-12.03.42:870][667]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2017.08.11-12.03.42:870][667]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2017.08.11-12.03.42:871][667]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2017.08.11-12.03.42:871][667]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2017.08.11-12.03.42:872][667]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2017.08.11-12.03.42:879][667]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning [0053.62] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 16 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2017.08.11-12.03.42:879][667]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning [0053.62] Compile of Ue4ASP_Character successful, but with 7 Warning(s) [in 0 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2017.08.11-12.03.42:881][667]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning [0053.62] Compile of Ue4ASP_Character successful, but with 8 Warning(s) [in 1 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2017.08.11-12.03.42:958][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Walk_Bwd_Rifle_Ironsights.Walk_Bwd_Rifle_Ironsights
+[2017.08.11-12.03.42:964][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Walk_Lt_Rifle_Ironsights.Walk_Lt_Rifle_Ironsights
+[2017.08.11-12.03.42:970][667]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Walk_Rt_Rifle_Ironsights.Walk_Rt_Rifle_Ironsights
+[2017.08.11-12.03.43:767][667]LogMetaData: Removing '/Game/3rdParty/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character_C' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.08.11-12.03.43:767][667]LogMetaData: Removing '/Game/3rdParty/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character_C:InpAxisEvt_MoveRight_K2Node_InputAxisEvent_243' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.08.11-12.03.43:767][667]LogMetaData: Removing '/Game/3rdParty/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character_C:InpAxisEvt_Turn_K2Node_InputAxisEvent_256' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.08.11-12.03.43:767][667]LogMetaData: Removing '/Game/3rdParty/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character_C:InpAxisEvt_LookUp_K2Node_InputAxisEvent_268' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.08.11-12.03.43:767][667]LogMetaData: Removing '/Game/3rdParty/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character_C:InpAxisEvt_MoveForward_K2Node_InputAxisEvent_180' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.08.11-12.03.43:767][667]LogMetaData: Removing '/Game/3rdParty/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character_C:ExecuteUbergraph_Ue4ASP_Character' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.08.11-12.03.43:767][667]LogMetaData: Removing '/Game/3rdParty/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character_C:UserConstructionScript' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.08.11-12.03.43:767][667]LogMetaData: Removing '/Game/3rdParty/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character_C:PlayerCamera' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.08.11-12.03.43:767][667]LogMetaData: Removing '/Game/3rdParty/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character_C:CameraBoom' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.08.11-12.03.43:767][667]LogMetaData: Removing '/Game/3rdParty/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character_C:Jump Button Down' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.08.11-12.03.43:767][667]LogMetaData: Removing '/Game/3rdParty/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character_C:Crouch Button Down' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.08.11-12.03.43:767][667]LogMetaData: Removing '/Game/3rdParty/AnimStarterPack/Ue4ASP_Character.SKEL_Ue4ASP_Character_C:Crouch Button Down' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.08.11-12.03.43:767][667]LogMetaData: Removing '/Game/3rdParty/AnimStarterPack/Ue4ASP_Character.SKEL_Ue4ASP_Character_C:Jump Button Down' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.08.11-12.03.43:767][667]LogMetaData: Removing '/Game/3rdParty/AnimStarterPack/Ue4ASP_Character.SKEL_Ue4ASP_Character_C:CameraBoom' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.08.11-12.03.43:767][667]LogMetaData: Removing '/Game/3rdParty/AnimStarterPack/Ue4ASP_Character.SKEL_Ue4ASP_Character_C:PlayerCamera' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.08.11-12.03.43:767][667]LogMetaData: Removing '/Game/3rdParty/AnimStarterPack/Ue4ASP_Character.SKEL_Ue4ASP_Character_C:UserConstructionScript' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.08.11-12.03.43:767][667]LogMetaData: Removing '/Game/3rdParty/AnimStarterPack/Ue4ASP_Character.SKEL_Ue4ASP_Character_C:ExecuteUbergraph_Ue4ASP_Character' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.08.11-12.03.43:767][667]LogMetaData: Removing '/Game/3rdParty/AnimStarterPack/Ue4ASP_Character.SKEL_Ue4ASP_Character_C:InpAxisEvt_MoveForward_K2Node_InputAxisEvent_180' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.08.11-12.03.43:767][667]LogMetaData: Removing '/Game/3rdParty/AnimStarterPack/Ue4ASP_Character.SKEL_Ue4ASP_Character_C:InpAxisEvt_LookUp_K2Node_InputAxisEvent_268' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.08.11-12.03.43:767][667]LogMetaData: Removing '/Game/3rdParty/AnimStarterPack/Ue4ASP_Character.SKEL_Ue4ASP_Character_C:InpAxisEvt_Turn_K2Node_InputAxisEvent_256' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.08.11-12.03.43:767][667]LogMetaData: Removing '/Game/3rdParty/AnimStarterPack/Ue4ASP_Character.SKEL_Ue4ASP_Character_C:InpAxisEvt_MoveRight_K2Node_InputAxisEvent_243' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.08.11-12.03.43:767][667]LogMetaData: Removing '/Game/3rdParty/AnimStarterPack/Ue4ASP_Character.SKEL_Ue4ASP_Character_C' ref from Metadata '/Game/AnimStarterPack/Ue4ASP_Character.PackageMetaData'
+[2017.08.11-12.03.43:777][667]LogMetaData: Removing '/Game/3rdParty/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint_C:ExecuteUbergraph_UE4ASP_HeroTPP_AnimBlueprint' ref from Metadata '/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.PackageMetaData'
+[2017.08.11-12.03.43:777][667]LogMetaData: Removing '/Game/3rdParty/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint_C:BlueprintUpdateAnimation' ref from Metadata '/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.PackageMetaData'
+[2017.08.11-12.03.43:777][667]LogMetaData: Removing '/Game/3rdParty/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint_C:Speed' ref from Metadata '/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.PackageMetaData'
+[2017.08.11-12.03.43:777][667]LogMetaData: Removing '/Game/3rdParty/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint_C:Direction' ref from Metadata '/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.PackageMetaData'
+[2017.08.11-12.03.43:777][667]LogMetaData: Removing '/Game/3rdParty/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint_C:Enable Jump' ref from Metadata '/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.PackageMetaData'
+[2017.08.11-12.03.43:777][667]LogMetaData: Removing '/Game/3rdParty/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint_C:Jumping' ref from Metadata '/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.PackageMetaData'
+[2017.08.11-12.03.43:777][667]LogMetaData: Removing '/Game/3rdParty/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint_C:Crouching' ref from Metadata '/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.PackageMetaData'
+[2017.08.11-12.03.43:777][667]LogMetaData: Removing '/Game/3rdParty/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint_C' ref from Metadata '/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.PackageMetaData'
+[2017.08.11-12.03.43:777][667]LogMetaData: Removing '/Game/3rdParty/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.SKEL_UE4ASP_HeroTPP_AnimBlueprint_C:Crouching' ref from Metadata '/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.PackageMetaData'
+[2017.08.11-12.03.43:777][667]LogMetaData: Removing '/Game/3rdParty/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.SKEL_UE4ASP_HeroTPP_AnimBlueprint_C:Jumping' ref from Metadata '/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.PackageMetaData'
+[2017.08.11-12.03.43:777][667]LogMetaData: Removing '/Game/3rdParty/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.SKEL_UE4ASP_HeroTPP_AnimBlueprint_C:Enable Jump' ref from Metadata '/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.PackageMetaData'
+[2017.08.11-12.03.43:777][667]LogMetaData: Removing '/Game/3rdParty/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.SKEL_UE4ASP_HeroTPP_AnimBlueprint_C:Direction' ref from Metadata '/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.PackageMetaData'
+[2017.08.11-12.03.43:777][667]LogMetaData: Removing '/Game/3rdParty/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.SKEL_UE4ASP_HeroTPP_AnimBlueprint_C:Speed' ref from Metadata '/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.PackageMetaData'
+[2017.08.11-12.03.43:777][667]LogMetaData: Removing '/Game/3rdParty/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.SKEL_UE4ASP_HeroTPP_AnimBlueprint_C:BlueprintUpdateAnimation' ref from Metadata '/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.PackageMetaData'
+[2017.08.11-12.03.43:777][667]LogMetaData: Removing '/Game/3rdParty/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.SKEL_UE4ASP_HeroTPP_AnimBlueprint_C:ExecuteUbergraph_UE4ASP_HeroTPP_AnimBlueprint' ref from Metadata '/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.PackageMetaData'
+[2017.08.11-12.03.43:777][667]LogMetaData: Removing '/Game/3rdParty/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.SKEL_UE4ASP_HeroTPP_AnimBlueprint_C' ref from Metadata '/Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.PackageMetaData'
+[2017.08.11-12.03.44:257][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3rdParty/AnimStarterPack/Aim_Space_Hip" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Aim_Space_Hip.uasset" SILENT=true
+[2017.08.11-12.03.44:315][667]LogSavePackage: Save=42.31ms
+[2017.08.11-12.03.44:315][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Aim_Space_Hip83FE9FE4445338A08E752A9970E9E3D6.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Aim_Space_Hip.uasset'
+[2017.08.11-12.03.44:327][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Aim_Space_Hip.uasset
+[2017.08.11-12.03.44:391][667]LogSavePackage: Save=23.30ms
+[2017.08.11-12.03.44:391][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Aim_Space_IronsightsB2BE4C494F667707EA71C783C348DAAF.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Aim_Space_Ironsights.uasset'
+[2017.08.11-12.03.44:399][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Aim_Space_Ironsights.uasset
+[2017.08.11-12.03.44:436][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3rdParty/AnimStarterPack/BS_CrouchWalk" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/BS_CrouchWalk.uasset" SILENT=true
+[2017.08.11-12.03.44:466][667]LogSavePackage: Save=25.10ms
+[2017.08.11-12.03.44:466][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/BS_CrouchWalkE2A41A194B5F0D5C0937A0879471D002.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/BS_CrouchWalk.uasset'
+[2017.08.11-12.03.44:474][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/BS_CrouchWalk.uasset
+[2017.08.11-12.03.44:503][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3rdParty/AnimStarterPack/BS_Jog" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/BS_Jog.uasset" SILENT=true
+[2017.08.11-12.03.44:533][667]LogSavePackage: Save=26.18ms
+[2017.08.11-12.03.44:533][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/BS_Jog13CB8AB549E94A504CECDBBC27B8B547.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/BS_Jog.uasset'
+[2017.08.11-12.03.44:541][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/BS_Jog.uasset
+[2017.08.11-12.03.44:610][667]LogSavePackage: Save=25.92ms
+[2017.08.11-12.03.44:610][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Crouch_Idle_Rifle_Hip097A9F3E44BA264D24E98F91A2AE15B9.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Crouch_Idle_Rifle_Hip.uasset'
+[2017.08.11-12.03.44:618][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Crouch_Idle_Rifle_Hip.uasset
+[2017.08.11-12.03.44:621][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimStarterPack/Crouch_Idle_Rifle_Hip" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/AnimStarterPack/Crouch_Idle_Rifle_Hip.uasset" SILENT=true
+[2017.08.11-12.03.44:700][667]LogSavePackage: Save=7.67ms
+[2017.08.11-12.03.44:701][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Crouch_Idle_Rifle_Hip5BCF0B684374DB18B4C5EDA1E5B9B030.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/AnimStarterPack/Crouch_Idle_Rifle_Hip.uasset'
+[2017.08.11-12.03.44:708][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/AnimStarterPack/Crouch_Idle_Rifle_Hip.uasset
+[2017.08.11-12.03.44:768][667]LogSavePackage: Save=25.30ms
+[2017.08.11-12.03.44:768][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Crouch_Idle_Rifle_Ironsights0FA2E13D4431FE8EC01F10AE7AB76039.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Crouch_Idle_Rifle_Ironsights.uasset'
+[2017.08.11-12.03.44:776][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Crouch_Idle_Rifle_Ironsights.uasset
+[2017.08.11-12.03.44:803][667]LogSavePackage: Save=7.91ms
+[2017.08.11-12.03.44:803][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Crouch_Idle_Rifle_IronsightsBDA37A39421B7C6134E54A89781EC5D8.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/AnimStarterPack/Crouch_Idle_Rifle_Ironsights.uasset'
+[2017.08.11-12.03.44:810][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/AnimStarterPack/Crouch_Idle_Rifle_Ironsights.uasset
+[2017.08.11-12.03.44:875][667]LogSavePackage: Save=23.61ms
+[2017.08.11-12.03.44:875][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Crouch_to_Stand_Rifle_Hip718FA2F24A72F2B31B570085D456BF96.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Crouch_to_Stand_Rifle_Hip.uasset'
+[2017.08.11-12.03.44:883][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Crouch_to_Stand_Rifle_Hip.uasset
+[2017.08.11-12.03.44:955][667]LogSavePackage: Save=24.31ms
+[2017.08.11-12.03.44:955][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Crouch_to_Stand_Rifle_Ironsights475C571F416C57BFB18284A82A48FDAD.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Crouch_to_Stand_Rifle_Ironsights.uasset'
+[2017.08.11-12.03.44:963][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Crouch_to_Stand_Rifle_Ironsights.uasset
+[2017.08.11-12.03.45:037][667]LogSavePackage: Save=24.75ms
+[2017.08.11-12.03.45:037][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Crouch_Walk_Bwd_Rifle_Hip390CDC8341278696810451A432D12A80.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Hip.uasset'
+[2017.08.11-12.03.45:045][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Hip.uasset
+[2017.08.11-12.03.45:103][667]LogSavePackage: Save=23.65ms
+[2017.08.11-12.03.45:103][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Crouch_Walk_Bwd_Rifle_Ironsights664F2E2144253F0536644D82530A924C.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Ironsights.uasset'
+[2017.08.11-12.03.45:111][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Ironsights.uasset
+[2017.08.11-12.03.45:175][667]LogSavePackage: Save=26.09ms
+[2017.08.11-12.03.45:175][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Crouch_Walk_Fwd_Rifle_HipAE0EB62D49CD5C3519B3BC81FF8FF285.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Hip.uasset'
+[2017.08.11-12.03.45:184][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Hip.uasset
+[2017.08.11-12.03.45:248][667]LogSavePackage: Save=24.59ms
+[2017.08.11-12.03.45:248][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Crouch_Walk_Fwd_Rifle_IronsightsBB8983F841BD9A3B5F42859147AEE073.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Ironsights.uasset'
+[2017.08.11-12.03.45:256][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Ironsights.uasset
+[2017.08.11-12.03.45:286][667]LogSavePackage: Save=8.73ms
+[2017.08.11-12.03.45:286][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Crouch_Walk_Fwd_Rifle_Ironsights31E84BEB450FA9869E4B8195DDE9E1B3.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Ironsights.uasset'
+[2017.08.11-12.03.45:295][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Ironsights.uasset
+[2017.08.11-12.03.45:366][667]LogSavePackage: Save=26.36ms
+[2017.08.11-12.03.45:366][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Crouch_Walk_Lt_Rifle_Hip52A79C444D991E33A94BCC817514B2B3.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Crouch_Walk_Lt_Rifle_Hip.uasset'
+[2017.08.11-12.03.45:374][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Crouch_Walk_Lt_Rifle_Hip.uasset
+[2017.08.11-12.03.45:435][667]LogSavePackage: Save=27.63ms
+[2017.08.11-12.03.45:435][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Crouch_Walk_Lt_Rifle_Ironsights9822A536477AF5BFB36D529221B75765.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Crouch_Walk_Lt_Rifle_Ironsights.uasset'
+[2017.08.11-12.03.45:444][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Crouch_Walk_Lt_Rifle_Ironsights.uasset
+[2017.08.11-12.03.45:512][667]LogSavePackage: Save=25.73ms
+[2017.08.11-12.03.45:512][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Crouch_Walk_Rt_Rifle_HipC0320C8E4427AFBBD690AD917397BA8D.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Crouch_Walk_Rt_Rifle_Hip.uasset'
+[2017.08.11-12.03.45:519][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Crouch_Walk_Rt_Rifle_Hip.uasset
+[2017.08.11-12.03.45:575][667]LogSavePackage: Save=23.94ms
+[2017.08.11-12.03.45:575][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Crouch_Walk_Rt_Rifle_Ironsights7E7B46D842966FA17C1128AF8679FC77.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Crouch_Walk_Rt_Rifle_Ironsights.uasset'
+[2017.08.11-12.03.45:583][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Crouch_Walk_Rt_Rifle_Ironsights.uasset
+[2017.08.11-12.03.45:616][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3rdParty/AnimStarterPack/Death_1" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Death_1.uasset" SILENT=true
+[2017.08.11-12.03.45:645][667]LogSavePackage: Save=24.89ms
+[2017.08.11-12.03.45:645][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Death_13ADFB7124E006B2F94EAC0B8F219354F.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Death_1.uasset'
+[2017.08.11-12.03.45:654][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Death_1.uasset
+[2017.08.11-12.03.45:689][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3rdParty/AnimStarterPack/Death_2" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Death_2.uasset" SILENT=true
+[2017.08.11-12.03.45:719][667]LogSavePackage: Save=25.09ms
+[2017.08.11-12.03.45:719][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Death_2534E5ED9433CA98ABD395F8EB7437579.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Death_2.uasset'
+[2017.08.11-12.03.45:727][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Death_2.uasset
+[2017.08.11-12.03.45:756][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3rdParty/AnimStarterPack/Death_3" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Death_3.uasset" SILENT=true
+[2017.08.11-12.03.45:793][667]LogSavePackage: Save=31.02ms
+[2017.08.11-12.03.45:793][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Death_3613754AD4F79B78C96B8AF8B9348BE80.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Death_3.uasset'
+[2017.08.11-12.03.45:801][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Death_3.uasset
+[2017.08.11-12.03.45:872][667]LogSavePackage: Save=24.21ms
+[2017.08.11-12.03.45:872][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Death_Ironsights_15AF5E4D54FC24BBF3014A396AB7C63FF.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Death_Ironsights_1.uasset'
+[2017.08.11-12.03.45:880][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Death_Ironsights_1.uasset
+[2017.08.11-12.03.45:941][667]LogSavePackage: Save=24.92ms
+[2017.08.11-12.03.45:941][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Death_Ironsights_2305F2DCF42BF965B9B75E78E5B555B06.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Death_Ironsights_2.uasset'
+[2017.08.11-12.03.45:951][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Death_Ironsights_2.uasset
+[2017.08.11-12.03.46:021][667]LogSavePackage: Save=25.06ms
+[2017.08.11-12.03.46:021][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Equip_Pistol_Standing227AEC1944A078488BCFD5BE4C4CBD8C.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Equip_Pistol_Standing.uasset'
+[2017.08.11-12.03.46:029][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Equip_Pistol_Standing.uasset
+[2017.08.11-12.03.46:034][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimStarterPack/Equip_Pistol_Standing" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/AnimStarterPack/Equip_Pistol_Standing.uasset" SILENT=true
+[2017.08.11-12.03.46:059][667]LogSavePackage: Save=9.02ms
+[2017.08.11-12.03.46:059][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Equip_Pistol_StandingA1FFFE1248180A5221B4FE8492630D52.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/AnimStarterPack/Equip_Pistol_Standing.uasset'
+[2017.08.11-12.03.46:068][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/AnimStarterPack/Equip_Pistol_Standing.uasset
+[2017.08.11-12.03.46:131][667]LogSavePackage: Save=23.80ms
+[2017.08.11-12.03.46:131][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Equip_Rifle_Standing9FE3288149C595998CCD1FA713F81DCA.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Equip_Rifle_Standing.uasset'
+[2017.08.11-12.03.46:138][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Equip_Rifle_Standing.uasset
+[2017.08.11-12.03.46:166][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3rdParty/AnimStarterPack/Fire_Rifle_Hip" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Fire_Rifle_Hip.uasset" SILENT=true
+[2017.08.11-12.03.46:194][667]LogSavePackage: Save=23.95ms
+[2017.08.11-12.03.46:194][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Fire_Rifle_HipE4DD23F043901072E7716BB07647ECC5.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Fire_Rifle_Hip.uasset'
+[2017.08.11-12.03.46:200][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Fire_Rifle_Hip.uasset
+[2017.08.11-12.03.46:257][667]LogSavePackage: Save=24.05ms
+[2017.08.11-12.03.46:257][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Fire_Rifle_Ironsights0E7EB5D742AEC8632916B1BA201F3EDD.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Fire_Rifle_Ironsights.uasset'
+[2017.08.11-12.03.46:264][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Fire_Rifle_Ironsights.uasset
+[2017.08.11-12.03.46:268][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimStarterPack/Fire_Rifle_Ironsights" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/AnimStarterPack/Fire_Rifle_Ironsights.uasset" SILENT=true
+[2017.08.11-12.03.46:292][667]LogSavePackage: Save=7.59ms
+[2017.08.11-12.03.46:292][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Fire_Rifle_Ironsights2DF3F8B341A95A54F05F3CBCB016DD50.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/AnimStarterPack/Fire_Rifle_Ironsights.uasset'
+[2017.08.11-12.03.46:300][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/AnimStarterPack/Fire_Rifle_Ironsights.uasset
+[2017.08.11-12.03.46:369][667]LogSavePackage: Save=27.28ms
+[2017.08.11-12.03.46:369][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Fire_Shotgun_Hip97CDFF0244B64467EAAC0EA9FED4B803.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Fire_Shotgun_Hip.uasset'
+[2017.08.11-12.03.46:378][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Fire_Shotgun_Hip.uasset
+[2017.08.11-12.03.46:432][667]LogSavePackage: Save=23.68ms
+[2017.08.11-12.03.46:432][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Fire_Shotgun_Ironsights3B3D77A04030FD51B8A627A85092E05D.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Fire_Shotgun_Ironsights.uasset'
+[2017.08.11-12.03.46:439][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Fire_Shotgun_Ironsights.uasset
+[2017.08.11-12.03.46:470][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3rdParty/AnimStarterPack/Hit_React_1" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Hit_React_1.uasset" SILENT=true
+[2017.08.11-12.03.46:498][667]LogSavePackage: Save=24.79ms
+[2017.08.11-12.03.46:498][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Hit_React_1A2B57286435715D983F0C2B63BCCD5A2.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Hit_React_1.uasset'
+[2017.08.11-12.03.46:506][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Hit_React_1.uasset
+[2017.08.11-12.03.46:510][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimStarterPack/Hit_React_1" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/AnimStarterPack/Hit_React_1.uasset" SILENT=true
+[2017.08.11-12.03.46:532][667]LogSavePackage: Save=8.33ms
+[2017.08.11-12.03.46:532][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Hit_React_1A55C77FE4BAF9EC54E9985AF260B8255.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/AnimStarterPack/Hit_React_1.uasset'
+[2017.08.11-12.03.46:540][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/AnimStarterPack/Hit_React_1.uasset
+[2017.08.11-12.03.46:574][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3rdParty/AnimStarterPack/Hit_React_2" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Hit_React_2.uasset" SILENT=true
+[2017.08.11-12.03.46:602][667]LogSavePackage: Save=22.86ms
+[2017.08.11-12.03.46:602][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Hit_React_2755FF06B401C0D962CCF0581200AF860.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Hit_React_2.uasset'
+[2017.08.11-12.03.46:613][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Hit_React_2.uasset
+[2017.08.11-12.03.46:617][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimStarterPack/Hit_React_2" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/AnimStarterPack/Hit_React_2.uasset" SILENT=true
+[2017.08.11-12.03.46:641][667]LogSavePackage: Save=8.05ms
+[2017.08.11-12.03.46:641][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Hit_React_2695479DE4BA73FF60A242BA5472F982E.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/AnimStarterPack/Hit_React_2.uasset'
+[2017.08.11-12.03.46:648][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/AnimStarterPack/Hit_React_2.uasset
+[2017.08.11-12.03.46:682][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3rdParty/AnimStarterPack/Hit_React_3" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Hit_React_3.uasset" SILENT=true
+[2017.08.11-12.03.46:710][667]LogSavePackage: Save=24.35ms
+[2017.08.11-12.03.46:710][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Hit_React_3FC901BE64F1024966EBA19AD67E8CBB4.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Hit_React_3.uasset'
+[2017.08.11-12.03.46:718][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Hit_React_3.uasset
+[2017.08.11-12.03.46:722][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimStarterPack/Hit_React_3" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/AnimStarterPack/Hit_React_3.uasset" SILENT=true
+[2017.08.11-12.03.46:744][667]LogSavePackage: Save=6.98ms
+[2017.08.11-12.03.46:744][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Hit_React_37E523E77428E89AC56A0648B195B7BCD.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/AnimStarterPack/Hit_React_3.uasset'
+[2017.08.11-12.03.46:752][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/AnimStarterPack/Hit_React_3.uasset
+[2017.08.11-12.03.46:787][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3rdParty/AnimStarterPack/Hit_React_4" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Hit_React_4.uasset" SILENT=true
+[2017.08.11-12.03.46:815][667]LogSavePackage: Save=23.86ms
+[2017.08.11-12.03.46:815][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Hit_React_499A741EF4B1E558F68A584B15234CE59.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Hit_React_4.uasset'
+[2017.08.11-12.03.46:825][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Hit_React_4.uasset
+[2017.08.11-12.03.46:854][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3rdParty/AnimStarterPack/Idle_Pistol" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Idle_Pistol.uasset" SILENT=true
+[2017.08.11-12.03.46:886][667]LogSavePackage: Save=26.88ms
+[2017.08.11-12.03.46:886][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Idle_Pistol76471554462F735F000C729882FBCD5D.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Idle_Pistol.uasset'
+[2017.08.11-12.03.46:893][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Idle_Pistol.uasset
+[2017.08.11-12.03.46:931][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3rdParty/AnimStarterPack/Idle_Rifle_Hip" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Idle_Rifle_Hip.uasset" SILENT=true
+[2017.08.11-12.03.46:959][667]LogSavePackage: Save=24.59ms
+[2017.08.11-12.03.46:959][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Idle_Rifle_Hip2FE264CA423EACBFAB2D80B99F3F2EFF.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Idle_Rifle_Hip.uasset'
+[2017.08.11-12.03.46:966][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Idle_Rifle_Hip.uasset
+[2017.08.11-12.03.47:024][667]LogSavePackage: Save=25.12ms
+[2017.08.11-12.03.47:024][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Idle_Rifle_Hip_Break1A082E5F945D6B20E6D199481E17E5268.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Idle_Rifle_Hip_Break1.uasset'
+[2017.08.11-12.03.47:031][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Idle_Rifle_Hip_Break1.uasset
+[2017.08.11-12.03.47:035][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimStarterPack/Idle_Rifle_Hip_Break1" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/AnimStarterPack/Idle_Rifle_Hip_Break1.uasset" SILENT=true
+[2017.08.11-12.03.47:059][667]LogSavePackage: Save=7.61ms
+[2017.08.11-12.03.47:059][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Idle_Rifle_Hip_Break1262CA23A4ECEFC1B3D70789F5AF49380.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/AnimStarterPack/Idle_Rifle_Hip_Break1.uasset'
+[2017.08.11-12.03.47:068][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/AnimStarterPack/Idle_Rifle_Hip_Break1.uasset
+[2017.08.11-12.03.47:133][667]LogSavePackage: Save=24.00ms
+[2017.08.11-12.03.47:133][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Idle_Rifle_Hip_Break2036E01DB4BA3F6AC699AE2A7A5E2C527.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Idle_Rifle_Hip_Break2.uasset'
+[2017.08.11-12.03.47:141][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Idle_Rifle_Hip_Break2.uasset
+[2017.08.11-12.03.47:146][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimStarterPack/Idle_Rifle_Hip_Break2" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/AnimStarterPack/Idle_Rifle_Hip_Break2.uasset" SILENT=true
+[2017.08.11-12.03.47:174][667]LogSavePackage: Save=8.73ms
+[2017.08.11-12.03.47:174][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Idle_Rifle_Hip_Break25D7C051D4768FD4F66E5488C05785242.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/AnimStarterPack/Idle_Rifle_Hip_Break2.uasset'
+[2017.08.11-12.03.47:183][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/AnimStarterPack/Idle_Rifle_Hip_Break2.uasset
+[2017.08.11-12.03.47:249][667]LogSavePackage: Save=24.30ms
+[2017.08.11-12.03.47:249][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Idle_Rifle_IronsightsDB37A10D41286397CD197C9EFD716B6E.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Idle_Rifle_Ironsights.uasset'
+[2017.08.11-12.03.47:256][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Idle_Rifle_Ironsights.uasset
+[2017.08.11-12.03.47:284][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3rdParty/AnimStarterPack/Jog_Bwd_Rifle" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Jog_Bwd_Rifle.uasset" SILENT=true
+[2017.08.11-12.03.47:313][667]LogSavePackage: Save=24.99ms
+[2017.08.11-12.03.47:313][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Jog_Bwd_Rifle02B966AB46A76EB4A76A36B350418B9C.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Jog_Bwd_Rifle.uasset'
+[2017.08.11-12.03.47:321][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Jog_Bwd_Rifle.uasset
+[2017.08.11-12.03.47:351][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3rdParty/AnimStarterPack/Jog_Fwd_Rifle" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Jog_Fwd_Rifle.uasset" SILENT=true
+[2017.08.11-12.03.47:378][667]LogSavePackage: Save=23.19ms
+[2017.08.11-12.03.47:378][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Jog_Fwd_RifleDD1EBE454DFFE39489F5AB8F3642DC6F.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Jog_Fwd_Rifle.uasset'
+[2017.08.11-12.03.47:385][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Jog_Fwd_Rifle.uasset
+[2017.08.11-12.03.47:419][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3rdParty/AnimStarterPack/Jog_Lt_Rifle" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Jog_Lt_Rifle.uasset" SILENT=true
+[2017.08.11-12.03.47:446][667]LogSavePackage: Save=22.89ms
+[2017.08.11-12.03.47:446][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Jog_Lt_Rifle141AF1D44D206B9BBA8F8F8DF025EA25.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Jog_Lt_Rifle.uasset'
+[2017.08.11-12.03.47:453][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Jog_Lt_Rifle.uasset
+[2017.08.11-12.03.47:480][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3rdParty/AnimStarterPack/Jog_Rt_Rifle" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Jog_Rt_Rifle.uasset" SILENT=true
+[2017.08.11-12.03.47:507][667]LogSavePackage: Save=22.61ms
+[2017.08.11-12.03.47:507][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Jog_Rt_RifleE1E11A3D4401699CFE3AF99C29EE89EA.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Jog_Rt_Rifle.uasset'
+[2017.08.11-12.03.47:514][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Jog_Rt_Rifle.uasset
+[2017.08.11-12.03.47:540][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3rdParty/AnimStarterPack/Jump_From_Jog" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Jump_From_Jog.uasset" SILENT=true
+[2017.08.11-12.03.47:567][667]LogSavePackage: Save=23.26ms
+[2017.08.11-12.03.47:567][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Jump_From_JogE7F56F984701091F09A84FBB2450A64C.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Jump_From_Jog.uasset'
+[2017.08.11-12.03.47:575][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Jump_From_Jog.uasset
+[2017.08.11-12.03.47:611][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3rdParty/AnimStarterPack/Jump_From_Stand" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Jump_From_Stand.uasset" SILENT=true
+[2017.08.11-12.03.47:641][667]LogSavePackage: Save=25.49ms
+[2017.08.11-12.03.47:641][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Jump_From_Stand4C1DB8DC4B448D662A7DA2A08ADC4B96.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Jump_From_Stand.uasset'
+[2017.08.11-12.03.47:650][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Jump_From_Stand.uasset
+[2017.08.11-12.03.47:717][667]LogSavePackage: Save=25.86ms
+[2017.08.11-12.03.47:718][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Jump_From_Stand_Ironsights0BBB340540E417C5177C43BCA1431438.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Jump_From_Stand_Ironsights.uasset'
+[2017.08.11-12.03.47:725][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Jump_From_Stand_Ironsights.uasset
+[2017.08.11-12.03.47:754][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3rdParty/AnimStarterPack/Prone_Death_1" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Prone_Death_1.uasset" SILENT=true
+[2017.08.11-12.03.47:783][667]LogSavePackage: Save=24.30ms
+[2017.08.11-12.03.47:783][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Prone_Death_1C2D2265646DA597BC2D6F597E148B31B.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Prone_Death_1.uasset'
+[2017.08.11-12.03.47:790][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Prone_Death_1.uasset
+[2017.08.11-12.03.47:822][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3rdParty/AnimStarterPack/Prone_Death_2" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Prone_Death_2.uasset" SILENT=true
+[2017.08.11-12.03.47:851][667]LogSavePackage: Save=24.71ms
+[2017.08.11-12.03.47:851][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Prone_Death_29FE26D104C9E4D19C79BFD95562215C6.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Prone_Death_2.uasset'
+[2017.08.11-12.03.47:859][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Prone_Death_2.uasset
+[2017.08.11-12.03.47:896][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3rdParty/AnimStarterPack/Prone_Fire_1" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Prone_Fire_1.uasset" SILENT=true
+[2017.08.11-12.03.47:923][667]LogSavePackage: Save=24.33ms
+[2017.08.11-12.03.47:923][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Prone_Fire_13E29C71447B37A2D5B5730856A12D737.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Prone_Fire_1.uasset'
+[2017.08.11-12.03.47:930][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Prone_Fire_1.uasset
+[2017.08.11-12.03.47:958][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3rdParty/AnimStarterPack/Prone_Fire_2" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Prone_Fire_2.uasset" SILENT=true
+[2017.08.11-12.03.47:991][667]LogSavePackage: Save=22.40ms
+[2017.08.11-12.03.47:992][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Prone_Fire_2D24782D14CBC7F37D943F1976DE8B71E.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Prone_Fire_2.uasset'
+[2017.08.11-12.03.47:999][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Prone_Fire_2.uasset
+[2017.08.11-12.03.48:026][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3rdParty/AnimStarterPack/Prone_Idle" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Prone_Idle.uasset" SILENT=true
+[2017.08.11-12.03.48:057][667]LogSavePackage: Save=26.45ms
+[2017.08.11-12.03.48:057][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Prone_Idle4EAEEBFE4E621971503DF8BCEE6A8308.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Prone_Idle.uasset'
+[2017.08.11-12.03.48:066][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Prone_Idle.uasset
+[2017.08.11-12.03.48:134][667]LogSavePackage: Save=23.88ms
+[2017.08.11-12.03.48:134][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Prone_Reload_RifleA0EE88D44BCC2B6C80B4FFA6FC4B95E0.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Prone_Reload_Rifle.uasset'
+[2017.08.11-12.03.48:142][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Prone_Reload_Rifle.uasset
+[2017.08.11-12.03.48:199][667]LogSavePackage: Save=24.38ms
+[2017.08.11-12.03.48:199][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Prone_Reload_Shotgun30F1A9A246269882DA52028FF7F97103.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Prone_Reload_Shotgun.uasset'
+[2017.08.11-12.03.48:207][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Prone_Reload_Shotgun.uasset
+[2017.08.11-12.03.48:246][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3rdParty/AnimStarterPack/Prone_To_Stand" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Prone_To_Stand.uasset" SILENT=true
+[2017.08.11-12.03.48:274][667]LogSavePackage: Save=23.57ms
+[2017.08.11-12.03.48:274][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Prone_To_Stand4C3BD3104BBCA1A30BF5CB8A01607E6B.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Prone_To_Stand.uasset'
+[2017.08.11-12.03.48:282][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Prone_To_Stand.uasset
+[2017.08.11-12.03.48:312][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3rdParty/AnimStarterPack/Reload_Pistol" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Reload_Pistol.uasset" SILENT=true
+[2017.08.11-12.03.48:339][667]LogSavePackage: Save=23.23ms
+[2017.08.11-12.03.48:339][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Reload_PistolF4DFF7784CD8612952EBF4BADAE8E499.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Reload_Pistol.uasset'
+[2017.08.11-12.03.48:346][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Reload_Pistol.uasset
+[2017.08.11-12.03.48:404][667]LogSavePackage: Save=23.79ms
+[2017.08.11-12.03.48:404][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Reload_Rifle_Hip89D7E2044DA821538D7213AF7E19EA22.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Reload_Rifle_Hip.uasset'
+[2017.08.11-12.03.48:411][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Reload_Rifle_Hip.uasset
+[2017.08.11-12.03.48:415][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimStarterPack/Reload_Rifle_Hip" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/AnimStarterPack/Reload_Rifle_Hip.uasset" SILENT=true
+[2017.08.11-12.03.48:438][667]LogSavePackage: Save=8.14ms
+[2017.08.11-12.03.48:438][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Reload_Rifle_Hip708EFADA4D884F6582CE4AB69EA907FA.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/AnimStarterPack/Reload_Rifle_Hip.uasset'
+[2017.08.11-12.03.48:446][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/AnimStarterPack/Reload_Rifle_Hip.uasset
+[2017.08.11-12.03.48:510][667]LogSavePackage: Save=24.16ms
+[2017.08.11-12.03.48:510][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Reload_Rifle_Ironsights8CCC04C5442115C87549F89FC2CB1022.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Reload_Rifle_Ironsights.uasset'
+[2017.08.11-12.03.48:517][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Reload_Rifle_Ironsights.uasset
+[2017.08.11-12.03.48:577][667]LogSavePackage: Save=26.15ms
+[2017.08.11-12.03.48:577][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Reload_Shotgun_HipB2C764B649E177DEA034FEADEBA979DF.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Reload_Shotgun_Hip.uasset'
+[2017.08.11-12.03.48:585][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Reload_Shotgun_Hip.uasset
+[2017.08.11-12.03.48:642][667]LogSavePackage: Save=25.31ms
+[2017.08.11-12.03.48:642][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Reload_Shotgun_Ironsights9BDB5A794CC363D8594446A87E61AAEC.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Reload_Shotgun_Ironsights.uasset'
+[2017.08.11-12.03.48:649][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Reload_Shotgun_Ironsights.uasset
+[2017.08.11-12.03.48:711][667]LogSavePackage: Save=22.52ms
+[2017.08.11-12.03.48:711][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Sprint_Fwd_Rifle5E0AD8D04C4C2441AE3B0D985C3EBA7C.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Sprint_Fwd_Rifle.uasset'
+[2017.08.11-12.03.48:718][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Sprint_Fwd_Rifle.uasset
+[2017.08.11-12.03.48:773][667]LogSavePackage: Save=23.09ms
+[2017.08.11-12.03.48:773][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Stand_to_Crouch_Rifle_Hip8D826E224240C784ECF99CB6DF29CB4F.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Stand_to_Crouch_Rifle_Hip.uasset'
+[2017.08.11-12.03.48:780][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Stand_to_Crouch_Rifle_Hip.uasset
+[2017.08.11-12.03.48:838][667]LogSavePackage: Save=24.67ms
+[2017.08.11-12.03.48:838][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Stand_to_Crouch_Rifle_IronsightsE06D22514677FEEFFDEE069BBEB83DD3.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Stand_to_Crouch_Rifle_Ironsights.uasset'
+[2017.08.11-12.03.48:846][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Stand_to_Crouch_Rifle_Ironsights.uasset
+[2017.08.11-12.03.48:875][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3rdParty/AnimStarterPack/Stand_To_Prone" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Stand_To_Prone.uasset" SILENT=true
+[2017.08.11-12.03.48:902][667]LogSavePackage: Save=22.29ms
+[2017.08.11-12.03.48:902][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Stand_To_Prone6C2604A64789623FA3038DA6ECBA7B8E.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Stand_To_Prone.uasset'
+[2017.08.11-12.03.48:910][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Stand_To_Prone.uasset
+[2017.08.11-12.03.49:112][667]LogSavePackage: Save=141.76ms
+[2017.08.11-12.03.49:113][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Ue4ASP_CharacterB81245C64C394D624AB2E7B9CFDDB5C9.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Ue4ASP_Character.uasset'
+[2017.08.11-12.03.49:121][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Ue4ASP_Character.uasset
+[2017.08.11-12.03.49:656][667]LogSavePackage: Save=483.91ms
+[2017.08.11-12.03.49:656][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/UE4ASP_HeroTPP_AnimBlueprint497D62C24FB43907A5E0A5AB725FFA37.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset'
+[2017.08.11-12.03.49:664][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset
+[2017.08.11-12.03.49:728][667]LogSavePackage: Save=24.30ms
+[2017.08.11-12.03.49:728][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Walk_Bwd_Rifle_Ironsights67E92FDA47686040E839BA86249AEA94.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Walk_Bwd_Rifle_Ironsights.uasset'
+[2017.08.11-12.03.49:736][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Walk_Bwd_Rifle_Ironsights.uasset
+[2017.08.11-12.03.49:795][667]LogSavePackage: Save=26.80ms
+[2017.08.11-12.03.49:795][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Walk_Fwd_Rifle_IronsightsC5A19288443F164694213F85B3F5229F.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Walk_Fwd_Rifle_Ironsights.uasset'
+[2017.08.11-12.03.49:803][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Walk_Fwd_Rifle_Ironsights.uasset
+[2017.08.11-12.03.49:830][667]LogSavePackage: Save=7.67ms
+[2017.08.11-12.03.49:830][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Walk_Fwd_Rifle_IronsightsAD640B9C4E4FE1BA95CB88BD532CE651.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/AnimStarterPack/Walk_Fwd_Rifle_Ironsights.uasset'
+[2017.08.11-12.03.49:841][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/AnimStarterPack/Walk_Fwd_Rifle_Ironsights.uasset
+[2017.08.11-12.03.49:909][667]LogSavePackage: Save=24.86ms
+[2017.08.11-12.03.49:909][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Walk_Lt_Rifle_Ironsights4E61D07C461A5E4ABE5D7DB732B7D244.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Walk_Lt_Rifle_Ironsights.uasset'
+[2017.08.11-12.03.49:916][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Walk_Lt_Rifle_Ironsights.uasset
+[2017.08.11-12.03.49:973][667]LogSavePackage: Save=24.61ms
+[2017.08.11-12.03.49:973][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Walk_Rt_Rifle_IronsightsB79BF28D4C1CA199E2F915B21674E500.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Walk_Rt_Rifle_Ironsights.uasset'
+[2017.08.11-12.03.49:982][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Walk_Rt_Rifle_Ironsights.uasset
+[2017.08.11-12.03.53:600][667]LogSavePackage: Save=43.88ms
+[2017.08.11-12.03.53:600][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/M_UE4Man_Body8E710EAC4D43F3B298109E9ECA0A2857.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/UE4_Mannequin/Materials/M_UE4Man_Body.uasset'
+[2017.08.11-12.03.53:607][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/UE4_Mannequin/Materials/M_UE4Man_Body.uasset
+[2017.08.11-12.03.53:676][667]LogSavePackage: Save=22.44ms
+[2017.08.11-12.03.53:676][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/M_UE4Man_ChestLogoB2B0148C4033D8FF358504867C549DB6.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/UE4_Mannequin/Materials/M_UE4Man_ChestLogo.uasset'
+[2017.08.11-12.03.53:684][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/UE4_Mannequin/Materials/M_UE4Man_ChestLogo.uasset
+[2017.08.11-12.03.53:703][667]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2017.08.11-12.03.53:839][667]LogSavePackage: Save=30.49ms
+[2017.08.11-12.03.53:839][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/ML_GlossyBlack_Latex_UE4D92B311F41CB817865D6F19C428F7339.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset'
+[2017.08.11-12.03.53:848][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset
+[2017.08.11-12.03.53:856][667]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2017.08.11-12.03.53:978][667]LogSavePackage: Save=26.59ms
+[2017.08.11-12.03.53:978][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/ML_Plastic_Shiny_Beige4B2528B6451E5DF6681FE79015E29B97.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset'
+[2017.08.11-12.03.53:988][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset
+[2017.08.11-12.03.54:004][667]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2017.08.11-12.03.54:135][667]LogSavePackage: Save=29.16ms
+[2017.08.11-12.03.54:135][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/ML_Plastic_Shiny_Beige_LOGO952110C94C3C1B6640153FB59CDDCF4B.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset'
+[2017.08.11-12.03.54:143][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset
+[2017.08.11-12.03.54:159][667]LogMaterial: Missing cached shader map for material Material_3, compiling. 
+[2017.08.11-12.03.54:283][667]LogSavePackage: Save=31.76ms
+[2017.08.11-12.03.54:283][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/ML_SoftMetal_UE4950C5BA14BAA0FC292766EA2F4BBE38B.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset'
+[2017.08.11-12.03.54:291][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset
+[2017.08.11-12.03.54:347][667]LogSavePackage: Save=25.38ms
+[2017.08.11-12.03.54:347][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/T_ML_Aluminum017060810740AEB7265B6D4A9D8E0E1E32.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01.uasset'
+[2017.08.11-12.03.54:354][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01.uasset
+[2017.08.11-12.03.54:408][667]LogSavePackage: Save=20.95ms
+[2017.08.11-12.03.54:408][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/T_ML_Aluminum01_NF1227A2143C72A892B37BB90BBD2563A.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset'
+[2017.08.11-12.03.54:416][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset
+[2017.08.11-12.03.54:470][667]LogSavePackage: Save=25.96ms
+[2017.08.11-12.03.54:470][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/T_ML_Rubber_Blue_01_D63C336C245267F530684A1BF6812C869.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset'
+[2017.08.11-12.03.54:478][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset
+[2017.08.11-12.03.54:523][667]LogSavePackage: Save=22.39ms
+[2017.08.11-12.03.54:523][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/T_ML_Rubber_Blue_01_N4293AB574383E2D13CC5A38F48F66277.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset'
+[2017.08.11-12.03.54:533][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset
+[2017.08.11-12.03.54:817][667]LogSavePackage: Save=102.89ms
+[2017.08.11-12.03.54:817][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/SK_Mannequin026177F24EDDA3071BFB1286ADA5C12B.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.uasset'
+[2017.08.11-12.03.54:825][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.uasset
+[2017.08.11-12.03.54:859][667]LogSavePackage: Save=8.22ms
+[2017.08.11-12.03.54:859][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/SK_Mannequin1E380CF84D995600A43FC2805AD7BB4E.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.uasset'
+[2017.08.11-12.03.54:868][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.uasset
+[2017.08.11-12.03.54:912][667]LogSavePackage: Save=32.95ms
+[2017.08.11-12.03.54:912][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/SK_Mannequin_PhysicsAsset681075FC4305C616B95A8A9945085F6E.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset.uasset'
+[2017.08.11-12.03.54:921][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset.uasset
+[2017.08.11-12.03.54:939][667]LogSavePackage: Save=10.09ms
+[2017.08.11-12.03.54:939][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/UE4_Mannequin_Skeleton26D15E3845495EF60A79DEB46E90A8DA.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2017.08.11-12.03.54:948][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset
+[2017.08.11-12.03.54:996][667]LogSavePackage: Save=23.61ms
+[2017.08.11-12.03.54:996][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/UE4Man_Logo_NE5F071C64A164EA2A3DD8CB2FF1996F1.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/UE4_Mannequin/Textures/UE4Man_Logo_N.uasset'
+[2017.08.11-12.03.55:004][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/UE4_Mannequin/Textures/UE4Man_Logo_N.uasset
+[2017.08.11-12.03.55:046][667]LogSavePackage: Save=20.08ms
+[2017.08.11-12.03.55:046][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/UE4_LOGO_CARDE45B5C724DEBDF4C42B493A00985A823.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/UE4_Mannequin/Textures/UE4_LOGO_CARD.uasset'
+[2017.08.11-12.03.55:055][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/UE4_Mannequin/Textures/UE4_LOGO_CARD.uasset
+[2017.08.11-12.03.55:102][667]LogSavePackage: Save=27.53ms
+[2017.08.11-12.03.55:102][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/UE4_Mannequin_MAT_MASKAECB3C57A47DF36C4C07B8EB417004DB7.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/UE4_Mannequin/Textures/UE4_Mannequin_MAT_MASKA.uasset'
+[2017.08.11-12.03.55:111][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/UE4_Mannequin/Textures/UE4_Mannequin_MAT_MASKA.uasset
+[2017.08.11-12.03.55:162][667]LogSavePackage: Save=28.52ms
+[2017.08.11-12.03.55:162][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/UE4_Mannequin_occlusion_Mobile4425117742A9717E5B9D89B90C96D6ED.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/UE4_Mannequin/Textures/UE4_Mannequin_occlusion_Mobile.uasset'
+[2017.08.11-12.03.55:170][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/UE4_Mannequin/Textures/UE4_Mannequin_occlusion_Mobile.uasset
+[2017.08.11-12.03.55:302][667]LogSavePackage: Save=107.57ms
+[2017.08.11-12.03.55:302][667]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/UE4_Mannequin__normals5FD1C299473DB0EC6C011C8DF9D7520D.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/UE4_Mannequin/Textures/UE4_Mannequin__normals.uasset'
+[2017.08.11-12.03.55:310][667]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/UE4_Mannequin/Textures/UE4_Mannequin__normals.uasset
+[2017.08.11-12.04.53:115][870]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.08.11-12.04.56:375][196]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (UE4ASP_HeroTPP_AnimBlueprint)
+[2017.08.11-12.05.05:603][969]Cmd: DELETE
+[2017.08.11-12.05.05:603][969]Cmd: ACTOR DELETE
+[2017.08.11-12.05.05:648][969]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2017.08.11-12.05.05:666][969]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2017.08.11-12.06.00:413][820]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/3rdPersonCharacter" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/BluePrints/3rdPersonCharacter.uasset" SILENT=true
+[2017.08.11-12.06.00:439][820]LogSavePackage: Save=21.31ms
+[2017.08.11-12.06.00:439][820]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/3rdPersonCharacterCD88EEBF4AE4D35692AF17B78B53C565.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/BluePrints/3rdPersonCharacter.uasset'
+[2017.08.11-12.06.00:444][820]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/BluePrints/3rdPersonCharacter.uasset
+[2017.08.11-12.06.00:763][820]LogSavePackage: Save=147.70ms
+[2017.08.11-12.06.00:763][820]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Minimal_Default924EF2834D62233E697C1F90F093B033.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/StarterContent/Maps/Minimal_Default.umap'
+[2017.08.11-12.06.00:770][820]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/StarterContent/Maps/Minimal_Default.umap
+[2017.08.11-12.06.00:810][820]LogFileHelpers: Saving map 'Minimal_Default' took 0.364
+[2017.08.11-12.06.02:691][925]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 112 classes and 0 folders.
+[2017.08.11-12.06.07:305][934]LogRenderer: Reallocating scene render targets to support 776x472 NumSamples 1 (Frame:4).
+[2017.08.11-12.06.18:361][861]LogRenderer: Reallocating scene render targets to support 780x472 NumSamples 1 (Frame:846).
+[2017.08.11-12.31.16:275][163]LogSlate: Took 0.048655 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.11-12.31.31:091][480]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.08.11-12.31.31:250][481]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.source
+[2017.08.11-12.31.31:250][481]LogTemp: CWD: B:\UnrealEngine\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.11-12.31.31:250][481]LogTemp: Initial Dir: B:\UnrealEngine\UE_4.16
+[2017.08.11-12.31.31:250][481]LogTemp: Env CWD: B:\UnrealEngine\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.11-12.31.31:250][481]LogTemp: BranchPath = DESKTOP-IS750JK/B/UnrealEngine/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-IS750JK/B/UnrealEngine/UE_4.16/Engine/Binaries
+[2017.08.11-12.31.31:250][481]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Pepe\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.08.11-12.37.10:283][128]LogSlate: Took 0.039138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.11-12.37.22:363][887]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2017.08.11-12.37.22:815][887]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.11-12.37.23:244][887]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_11:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.08.11-12.37.23:839][887]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0009 seconds. Added 1 classes and 0 folders.
+[2017.08.11-12.38.12:479][129]LogSlate: Took 0.000381 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.11-12.38.21:230][155]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.058
+[2017.08.11-12.38.21:247][155]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/3rdParty/AnimStarterPack/Ue4ASP_Character] ([1] browsable assets)...
+[2017.08.11-12.38.21:269][155]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/3rdParty/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character]
+[2017.08.11-12.38.21:269][155]OBJ SavePackage: Finished generating thumbnails for package [/Game/3rdParty/AnimStarterPack/Ue4ASP_Character]
+[2017.08.11-12.38.21:401][155]LogSavePackage: Save=113.60ms
+[2017.08.11-12.38.21:401][155]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Ue4ASP_Character_Auto13301FE6548706A096E4585A5EDD87031.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/3rdParty/AnimStarterPack/Ue4ASP_Character_Auto1.uasset'
+[2017.08.11-12.38.21:404][155]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/3rdParty/AnimStarterPack/Ue4ASP_Character_Auto1.uasset
+[2017.08.11-12.38.21:404][155]LogFileHelpers: Auto-saving content packages took 0.174
+[2017.08.11-12.43.31:034][ 39]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.08.11-12.43.31:124][ 44]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.source
+[2017.08.11-12.43.31:124][ 44]LogTemp: CWD: B:\UnrealEngine\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.11-12.43.31:124][ 44]LogTemp: Initial Dir: B:\UnrealEngine\UE_4.16
+[2017.08.11-12.43.31:124][ 44]LogTemp: Env CWD: B:\UnrealEngine\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.11-12.43.31:124][ 44]LogTemp: BranchPath = DESKTOP-IS750JK/B/UnrealEngine/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-IS750JK/B/UnrealEngine/UE_4.16/Engine/Binaries
+[2017.08.11-12.43.31:143][ 46]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Pepe\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.08.11-12.46.19:347][988]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.08.11-12.46.20:177][ 54]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.08.11-12.46.20:612][ 94]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.08.11-12.46.32:139][968]Cmd: DELETE
+[2017.08.11-12.46.32:139][968]Cmd: ACTOR DELETE
+[2017.08.11-12.46.32:139][968]LogEditorActor: Deleted Actor: 3rdController_C
+[2017.08.11-12.46.32:192][968]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2017.08.11-12.50.45:715][648]LogEditorTransaction: Undo Add Node
+[2017.08.11-12.53.35:528][169]BlueprintLog: New page: Compile 3rdController
+[2017.08.11-12.53.38:230][371]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.11-12.53.38:440][371]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.11-12.53.38:440][371]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.08.11-12.53.38:440][371]LogPlayLevel: [PlayLevel] Compiling Ue4ASP_Character before play...
+[2017.08.11-12.53.38:466][371]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2017.08.11-12.53.38:467][371]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2017.08.11-12.53.38:467][371]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2017.08.11-12.53.38:467][371]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2017.08.11-12.53.38:476][371]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning [3049.21] Compile of Ue4ASP_Character successful, but with 4 Warning(s) [in 17 ms] (/Game/3rdParty/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2017.08.11-12.53.38:477][371]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning [3049.22] Compile of Ue4ASP_Character successful, but with 5 Warning(s) [in 0 ms] (/Game/3rdParty/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2017.08.11-12.53.38:477][371]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning [3049.22] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 0 ms] (/Game/3rdParty/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2017.08.11-12.53.38:477][371]LogPlayLevel: [PlayLevel]   Compiling UE4ASP_HeroTPP_AnimBlueprint as a dependent...
+[2017.08.11-12.53.38:878][371]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning [3049.62] Compile of Ue4ASP_Character successful, but with 7 Warning(s) [in 400 ms] (/Game/3rdParty/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2017.08.11-12.53.38:879][371]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning [3049.62] Compile of Ue4ASP_Character successful, but with 8 Warning(s) [in 0 ms] (/Game/3rdParty/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2017.08.11-12.53.38:879][371]LogBlueprint:Warning: [Compiler Ue4ASP_Character] Warning [3049.62] Compile of Ue4ASP_Character successful, but with 9 Warning(s) [in 0 ms] (/Game/3rdParty/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2017.08.11-12.53.38:912][371]LogPlayLevel: PlayLevel: Blueprint regeneration took 472 ms (2 blueprints)
+[2017.08.11-12.53.38:931][371]PIE: New page: PIE session: Minimal_Default (Aug 11, 2017, 2:53:38 PM)
+[2017.08.11-12.53.38:931][371]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.08.11-12.53.38:953][371]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022304s)
+[2017.08.11-12.53.38:954][371]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.08.11-12.53.38:954][371]LogPlayLevel: PIE: World Init took: (0.001040s)
+[2017.08.11-12.53.38:954][371]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.023591s)
+[2017.08.11-12.53.39:025][371]LogInit: XAudio2 using 'Altavoces (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.08.11-12.53.39:034][371]LogInit: FAudioDevice initialized.
+[2017.08.11-12.53.39:115][371]LogLoad: Game class is 'GM_ModoJuego_C'
+[2017.08.11-12.53.39:118][371]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.08.11-13.53.39
+[2017.08.11-12.53.39:118][371]LogWorld: Bringing up level for play took: 0.001473
+[2017.08.11-12.53.39:252][371]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 11 classes and 0 folders.
+[2017.08.11-12.53.39:253][371]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.13
+[2017.08.11-12.53.39:253][371]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.11-12.53.40:438][502]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.11-12.53.40:474][502]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.11-12.53.43:672][790]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.11-12.53.54:892][  6]BlueprintLog: New page: Compile GM_ModoJuego
+[2017.08.11-12.53.56:788][191]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.11-12.53.56:819][191]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.11-12.53.56:819][191]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.11-12.53.56:819][191]PIE: New page: PIE session: Minimal_Default (Aug 11, 2017, 2:53:56 PM)
+[2017.08.11-12.53.56:819][191]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.08.11-12.53.56:829][191]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009784s)
+[2017.08.11-12.53.56:830][191]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.08.11-12.53.56:830][191]LogPlayLevel: PIE: World Init took: (0.001469s)
+[2017.08.11-12.53.56:831][191]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.011628s)
+[2017.08.11-12.53.56:893][191]LogInit: XAudio2 using 'Altavoces (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.08.11-12.53.56:900][191]LogInit: FAudioDevice initialized.
+[2017.08.11-12.53.56:937][191]LogLoad: Game class is 'GM_ModoJuego_C'
+[2017.08.11-12.53.56:941][191]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.08.11-13.53.56
+[2017.08.11-12.53.56:941][191]LogWorld: Bringing up level for play took: 0.001616
+[2017.08.11-12.53.56:970][191]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.153
+[2017.08.11-12.53.56:971][191]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.11-12.54.29:637][ 92]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.11-12.54.29:673][ 92]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.11-12.57.57:118][822]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.11-12.58.15:418][ 91]LogContentBrowser:Verbose: The majority of assets in the view are of type: Skeleton
+[2017.08.11-12.58.39:400][450]LogSavePackage: Save=206.07ms
+[2017.08.11-12.58.39:400][450]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Minimal_Default_Auto2E181D71A48D7B9F872032DA25FC96A01.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap'
+[2017.08.11-12.58.39:402][450]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap
+[2017.08.11-12.58.39:408][450]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.257
+[2017.08.11-12.58.39:408][450]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.257
+[2017.08.11-12.58.39:411][450]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/NewAnimBlueprint] ([1] browsable assets)...
+[2017.08.11-12.58.39:441][450]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/BluePrints/NewAnimBlueprint.NewAnimBlueprint]
+[2017.08.11-12.58.39:441][450]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/NewAnimBlueprint]
+[2017.08.11-12.58.39:472][450]LogSavePackage: Save=28.10ms
+[2017.08.11-12.58.39:472][450]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/NewAnimBlueprint_Auto23C1F73C14B5057B0C58998B5EB02DAC9.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/BluePrints/NewAnimBlueprint_Auto2.uasset'
+[2017.08.11-12.58.39:474][450]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/BluePrints/NewAnimBlueprint_Auto2.uasset
+[2017.08.11-12.58.39:476][450]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/GM_ModoJuego] ([1] browsable assets)...
+[2017.08.11-12.58.39:476][450]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/GM_ModoJuego]
+[2017.08.11-12.58.39:502][450]LogSavePackage: Save=15.20ms
+[2017.08.11-12.58.39:502][450]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/GM_ModoJuego_Auto2E416905D457FE876E312DAB53651C224.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/BluePrints/GM_ModoJuego_Auto2.uasset'
+[2017.08.11-12.58.39:506][450]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/BluePrints/GM_ModoJuego_Auto2.uasset
+[2017.08.11-12.58.39:508][450]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/3rdController] ([1] browsable assets)...
+[2017.08.11-12.58.39:526][450]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/3rdController.3rdController]
+[2017.08.11-12.58.39:526][450]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/3rdController]
+[2017.08.11-12.58.39:604][450]LogSavePackage: Save=74.91ms
+[2017.08.11-12.58.39:604][450]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/3rdController_Auto286D0838445DF0A226EB7F988C028BB74.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/BluePrints/3rdController_Auto2.uasset'
+[2017.08.11-12.58.39:607][450]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/BluePrints/3rdController_Auto2.uasset
+[2017.08.11-12.58.39:609][450]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/3rdParty/AnimStarterPack/Ue4ASP_Character] ([1] browsable assets)...
+[2017.08.11-12.58.39:637][450]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/3rdParty/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character]
+[2017.08.11-12.58.39:637][450]OBJ SavePackage: Finished generating thumbnails for package [/Game/3rdParty/AnimStarterPack/Ue4ASP_Character]
+[2017.08.11-12.58.39:747][450]LogSavePackage: Save=95.87ms
+[2017.08.11-12.58.39:747][450]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Ue4ASP_Character_Auto2B09A69D44CCCE918AC44378FC62E446C.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/3rdParty/AnimStarterPack/Ue4ASP_Character_Auto2.uasset'
+[2017.08.11-12.58.39:749][450]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/3rdParty/AnimStarterPack/Ue4ASP_Character_Auto2.uasset
+[2017.08.11-12.58.39:749][450]LogFileHelpers: Auto-saving content packages took 0.341
+[2017.08.11-12.58.49:228][175]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.11-12.58.50:663][175]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SkeletalMeshComponent0' or package '/Engine/Transient'.
+[2017.08.11-12.58.50:663][175]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
+[2017.08.11-12.58.50:663][175]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_NewAnimBlueprint1' or package '/Engine/Transient'.
+[2017.08.11-12.58.50:663][175]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_Root_7462A9B7437213AC28530FBF8CA2BD2C' or package '/Engine/Transient'.
+[2017.08.11-12.58.50:664][175]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_NewAnimBlueprint1_C_1' or package '/Engine/Transient'.
+[2017.08.11-12.58.50:664][175]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_NewAnimBlueprint1_C_0' or package '/Engine/Transient'.
+[2017.08.11-12.58.50:664][175]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_NewAnimBlueprint1_C_7' or package '/Engine/Transient'.
+[2017.08.11-12.58.50:664][175]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_NewAnimBlueprint1_C_6' or package '/Engine/Transient'.
+[2017.08.11-12.59.04:809][597]LogMetaData: Removing '/Game/BluePrints/Anim_3rdController.Anim_3rdController:AnimGraph.AnimGraphNode_Root_0' ref from Metadata '/Game/BluePrints/NewAnimBlueprint.PackageMetaData'
+[2017.08.11-12.59.04:809][597]LogMetaData: Removing '/Game/BluePrints/Anim_3rdController.SKEL_Anim_3rdController_C' ref from Metadata '/Game/BluePrints/NewAnimBlueprint.PackageMetaData'
+[2017.08.11-12.59.04:809][597]LogMetaData: Removing '/Game/BluePrints/Anim_3rdController.Anim_3rdController_C' ref from Metadata '/Game/BluePrints/NewAnimBlueprint.PackageMetaData'
+[2017.08.11-12.59.04:809][597]LogMetaData: Removing '/Game/BluePrints/Anim_3rdController.Anim_3rdController:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BluePrints/NewAnimBlueprint.PackageMetaData'
+[2017.08.11-12.59.04:809][597]LogMetaData: Removing '/Game/BluePrints/Anim_3rdController.Anim_3rdController:EventGraph.K2Node_CallFunction_0' ref from Metadata '/Game/BluePrints/NewAnimBlueprint.PackageMetaData'
+[2017.08.11-12.59.04:882][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Anim_3rdController" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/BluePrints/Anim_3rdController.uasset" SILENT=true
+[2017.08.11-12.59.04:910][597]LogSavePackage: Save=25.22ms
+[2017.08.11-12.59.04:910][597]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Anim_3rdControllerB8CB3495451144A98BF4A58A75EA0ECF.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/BluePrints/Anim_3rdController.uasset'
+[2017.08.11-12.59.04:915][597]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/BluePrints/Anim_3rdController.uasset
+[2017.08.11-12.59.06:553][698]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_23:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.08.11-12.59.06:880][698]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_23:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2017.08.11-13.01.05:154][345]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.08.11-13.02.45:991][935]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_25:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2017.08.11-13.02.46:048][935]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_25:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2017.08.11-13.02.46:525][935]LogRenderer: Reallocating scene render targets to support 808x472 NumSamples 1 (Frame:1).
+[2017.08.11-13.02.46:525][935]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.08.11-13.06.30:772][732]LogContentBrowser:Verbose: The majority of assets in the view are of type: None
+[2017.08.11-13.06.35:722][136]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.08.11-13.06.36:189][172]LogContentBrowser:Verbose: The majority of assets in the view are of type: None
+[2017.08.11-13.06.37:515][284]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.08.11-13.08.57:029][668]LogContentBrowser:Verbose: The majority of assets in the view are of type: None
+[2017.08.11-13.08.58:408][777]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.08.11-13.11.02:987][607]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BlendSpace_3rdController" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/BluePrints/BlendSpace_3rdController.uasset" SILENT=true
+[2017.08.11-13.11.03:015][607]LogSavePackage: Save=23.54ms
+[2017.08.11-13.11.03:015][607]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/BlendSpace_3rdControllerA25705C94E077C22B7BC6B877AFECF8E.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/BluePrints/BlendSpace_3rdController.uasset'
+[2017.08.11-13.11.03:020][607]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/BluePrints/BlendSpace_3rdController.uasset
+[2017.08.11-13.11.06:524][806]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.Actor_3.DebugSkelMeshComponent_6) Already registered. Aborting.
+[2017.08.11-13.11.06:890][806]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_28:PersistentLevel.Actor_3.DebugSkelMeshComponent_6) - call TermArticulated first.
+[2017.08.11-13.11.07:289][806]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.08.11-13.11.28:228][558]LogContentBrowser:Verbose: The majority of assets in the view are of type: BlendSpace
+[2017.08.11-13.13.27:002][739]LogSavePackage: Save=400.53ms
+[2017.08.11-13.13.27:002][739]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Minimal_Default_Auto3377EFD724B6B3DAED4B04C9C03067813.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap'
+[2017.08.11-13.13.27:004][739]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap
+[2017.08.11-13.13.27:008][739]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.462
+[2017.08.11-13.13.27:008][739]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.462
+[2017.08.11-13.13.27:010][739]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/GM_ModoJuego] ([1] browsable assets)...
+[2017.08.11-13.13.27:010][739]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/GM_ModoJuego]
+[2017.08.11-13.13.27:041][739]LogSavePackage: Save=18.54ms
+[2017.08.11-13.13.27:041][739]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/GM_ModoJuego_Auto3EBB95874482A3396C21877B41238AD35.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/BluePrints/GM_ModoJuego_Auto3.uasset'
+[2017.08.11-13.13.27:043][739]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/BluePrints/GM_ModoJuego_Auto3.uasset
+[2017.08.11-13.13.27:044][739]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/Anim_3rdController] ([1] browsable assets)...
+[2017.08.11-13.13.27:070][739]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/BluePrints/Anim_3rdController.Anim_3rdController]
+[2017.08.11-13.13.27:070][739]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/Anim_3rdController]
+[2017.08.11-13.13.27:180][739]LogSavePackage: Save=98.00ms
+[2017.08.11-13.13.27:180][739]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Anim_3rdController_Auto304839B964D3AB1EC14E22985DD0A58FF.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/BluePrints/Anim_3rdController_Auto3.uasset'
+[2017.08.11-13.13.27:182][739]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/BluePrints/Anim_3rdController_Auto3.uasset
+[2017.08.11-13.13.27:185][739]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/3rdController] ([1] browsable assets)...
+[2017.08.11-13.13.27:212][739]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/3rdController.3rdController]
+[2017.08.11-13.13.27:212][739]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/3rdController]
+[2017.08.11-13.13.27:286][739]LogSavePackage: Save=68.51ms
+[2017.08.11-13.13.27:286][739]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/3rdController_Auto39CC23F7343675CAFB56FE2BE5A0F51AA.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/BluePrints/3rdController_Auto3.uasset'
+[2017.08.11-13.13.27:288][739]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/BluePrints/3rdController_Auto3.uasset
+[2017.08.11-13.13.27:290][739]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/3rdParty/AnimStarterPack/Ue4ASP_Character] ([1] browsable assets)...
+[2017.08.11-13.13.27:315][739]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/3rdParty/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character]
+[2017.08.11-13.13.27:315][739]OBJ SavePackage: Finished generating thumbnails for package [/Game/3rdParty/AnimStarterPack/Ue4ASP_Character]
+[2017.08.11-13.13.27:450][739]LogSavePackage: Save=122.20ms
+[2017.08.11-13.13.27:450][739]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Ue4ASP_Character_Auto3B859225D4A1A5B8D2BDDBC8AA4BD90B6.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/3rdParty/AnimStarterPack/Ue4ASP_Character_Auto3.uasset'
+[2017.08.11-13.13.27:455][739]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/3rdParty/AnimStarterPack/Ue4ASP_Character_Auto3.uasset
+[2017.08.11-13.13.27:455][739]LogFileHelpers: Auto-saving content packages took 0.447
+[2017.08.11-13.45.33:800][695]BlueprintLog: New page: Compile Anim_3rdController
+[2017.08.11-13.45.33:954][695]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2017.08.11-13.45.39:383][216]LogSavePackage: Save=173.96ms
+[2017.08.11-13.45.39:383][216]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Minimal_DefaultFAF5F98542A49AF5A43768BA72AC4BA1.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/StarterContent/Maps/Minimal_Default.umap'
+[2017.08.11-13.45.39:394][216]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/StarterContent/Maps/Minimal_Default.umap
+[2017.08.11-13.45.39:447][216]LogFileHelpers: Saving map 'Minimal_Default' took 0.425
+[2017.08.11-13.45.44:101][301]LogSavePackage: Save=85.16ms
+[2017.08.11-13.45.44:101][301]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Ue4ASP_Character679587DB4E2A80E2F77EFB90F0742912.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Ue4ASP_Character.uasset'
+[2017.08.11-13.45.44:112][301]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/3rdParty/AnimStarterPack/Ue4ASP_Character.uasset
+[2017.08.11-13.45.44:144][301]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/3rdController" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/BluePrints/3rdController.uasset" SILENT=true
+[2017.08.11-13.45.44:208][301]LogSavePackage: Save=60.86ms
+[2017.08.11-13.45.44:208][301]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/3rdControllerC764D77749505862C4C100AA378032AF.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/BluePrints/3rdController.uasset'
+[2017.08.11-13.45.44:216][301]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/BluePrints/3rdController.uasset
+[2017.08.11-13.45.44:237][301]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Anim_3rdController" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/BluePrints/Anim_3rdController.uasset" SILENT=true
+[2017.08.11-13.45.44:305][301]LogSavePackage: Save=55.36ms
+[2017.08.11-13.45.44:305][301]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Anim_3rdControllerD0A84D2045937C594FA0D09D2C7D688E.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/BluePrints/Anim_3rdController.uasset'
+[2017.08.11-13.45.44:312][301]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/BluePrints/Anim_3rdController.uasset
+[2017.08.11-13.45.44:315][301]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/GM_ModoJuego" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/BluePrints/GM_ModoJuego.uasset" SILENT=true
+[2017.08.11-13.45.44:349][301]LogSavePackage: Save=15.04ms
+[2017.08.11-13.45.44:349][301]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/GM_ModoJuego1B1CBA7D47C1127DECD872B1E7F4F0C6.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/BluePrints/GM_ModoJuego.uasset'
+[2017.08.11-13.45.44:357][301]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/BluePrints/GM_ModoJuego.uasset
+[2017.08.11-13.45.44:497][301]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.11-13.45.44:857][302]Cmd: QUIT_EDITOR
+[2017.08.11-13.45.45:924][302]LogExit: Preparing to exit.
+[2017.08.11-13.45.46:541][302]LogDirectoryWatcher: A directory notification for 'B:/FreedomReal/FREEDOM/PROYECTO/source/Content/' was aborted.
+[2017.08.11-13.45.46:668][302]LogExit: Editor shut down
+[2017.08.11-13.45.46:704][302]LogExit: Transaction tracking system shut down
+[2017.08.11-13.45.47:240][302]LogObj: Freed 0b from 0 cluster array pools.
+[2017.08.11-13.45.47:242][302]LogExit: Object subsystem successfully closed.
+[2017.08.11-13.45.47:299][302]LogD3D11RHI: Shutdown
+[2017.08.11-13.45.47:299][302]LogD3D11RHI: CleanupD3DDevice
+[2017.08.11-13.45.48:093][302]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.11-13.45.48:222][302]LogModuleManager: Shutting down and abandoning module AnimationEditor (540)
+[2017.08.11-13.45.48:222][302]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (538)
+[2017.08.11-13.45.48:223][302]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (536)
+[2017.08.11-13.45.48:223][302]LogModuleManager: Shutting down and abandoning module SkeletonEditor (534)
+[2017.08.11-13.45.48:223][302]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (532)
+[2017.08.11-13.45.48:223][302]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (530)
+[2017.08.11-13.45.48:223][302]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2017.08.11-13.45.48:223][302]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2017.08.11-13.45.48:230][302]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.08.11-13.45.48:230][302]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.08.11-13.45.48:230][302]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.08.11-13.45.48:230][302]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.08.11-13.45.48:242][302]LogDirectoryWatcher: A directory notification for 'B:/UnrealEngine/UE_4.16/FeaturePacks/' was aborted.
+[2017.08.11-13.45.48:254][302]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.08.11-13.45.48:254][302]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.08.11-13.45.48:254][302]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.08.11-13.45.48:254][302]LogDirectoryWatcher: A directory notification for 'B:/FreedomReal/FREEDOM/PROYECTO/source/Content/Collections/' was aborted.
+[2017.08.11-13.45.48:254][302]LogDirectoryWatcher: A directory notification for 'B:/FreedomReal/FREEDOM/PROYECTO/source/Content/Developers/Pepe/Collections/' was aborted.
+[2017.08.11-13.45.48:255][302]LogDirectoryWatcher: A directory notification for 'B:/FreedomReal/FREEDOM/PROYECTO/source/Saved/Collections/' was aborted.
+[2017.08.11-13.45.48:255][302]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.08.11-13.45.48:255][302]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.08.11-13.45.48:255][302]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.08.11-13.45.48:255][302]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.08.11-13.45.48:255][302]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.08.11-13.45.48:255][302]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.08.11-13.45.48:255][302]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.08.11-13.45.48:255][302]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.08.11-13.45.48:255][302]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.08.11-13.45.48:255][302]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.08.11-13.45.48:255][302]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.08.11-13.45.48:255][302]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.08.11-13.45.48:255][302]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.08.11-13.45.48:255][302]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.08.11-13.45.48:255][302]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.08.11-13.45.48:255][302]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.08.11-13.45.48:255][302]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.08.11-13.45.48:255][302]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.08.11-13.45.48:255][302]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.08.11-13.45.48:255][302]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.08.11-13.45.48:255][302]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.08.11-13.45.48:255][302]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.08.11-13.45.48:255][302]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.08.11-13.45.48:255][302]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.08.11-13.45.48:255][302]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.08.11-13.45.48:255][302]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.08.11-13.45.48:255][302]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.08.11-13.45.48:255][302]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.08.11-13.45.48:255][302]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.08.11-13.45.48:255][302]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.08.11-13.45.48:255][302]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.08.11-13.45.48:256][302]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.08.11-13.45.48:260][302]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.08.11-13.45.48:260][302]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.08.11-13.45.48:260][302]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.08.11-13.45.48:260][302]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.08.11-13.45.48:260][302]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.08.11-13.45.48:260][302]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.08.11-13.45.48:553][302]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.08.11-13.45.48:553][302]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.08.11-13.45.48:553][302]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.08.11-13.45.48:553][302]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.08.11-13.45.48:553][302]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.08.11-13.45.48:553][302]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.08.11-13.45.48:553][302]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.08.11-13.45.48:553][302]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.08.11-13.45.48:553][302]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.08.11-13.45.48:553][302]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.08.11-13.45.48:553][302]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.08.11-13.45.48:553][302]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.08.11-13.45.48:553][302]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.08.11-13.45.48:553][302]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.08.11-13.45.48:553][302]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.08.11-13.45.48:553][302]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.08.11-13.45.48:553][302]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.08.11-13.45.48:554][302]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.08.11-13.45.48:554][302]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.08.11-13.45.48:554][302]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.08.11-13.45.48:554][302]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.08.11-13.45.48:554][302]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.08.11-13.45.48:554][302]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.08.11-13.45.48:554][302]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.08.11-13.45.48:618][302]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.08.11-13.45.48:618][302]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.08.11-13.45.48:618][302]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.08.11-13.45.48:618][302]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.08.11-13.45.48:618][302]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.08.11-13.45.48:618][302]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.08.11-13.45.48:618][302]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.08.11-13.45.48:618][302]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.08.11-13.45.48:618][302]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.08.11-13.45.48:619][302]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.08.11-13.45.48:634][302]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.08.11-13.45.48:636][302]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.08.11-13.45.48:636][302]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.08.11-13.45.48:636][302]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.08.11-13.45.48:637][302]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.08.11-13.45.48:637][302]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.08.11-13.45.48:637][302]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.08.11-13.45.48:638][302]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.08.11-13.45.48:638][302]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.08.11-13.45.48:638][302]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.08.11-13.45.48:638][302]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.08.11-13.45.48:638][302]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.08.11-13.45.48:639][302]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.08.11-13.45.48:639][302]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.08.11-13.45.48:639][302]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.08.11-13.45.48:639][302]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.08.11-13.45.48:639][302]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.08.11-13.45.48:639][302]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.08.11-13.45.48:639][302]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.08.11-13.45.48:639][302]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.08.11-13.45.48:759][302]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.08.11-13.45.48:759][302]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.08.11-13.45.48:759][302]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.08.11-13.45.48:759][302]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.08.11-13.45.48:759][302]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.08.11-13.45.48:759][302]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.08.11-13.45.48:759][302]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.08.11-13.45.48:759][302]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.08.11-13.45.48:759][302]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.08.11-13.45.48:759][302]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.08.11-13.45.48:759][302]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.08.11-13.45.48:759][302]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.08.11-13.45.48:759][302]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.08.11-13.45.48:759][302]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.08.11-13.45.48:759][302]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.08.11-13.45.48:759][302]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.08.11-13.45.48:759][302]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.08.11-13.45.48:759][302]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.08.11-13.45.48:759][302]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.08.11-13.45.48:759][302]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.08.11-13.45.48:760][302]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.08.11-13.45.48:760][302]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.08.11-13.45.48:760][302]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.08.11-13.45.48:760][302]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.08.11-13.45.48:760][302]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.08.11-13.45.48:760][302]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.08.11-13.45.48:760][302]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.08.11-13.45.48:760][302]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.08.11-13.45.48:760][302]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.08.11-13.45.48:760][302]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.08.11-13.45.48:761][302]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.08.11-13.45.48:761][302]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.08.11-13.45.48:761][302]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.08.11-13.45.48:761][302]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.08.11-13.45.48:761][302]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.08.11-13.45.48:761][302]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.08.11-13.45.48:763][302]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.08.11-13.45.48:763][302]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.08.11-13.45.48:763][302]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.08.11-13.45.48:764][302]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.08.11-13.45.48:764][302]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.08.11-13.45.48:764][302]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.08.11-13.45.48:764][302]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.08.11-13.45.48:764][302]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.08.11-13.45.48:764][302]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.08.11-13.45.48:865][302]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.08.11-13.45.48:969][302]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.08.11-13.45.48:970][302]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.08.11-13.45.48:970][302]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.08.11-13.45.48:970][302]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.08.11-13.45.48:970][302]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.08.11-13.45.48:970][302]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.08.11-13.45.48:981][302]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.08.11-13.45.48:981][302]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.08.11-13.45.48:981][302]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.08.11-13.45.48:981][302]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.08.11-13.45.48:982][302]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.08.11-13.45.48:982][302]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.08.11-13.45.48:982][302]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.08.11-13.45.48:982][302]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.08.11-13.45.48:982][302]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.08.11-13.45.48:983][302]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.08.11-13.45.48:983][302]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.08.11-13.45.48:983][302]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.08.11-13.45.48:983][302]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.08.11-13.45.48:983][302]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.08.11-13.45.48:983][302]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.08.11-13.45.48:983][302]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.08.11-13.45.48:983][302]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.08.11-13.45.48:983][302]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.08.11-13.45.48:984][302]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.08.11-13.45.48:984][302]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.08.11-13.45.48:984][302]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.08.11-13.45.48:984][302]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.08.11-13.45.48:984][302]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.08.11-13.45.48:997][302]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.08.11-13.45.48:997][302]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.08.11-13.45.48:997][302]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.08.11-13.45.48:997][302]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.08.11-13.45.48:997][302]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.08.11-13.45.48:997][302]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.08.11-13.45.49:257][302]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.11-13.45.49:257][302]LogDirectoryWatcher: A directory notification for '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/' was aborted.
+[2017.08.11-13.45.49:257][302]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.11-13.45.49:257][302]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.08.11-13.45.49:268][302]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.08.11-13.45.49:275][302]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.08.11-13.45.49:275][302]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.08.11-13.45.49:275][302]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.08.11-13.45.49:275][302]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.08.11-13.45.49:275][302]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.08.11-13.45.49:275][302]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.08.11-13.45.49:275][302]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.08.11-13.45.49:275][302]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.08.11-13.45.49:287][302]LogDerivedDataCache: Shutdown
+[2017.08.11-13.45.49:287][302]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.08.11-13.45.49:287][302]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.08.11-13.45.49:287][302]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.08.11-13.45.49:288][302]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.08.11-13.45.49:288][302]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.08.11-13.45.49:288][302]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.08.11-13.45.49:288][302]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.08.11-13.45.49:288][302]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.08.11-13.45.49:288][302]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.08.11-13.45.49:288][302]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.08.11-13.45.49:288][302]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.08.11-13.45.49:288][302]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.08.11-13.45.49:288][302]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.08.11-13.45.49:288][302]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.08.11-13.45.49:288][302]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.08.11-13.45.49:288][302]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.08.11-13.45.49:288][302]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.08.11-13.45.49:288][302]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.08.11-13.45.49:288][302]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.08.11-13.45.49:288][302]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.08.11-13.45.49:288][302]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.08.11-13.45.49:288][302]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.08.11-13.45.49:288][302]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.08.11-13.45.49:288][302]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.08.11-13.45.49:288][302]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.08.11-13.45.49:288][302]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.08.11-13.45.49:288][302]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.08.11-13.45.49:288][302]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.08.11-13.45.49:288][302]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.08.11-13.45.49:288][302]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.08.11-13.45.49:288][302]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.08.11-13.45.49:288][302]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.08.11-13.45.49:288][302]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.08.11-13.45.49:288][302]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.08.11-13.45.49:288][302]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.08.11-13.45.49:288][302]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.08.11-13.45.49:288][302]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.08.11-13.45.49:288][302]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.08.11-13.45.49:288][302]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.08.11-13.45.49:288][302]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.08.11-13.45.49:289][302]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.08.11-13.45.49:289][302]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.08.11-13.45.49:289][302]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.08.11-13.45.49:289][302]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.08.11-13.45.49:289][302]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.08.11-13.45.49:289][302]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.08.11-13.45.49:289][302]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.08.11-13.45.49:289][302]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.08.11-13.45.49:289][302]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.08.11-13.45.49:289][302]LogOnline:Display: Unloading online subsystem: NULL
+[2017.08.11-13.45.49:289][302]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.08.11-13.45.49:289][302]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.08.11-13.45.49:289][302]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.11-13.45.49:289][302]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B069A9D05-4D47-7537-2D0F-549D53B08F8F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=6a255fb4460632c01bed928edce450f0%7C59348a7e39f744e38e82324575011dc9%7C4460d85e-48e5-48d7-88f6-1adefd4f1c03&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.11-13.45.49:294][302]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.08.11-13.45.49:297][302]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.08.11-13.45.49:297][302]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.08.11-13.45.49:297][302]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.08.11-13.45.49:297][302]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.08.11-13.45.49:297][302]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.08.11-13.45.49:297][302]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.08.11-13.45.49:297][302]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.08.11-13.45.49:297][302]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.08.11-13.45.49:305][302]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.08.11-13.45.49:305][302]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.08.11-13.45.49:305][302]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.08.11-13.45.49:305][302]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.08.11-13.45.49:305][302]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.08.11-13.45.49:305][302]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.08.11-13.45.49:305][302]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.08.11-13.45.49:305][302]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.08.11-13.45.49:305][302]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.08.11-13.45.49:305][302]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.08.11-13.45.49:308][302]LogExit: Exiting.
+[2017.08.11-13.45.49:337][302]Log file closed, 08/11/17 14:45:49
