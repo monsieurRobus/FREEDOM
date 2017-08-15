@@ -1,0 +1,310 @@
+﻿Log file open, 08/07/17 23:13:45
+LogInit:Display: Running engine for game: source
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(190719702) SRandInit(190719702).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.110062
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: B:/UnrealEngine/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.07-22.13.46:672][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.07-22.13.46:672][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.07-22.13.46:706][  0]LogInit: Computer: DESKTOP-IS750JK
+[2017.08.07-22.13.46:706][  0]LogInit: User: Pepe
+[2017.08.07-22.13.46:706][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.07-22.13.46:707][  0]LogInit: High frequency timer resolution =3.418003 MHz
+[2017.08.07-22.13.46:707][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.08.07-22.13.46:707][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.07-22.13.46:707][  0]LogMemory: Process Physical Memory: 273.24 MB used, 273.24 MB peak
+[2017.08.07-22.13.46:707][  0]LogMemory: Process Virtual Memory: 260.62 MB used, 260.62 MB peak
+[2017.08.07-22.13.46:707][  0]LogMemory: Physical Memory: 5239.32 MB used,  2900.96 MB free, 8140.28 MB total
+[2017.08.07-22.13.46:707][  0]LogMemory: Virtual Memory: 638.34 MB used,  2900.96 MB free, 134217728.00 MB total
+[2017.08.07-22.13.46:806][  0]LogInit: Overriding language with editor language configuration option (en).
+[2017.08.07-22.13.46:806][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2017.08.07-22.13.48:335][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.07-22.13.48:370][  0]LogD3D11RHI:    0. 'Radeon (TM) RX 470 Graphics' (Feature Level 11_0)
+[2017.08.07-22.13.48:370][  0]LogD3D11RHI:       4044/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2017.08.07-22.13.48:372][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.07-22.13.48:372][  0]LogD3D11RHI:       0/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.07-22.13.48:372][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.07-22.13.48:383][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.07-22.13.48:383][  0]LogD3D11RHI:     GPU DeviceId: 0x67df (for the marketing name, search the web for "GPU Device Id")
+[2017.08.07-22.13.48:383][  0]LogWindows: EnumDisplayDevices:
+[2017.08.07-22.13.48:383][  0]LogWindows:    0. 'Radeon (TM) RX 470 Graphics' (P:1 D:1)
+[2017.08.07-22.13.48:384][  0]LogWindows:    1. 'Radeon (TM) RX 470 Graphics' (P:0 D:1)
+[2017.08.07-22.13.48:385][  0]LogWindows:    2. 'Radeon (TM) RX 470 Graphics' (P:0 D:0)
+[2017.08.07-22.13.48:385][  0]LogWindows:    3. 'Radeon (TM) RX 470 Graphics' (P:0 D:0)
+[2017.08.07-22.13.48:386][  0]LogWindows:    4. 'Radeon (TM) RX 470 Graphics' (P:0 D:0)
+[2017.08.07-22.13.48:386][  0]LogWindows:    5. 'Radeon (TM) RX 470 Graphics' (P:0 D:0)
+[2017.08.07-22.13.48:387][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2017.08.07-22.13.48:387][  0]LogD3D11RHI:     Adapter Name: Radeon (TM) RX 470 Graphics
+[2017.08.07-22.13.48:387][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.1.1 (internal:22.19.162.4, unified:22.19.162.4)
+[2017.08.07-22.13.48:387][  0]LogD3D11RHI:      Driver Date: 4-24-2017
+[2017.08.07-22.13.48:387][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.07-22.13.48:550][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.07-22.13.48:562][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2017.08.07-22.13.48:563][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (../../../../../FreedomReal/FREEDOM/PROYECTO/source/Intermediate/Shaders/WorkingDirectory/2484/).
+[2017.08.07-22.13.48:563][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Pepe/AppData/Local/Temp/UnrealShaderWorkingDir/9B27C5284829443C76CE54ADE8D3BB77/'.
+[2017.08.07-22.13.48:563][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.07-22.13.50:684][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.07-22.13.50:774][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.07-22.13.50:862][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.07-22.13.50:940][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.07-22.13.51:017][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.07-22.13.51:097][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.07-22.13.51:174][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.07-22.13.51:250][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.07-22.13.51:317][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.07-22.13.51:392][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.07-22.13.51:466][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.07-22.13.51:545][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.07-22.13.51:622][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.07-22.13.51:696][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.07-22.13.51:781][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.07-22.13.51:939][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.07-22.13.51:940][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.07-22.13.52:004][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.07-22.13.52:136][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.07-22.13.52:182][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.07-22.13.52:262][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.07-22.13.52:341][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.07-22.13.52:420][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.07-22.13.52:507][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.07-22.13.52:507][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.07-22.13.53:469][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.07-22.13.53:647][  0]LogDerivedDataCache: Loaded boot cache 0.18s 90MB C:/Users/Pepe/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.07-22.13.53:647][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Pepe/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.07-22.13.53:647][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../FreedomReal/FREEDOM/PROYECTO/source/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.07-22.13.53:647][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.07-22.13.53:647][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../FreedomReal/FREEDOM/PROYECTO/source/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.07-22.13.53:647][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.07-22.13.53:674][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.07-22.13.53:689][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Pepe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.07-22.13.53:705][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.07-22.13.53:705][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.07-22.13.53:706][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.07-22.13.53:706][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.07-22.13.54:237][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.07-22.13.54:393][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.07-22.13.54:616][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.07-22.13.54:717][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.07-22.13.54:805][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.07-22.13.54:805][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.07-22.13.54:805][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.07-22.13.55:753][  0]LogNetVersion: source , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2297492709)
+[2017.08.07-22.13.55:874][  0]LogAssetRegistry: FAssetRegistry took 0.0284 seconds to start up
+[2017.08.07-22.13.55:999][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.078538 seconds
+[2017.08.07-22.13.56:006][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.07-22.13.56:006][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.08.07-22.13.56:006][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.07-22.13.56:101][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.07-22.13.59:857][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.07-22.13.59:917][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.07-22.14.00:765][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.07-22.14.01:466][  0]SourceControl: Info Source control is disabled
+[2017.08.07-22.14.01:469][  0]SourceControl: Info Source control is disabled
+[2017.08.07-22.14.01:600][  0]SourceControl: Info Source control is disabled
+[2017.08.07-22.14.01:734][  0]SourceControl: Info Source control is disabled
+[2017.08.07-22.14.03:049][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.07-22.14.04:152][  0]LogEngine: Initializing Engine...
+[2017.08.07-22.14.04:154][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.07-22.14.04:507][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.07-22.14.04:507][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.07-22.14.04:745][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.07-22.14.04:776][  0]LogInit: XAudio2 using 'Altavoces (Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.07-22.14.04:801][  0]LogInit: FAudioDevice initialized.
+[2017.08.07-22.14.04:900][  0]LogDerivedDataCache: Saved boot cache 0.10s 90MB C:/Users/Pepe/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.07-22.14.04:926][  0]LogInit: Texture streaming: Enabled
+[2017.08.07-22.14.05:082][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.07-22.14.05:436][  0]LogInit: Transaction tracking system initialized
+[2017.08.07-22.14.06:014][  0]BlueprintLog: New page: Editor Load
+[2017.08.07-22.14.07:627][  0]LocalizationService: Info Localization service is disabled
+[2017.08.07-22.14.09:024][  0]LogConsoleResponse:Display: 
+[2017.08.07-22.14.09:284][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.07-22.14.09:284][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.07-22.14.09:807][  0]LogFileCache: Scanning file cache for directory 'B:/FreedomReal/FREEDOM/PROYECTO/source/Content/' took 0.02s
+[2017.08.07-22.14.11:060][  0]SourceControl: Info Source control is disabled
+[2017.08.07-22.14.11:061][  0]Cmd: MAP LOAD FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.07-22.14.11:195][  0]LightingResults: New page: Lighting Build
+[2017.08.07-22.14.11:257][  0]MapCheck: New page: Map Check
+[2017.08.07-22.14.11:258][  0]LightingResults: New page: Lighting Build
+[2017.08.07-22.14.13:469][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.08.07-22.14.13:645][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.07-22.14.13:734][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.07-22.14.13:823][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 89.28ms to complete.
+[2017.08.07-22.14.13:823][  0]LogFileHelpers: Loading map 'Minimal_Default' took 2.763
+[2017.08.07-22.14.15:237][  0]LogCollectionManager: Loaded 0 collections in 0.002096 seconds
+[2017.08.07-22.14.15:662][  0]LogFileCache: Scanning file cache for directory 'B:/FreedomReal/FREEDOM/PROYECTO/source/Saved/Collections/' took 0.01s
+[2017.08.07-22.14.15:662][  0]LogFileCache: Scanning file cache for directory 'B:/FreedomReal/FREEDOM/PROYECTO/source/Content/Developers/Pepe/Collections/' took 0.01s
+[2017.08.07-22.14.15:662][  0]LogFileCache: Scanning file cache for directory 'B:/FreedomReal/FREEDOM/PROYECTO/source/Content/Collections/' took 0.01s
+[2017.08.07-22.14.15:662][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2017.08.07-22.14.15:773][  0]LogContentBrowser: Native class hierarchy populated in 0.1059 seconds. Added 2329 classes and 491 folders.
+[2017.08.07-22.14.16:041][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2017.08.07-22.14.19:298][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2017.08.07-22.14.19:630][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.08.07-22.14.20:597][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.07-22.14.20:726][  0]LogSlate: Took 0.000378 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.07-22.14.20:729][  0]LogSlate: Took 0.000278 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.07-22.14.20:837][  0]LogSlate: Took 0.029273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.07-22.14.21:444][  0]LogRenderer: Reallocating scene render targets to support 744x328 NumSamples 1 (Frame:1).
+[2017.08.07-22.14.22:231][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.07-22.14.22:318][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.08.07-22.14.22:318][  0]LogLoad: (Engine Initialization) Total time: 38.60 seconds
+[2017.08.07-22.14.22:318][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.13 seconds
+[2017.08.07-22.14.22:318][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.08.07-22.14.22:657][  0]LogOcInput: OculusInput pre-init called
+[2017.08.07-22.14.22:657][  0]LogHMD: Starting GearVRController plugin
+[2017.08.07-22.14.22:747][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.07-22.14.23:014][  0]LogSlate: Took 0.063769 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.07-22.14.23:430][  2]LogAssetRegistry: Asset discovery search completed in 27.5779 seconds
+[2017.08.07-22.14.23:432][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.07-22.14.23:432][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000025 seconds (updated 0 objects)
+[2017.08.07-22.15.23:728][499]LogSlate: Took 0.000293 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.07-22.15.23:794][499]LogAIModule: Creating AISystem for world 00_pepe
+[2017.08.07-22.15.23:855][499]Cmd: MAP LOAD FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/00_pepe.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.07-22.15.23:855][499]LightingResults: New page: Lighting Build
+[2017.08.07-22.15.23:856][499]LoadErrors: New page: Loading map: 00_pepe.umap
+[2017.08.07-22.15.23:856][499]MapCheck: New page: Map Check
+[2017.08.07-22.15.23:856][499]LightingResults: New page: Lighting Build
+[2017.08.07-22.15.23:891][499]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.07-22.15.24:003][499]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.07-22.15.24:088][499]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 85.069ms to complete.
+[2017.08.07-22.15.24:089][499]LogFileHelpers: Loading map '00_pepe' took 0.235
+[2017.08.07-22.16.41:948][564]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.08.07-22.16.50:732][408]LogSlate: Took 0.000300 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.07-22.17.20:441][505]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.07-22.17.20:567][505]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.07-22.17.20:589][505]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.07-22.17.20:688][505]PIE: New page: PIE session: 00_pepe (Aug 8, 2017, 12:17:20 AM)
+[2017.08.07-22.17.20:701][505]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_00_pepe
+[2017.08.07-22.17.20:783][505]LogPlayLevel: PIE: StaticDuplicateObject took: (0.081578s)
+[2017.08.07-22.17.20:783][505]LogAIModule: Creating AISystem for world 00_pepe
+[2017.08.07-22.17.20:784][505]LogPlayLevel: PIE: World Init took: (0.001148s)
+[2017.08.07-22.17.20:797][505]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/00_pepe.00_pepe to /Game/UEDPIE_0_00_pepe.00_pepe (0.095701s)
+[2017.08.07-22.17.20:961][505]LogInit: XAudio2 using 'Altavoces (Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.07-22.17.20:971][505]LogInit: FAudioDevice initialized.
+[2017.08.07-22.17.21:043][505]LogLoad: Game class is 'GameModeBase'
+[2017.08.07-22.17.21:144][505]LogWorld: Bringing World /Game/UEDPIE_0_00_pepe.00_pepe up for play (max tick rate 0) at 2017.08.07-23.17.21
+[2017.08.07-22.17.21:165][505]LogWorld: Bringing up level for play took: 0.011905
+[2017.08.07-22.17.21:393][505]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2017.08.07-22.17.21:490][505]PIE: Info Play in editor start time for /Game/UEDPIE_0_00_pepe 0.945
+[2017.08.07-22.17.21:490][505]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.07-22.17.31:572][669]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.07-22.17.31:681][669]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.07-22.17.38:390][379]LogMaterial: Missing cached shader map for material M_Ground_Grass, compiling. 
+[2017.08.07-22.17.39:609][379]LogMaterial: Missing cached shader map for material M_Ground_Grass, compiling. 
+[2017.08.07-22.17.39:703][379]LogMaterial: Missing cached shader map for material M_Ground_Grass, compiling. 
+[2017.08.07-22.17.39:766][379]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2017.08.07-22.17.39:772][379]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_29, compiling. 
+[2017.08.07-22.17.39:778][379]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_30, compiling. 
+[2017.08.07-22.17.39:786][379]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_9, compiling. 
+[2017.08.07-22.17.39:791][379]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2017.08.07-22.17.39:797][379]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2017.08.07-22.17.39:802][379]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling. 
+[2017.08.07-22.17.39:809][379]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_6, compiling. 
+[2017.08.07-22.17.39:814][379]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_7, compiling. 
+[2017.08.07-22.17.39:821][379]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_8, compiling. 
+[2017.08.07-22.17.39:866][379]LogSlate: Took 0.033098 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.07-22.17.42:091][454]MaterialEditorStats: Info Base pass shader: 106 instructions
+[2017.08.07-22.17.42:091][454]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.07-22.17.42:091][454]MaterialEditorStats: Info Texture samplers: 7/16
+[2017.08.07-22.17.42:091][454]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.07-22.17.42:644][481]LogSlate: Took 0.023801 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.07-22.18.14:409][ 50]LogMaterial: Missing cached shader map for material M_Ground_Grass, compiling. 
+[2017.08.07-22.18.14:469][ 50]LogMaterial: Missing cached shader map for material M_Ground_Grass, compiling. 
+[2017.08.07-22.18.17:347][240]MaterialEditorStats: Info Base pass shader: 64 instructions
+[2017.08.07-22.18.17:347][240]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.08.07-22.18.17:347][240]MaterialEditorStats: Info Texture samplers: 7/16
+[2017.08.07-22.18.17:347][240]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.07-22.18.25:082][811]LogMaterialEditor: Saving and Compiling material M_Ground_Grass
+[2017.08.07-22.18.26:129][811]LogMaterial: Missing cached shader map for material M_Ground_Grass, compiling. 
+[2017.08.07-22.18.26:221][811]LogMaterial: Missing cached shader map for material M_Ground_Grass, compiling. 
+[2017.08.07-22.18.26:315][811]LogMaterial: Missing cached shader map for material M_Ground_Grass, compiling. 
+[2017.08.07-22.18.26:395][811]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Ground_Grass, compiling. 
+[2017.08.07-22.18.28:260][811]TextureStreamingBuild:Display: Compiling optional shaders took 1.875 seconds.
+[2017.08.07-22.18.31:931][811]LogSlate: Took 0.000294 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.07-22.18.32:002][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/M_Ground_Grass" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/StarterContent/Materials/M_Ground_Grass.uasset" SILENT=true
+[2017.08.07-22.18.32:203][811]LogSavePackage: Save=164.38ms
+[2017.08.07-22.18.32:203][811]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/M_Ground_Grass13C3D4C8441D166F47C7FBAC55906F98.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/StarterContent/Materials/M_Ground_Grass.uasset'
+[2017.08.07-22.18.32:213][811]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/StarterContent/Materials/M_Ground_Grass.uasset
+[2017.08.07-22.18.41:871][785]LogMaterial: Missing cached shader map for material M_Ground_Grass, compiling. 
+[2017.08.07-22.18.41:906][785]LogMaterial: Missing cached shader map for material M_Ground_Grass, compiling. 
+[2017.08.07-22.18.43:644][898]MaterialEditorStats: Info Base pass shader: 106 instructions
+[2017.08.07-22.18.43:644][898]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.07-22.18.43:644][898]MaterialEditorStats: Info Texture samplers: 7/16
+[2017.08.07-22.18.43:644][898]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.07-22.18.52:531][653]LogEditorTransaction: Undo Edit Blend Mode
+[2017.08.07-22.18.52:660][653]LogMaterial: Missing cached shader map for material M_Ground_Grass, compiling. 
+[2017.08.07-22.18.52:701][653]LogMaterial: Missing cached shader map for material M_Ground_Grass, compiling. 
+[2017.08.07-22.18.54:998][783]LogEditorTransaction: Undo Edit Blend Mode
+[2017.08.07-22.18.55:007][783]LogMaterial: Missing cached shader map for material M_Ground_Grass, compiling. 
+[2017.08.07-22.18.55:031][783]LogMaterial: Missing cached shader map for material M_Ground_Grass, compiling. 
+[2017.08.07-22.18.56:529][866]MaterialEditorStats: Info Base pass shader: 106 instructions
+[2017.08.07-22.18.56:529][866]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.07-22.18.56:529][866]MaterialEditorStats: Info Texture samplers: 7/16
+[2017.08.07-22.18.56:529][866]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.07-22.18.56:554][868]LogMaterialEditor: Saving and Compiling material M_Ground_Grass
+[2017.08.07-22.18.57:571][868]LogMaterial: Missing cached shader map for material M_Ground_Grass, compiling. 
+[2017.08.07-22.18.57:648][868]LogMaterial: Missing cached shader map for material M_Ground_Grass, compiling. 
+[2017.08.07-22.18.57:705][868]LogMaterial: Missing cached shader map for material M_Ground_Grass, compiling. 
+[2017.08.07-22.18.57:767][868]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Ground_Grass, compiling. 
+[2017.08.07-22.18.58:936][868]TextureStreamingBuild:Display: Compiling optional shaders took 1.179 seconds.
+[2017.08.07-22.19.01:861][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/M_Ground_Grass" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/StarterContent/Materials/M_Ground_Grass.uasset" SILENT=true
+[2017.08.07-22.19.01:914][868]LogSavePackage: Save=47.91ms
+[2017.08.07-22.19.01:914][868]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/M_Ground_Grass108AA3F04306DFC606919CBBD2982E9D.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/StarterContent/Materials/M_Ground_Grass.uasset'
+[2017.08.07-22.19.01:921][868]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/StarterContent/Materials/M_Ground_Grass.uasset
+[2017.08.07-22.25.35:402][884]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/00_pepe" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/00_pepe_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.07-22.25.35:856][884]LogSavePackage: Save=436.68ms
+[2017.08.07-22.25.35:856][884]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/00_pepe_Auto1F394748542005C91626E629A86B61559.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/00_pepe_Auto1.umap'
+[2017.08.07-22.25.35:861][884]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/00_pepe_Auto1.umap
+[2017.08.07-22.25.35:871][884]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/00_pepe' took 0.527
+[2017.08.07-22.25.35:871][884]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.527
+[2017.08.07-22.49.29:351][185]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.07-22.49.35:696][204]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.07-22.49.55:228][257]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.07-22.50.09:595][268]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.07-22.50.13:555][280]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.07-22.50.15:574][286]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
