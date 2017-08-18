@@ -1,0 +1,1037 @@
+﻿Log file open, 08/17/17 12:53:06
+LogInit:Display: Running engine for game: source
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1494416816) SRandInit(1494416816).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.110131
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal
+LogInit: Base directory: B:/UnrealEngine/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.17-11.53.07:553][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.17-11.53.07:553][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.17-11.53.07:569][  0]LogInit: Computer: DESKTOP-IS750JK
+[2017.08.17-11.53.07:569][  0]LogInit: User: Pepe
+[2017.08.17-11.53.07:569][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.17-11.53.07:569][  0]LogInit: High frequency timer resolution =3.417998 MHz
+[2017.08.17-11.53.07:569][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.08.17-11.53.07:569][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.17-11.53.07:569][  0]LogMemory: Process Physical Memory: 273.73 MB used, 273.73 MB peak
+[2017.08.17-11.53.07:569][  0]LogMemory: Process Virtual Memory: 260.81 MB used, 260.81 MB peak
+[2017.08.17-11.53.07:569][  0]LogMemory: Physical Memory: 3848.97 MB used,  4291.31 MB free, 8140.28 MB total
+[2017.08.17-11.53.07:569][  0]LogMemory: Virtual Memory: 638.34 MB used,  4291.31 MB free, 134217728.00 MB total
+[2017.08.17-11.53.07:664][  0]LogInit: Overriding language with editor language configuration option (en).
+[2017.08.17-11.53.07:664][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2017.08.17-11.53.08:851][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.17-11.53.08:883][  0]LogD3D11RHI:    0. 'Radeon (TM) RX 470 Graphics' (Feature Level 11_0)
+[2017.08.17-11.53.08:883][  0]LogD3D11RHI:       4044/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2017.08.17-11.53.08:885][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.17-11.53.08:885][  0]LogD3D11RHI:       0/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.17-11.53.08:885][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.17-11.53.08:895][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.17-11.53.08:895][  0]LogD3D11RHI:     GPU DeviceId: 0x67df (for the marketing name, search the web for "GPU Device Id")
+[2017.08.17-11.53.08:895][  0]LogWindows: EnumDisplayDevices:
+[2017.08.17-11.53.08:895][  0]LogWindows:    0. 'Radeon (TM) RX 470 Graphics' (P:1 D:1)
+[2017.08.17-11.53.08:896][  0]LogWindows:    1. 'Radeon (TM) RX 470 Graphics' (P:0 D:1)
+[2017.08.17-11.53.08:896][  0]LogWindows:    2. 'Radeon (TM) RX 470 Graphics' (P:0 D:0)
+[2017.08.17-11.53.08:897][  0]LogWindows:    3. 'Radeon (TM) RX 470 Graphics' (P:0 D:0)
+[2017.08.17-11.53.08:898][  0]LogWindows:    4. 'Radeon (TM) RX 470 Graphics' (P:0 D:0)
+[2017.08.17-11.53.08:898][  0]LogWindows:    5. 'Radeon (TM) RX 470 Graphics' (P:0 D:0)
+[2017.08.17-11.53.08:899][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2017.08.17-11.53.08:899][  0]LogD3D11RHI:     Adapter Name: Radeon (TM) RX 470 Graphics
+[2017.08.17-11.53.08:899][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.1.1 (internal:22.19.162.4, unified:22.19.162.4)
+[2017.08.17-11.53.08:899][  0]LogD3D11RHI:      Driver Date: 4-24-2017
+[2017.08.17-11.53.08:899][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.17-11.53.09:052][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.17-11.53.09:063][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2017.08.17-11.53.09:064][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (../../../../../FreedomReal/FREEDOM/PROYECTO/source/Intermediate/Shaders/WorkingDirectory/6948/).
+[2017.08.17-11.53.09:064][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Pepe/AppData/Local/Temp/UnrealShaderWorkingDir/D4CBE2724CAF26CA605B3D979D0B5E31/'.
+[2017.08.17-11.53.09:064][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.17-11.53.10:617][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.17-11.53.10:688][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.17-11.53.10:757][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.17-11.53.10:828][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.17-11.53.10:897][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.17-11.53.10:965][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.17-11.53.11:035][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.17-11.53.11:104][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.17-11.53.11:164][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.17-11.53.11:231][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.17-11.53.11:299][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.17-11.53.11:366][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.17-11.53.11:434][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.17-11.53.11:501][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.17-11.53.11:568][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.17-11.53.11:705][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.17-11.53.11:705][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.17-11.53.11:759][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.17-11.53.11:879][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.17-11.53.11:921][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.17-11.53.11:990][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.17-11.53.12:063][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.17-11.53.12:131][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.17-11.53.12:198][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.17-11.53.12:198][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.17-11.53.12:877][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.17-11.53.13:045][  0]LogDerivedDataCache: Loaded boot cache 0.17s 90MB C:/Users/Pepe/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.17-11.53.13:045][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Pepe/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.17-11.53.13:045][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../FreedomReal/FREEDOM/PROYECTO/source/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.17-11.53.13:045][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.17-11.53.13:045][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../FreedomReal/FREEDOM/PROYECTO/source/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.17-11.53.13:045][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.17-11.53.13:071][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.17-11.53.13:085][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Pepe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.17-11.53.13:100][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.17-11.53.13:100][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.17-11.53.13:101][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.17-11.53.13:101][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.17-11.53.13:547][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.17-11.53.13:707][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.17-11.53.13:924][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.17-11.53.13:985][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.17-11.53.14:051][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.17-11.53.14:051][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.17-11.53.14:051][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.17-11.53.14:835][  0]LogNetVersion: source , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2297492709)
+[2017.08.17-11.53.14:907][  0]LogAssetRegistry: FAssetRegistry took 0.0263 seconds to start up
+[2017.08.17-11.53.14:972][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.027649 seconds
+[2017.08.17-11.53.14:979][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.17-11.53.14:979][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.08.17-11.53.14:979][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.17-11.53.15:066][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.17-11.53.18:340][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.17-11.53.18:394][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.17-11.53.19:092][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.17-11.53.19:635][  0]SourceControl: Info Source control is disabled
+[2017.08.17-11.53.19:637][  0]SourceControl: Info Source control is disabled
+[2017.08.17-11.53.19:703][  0]SourceControl: Info Source control is disabled
+[2017.08.17-11.53.19:769][  0]SourceControl: Info Source control is disabled
+[2017.08.17-11.53.20:781][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.17-11.53.21:662][  0]LogEngine: Initializing Engine...
+[2017.08.17-11.53.21:663][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.17-11.53.22:011][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.17-11.53.22:011][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.17-11.53.22:194][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.17-11.53.22:236][  0]LogInit: XAudio2 using 'Auriculares (Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.17-11.53.22:258][  0]LogInit: FAudioDevice initialized.
+[2017.08.17-11.53.22:345][  0]LogDerivedDataCache: Saved boot cache 0.09s 90MB C:/Users/Pepe/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.17-11.53.22:366][  0]LogInit: Texture streaming: Enabled
+[2017.08.17-11.53.22:519][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.17-11.53.22:519][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={5EAD4C35-47A9-1FE6-1DAB-8BA2D555DF28}
+[2017.08.17-11.53.22:819][  0]LogInit: Transaction tracking system initialized
+[2017.08.17-11.53.23:346][  0]BlueprintLog: New page: Editor Load
+[2017.08.17-11.53.24:599][  0]LocalizationService: Info Localization service is disabled
+[2017.08.17-11.53.25:545][  0]LogConsoleResponse:Display: 
+[2017.08.17-11.53.25:736][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.17-11.53.25:737][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.17-11.53.26:592][  0]LogFileCache: Scanning file cache for directory 'B:/FreedomReal/FREEDOM/PROYECTO/source/Content/' took 0.02s
+[2017.08.17-11.53.27:208][  0]SourceControl: Info Source control is disabled
+[2017.08.17-11.53.27:209][  0]Cmd: MAP LOAD FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.17-11.53.27:209][  0]LightingResults: New page: Lighting Build
+[2017.08.17-11.53.27:265][  0]MapCheck: New page: Map Check
+[2017.08.17-11.53.27:265][  0]LightingResults: New page: Lighting Build
+[2017.08.17-11.53.27:753][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.08.17-11.53.27:762][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.17-11.53.27:782][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.17-11.53.27:858][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 76.483ms to complete.
+[2017.08.17-11.53.27:859][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.650
+[2017.08.17-11.53.27:971][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.17-11.53.28:103][  0]LogCollectionManager: Loaded 0 collections in 0.002229 seconds
+[2017.08.17-11.53.28:223][  0]LogFileCache: Scanning file cache for directory 'B:/FreedomReal/FREEDOM/PROYECTO/source/Saved/Collections/' took 0.01s
+[2017.08.17-11.53.28:223][  0]LogFileCache: Scanning file cache for directory 'B:/FreedomReal/FREEDOM/PROYECTO/source/Content/Developers/Pepe/Collections/' took 0.01s
+[2017.08.17-11.53.28:223][  0]LogFileCache: Scanning file cache for directory 'B:/FreedomReal/FREEDOM/PROYECTO/source/Content/Collections/' took 0.01s
+[2017.08.17-11.53.28:223][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.08.17-11.53.28:238][  0]LogContentBrowser: Native class hierarchy populated in 0.0153 seconds. Added 2329 classes and 491 folders.
+[2017.08.17-11.53.28:330][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.08.17-11.53.28:402][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2017.08.17-11.53.28:468][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.08.17-11.53.28:522][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.17-11.53.28:527][  0]LogSlate: Took 0.000328 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.17-11.53.28:530][  0]LogSlate: Took 0.000260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.17-11.53.28:536][  0]LogSlate: Took 0.000391 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.17-11.53.28:661][  0]LogRenderer: Reallocating scene render targets to support 744x328 NumSamples 1 (Frame:1).
+[2017.08.17-11.53.28:851][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.17-11.53.28:934][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.08.17-11.53.28:934][  0]LogLoad: (Engine Initialization) Total time: 23.79 seconds
+[2017.08.17-11.53.28:934][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.15 seconds
+[2017.08.17-11.53.28:934][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.08.17-11.53.28:945][  0]LogOcInput: OculusInput pre-init called
+[2017.08.17-11.53.28:945][  0]LogHMD: Starting GearVRController plugin
+[2017.08.17-11.53.28:966][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.17-11.53.29:009][  0]LogSlate: Took 0.000348 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.17-11.53.29:030][  1]LogAssetRegistry: Asset discovery search completed in 14.1444 seconds
+[2017.08.17-11.53.29:033][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.17-11.53.29:033][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000026 seconds (updated 0 objects)
+[2017.08.17-11.53.30:021][102]LogSlate: Took 0.000321 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.17-11.53.41:090][374]LogSlate: Took 0.000267 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.17-11.53.41:636][374]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 112 classes and 0 folders.
+[2017.08.17-11.53.42:494][374]LogSlate: Took 0.000309 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.17-11.53.42:675][375]LogSlate: Took 0.000344 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.17-11.54.37:256][ 53]LogSlate: Took 0.000336 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.08.17-11.55.29:450][688]BlueprintLog: New page: Compile Bp_Inventory
+[2017.08.17-11.59.06:466][340]BlueprintLog: New page: Compile Bp_Inventory
+[2017.08.17-11.59.08:188][431]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InventorySystem/Blueprints/Bp_Inventory" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/InventorySystem/Blueprints/Bp_Inventory.uasset" SILENT=true
+[2017.08.17-11.59.08:614][431]LogSavePackage: Save=294.67ms
+[2017.08.17-11.59.08:614][431]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Bp_InventoryA84333504C1031862AC3FEB16CB94A26.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/InventorySystem/Blueprints/Bp_Inventory.uasset'
+[2017.08.17-11.59.08:638][431]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/InventorySystem/Blueprints/Bp_Inventory.uasset
+[2017.08.17-12.00.29:350][722]LogRenderer: Reallocating scene render targets to support 892x472 NumSamples 1 (Frame:1).
+[2017.08.17-12.03.26:948][518]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.034
+[2017.08.17-12.03.27:010][518]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/InventorySystem/Blueprints/Bp_Inventory] ([1] browsable assets)...
+[2017.08.17-12.03.27:010][518]OBJ SavePackage: Finished generating thumbnails for package [/Game/InventorySystem/Blueprints/Bp_Inventory]
+[2017.08.17-12.03.27:326][518]LogSavePackage: Save=308.38ms
+[2017.08.17-12.03.27:326][518]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Bp_Inventory_Auto11D3115EF459C9FEF58C3FB82372D4060.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/InventorySystem/Blueprints/Bp_Inventory_Auto1.uasset'
+[2017.08.17-12.03.27:335][518]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/InventorySystem/Blueprints/Bp_Inventory_Auto1.uasset
+[2017.08.17-12.03.27:337][518]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/3rdController] ([1] browsable assets)...
+[2017.08.17-12.03.27:382][518]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/3rdController.3rdController]
+[2017.08.17-12.03.27:382][518]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/3rdController]
+[2017.08.17-12.03.27:528][518]LogSavePackage: Save=128.71ms
+[2017.08.17-12.03.27:528][518]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/3rdController_Auto1BC2FEB814710C7E31C611E86321F8E99.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/BluePrints/3rdController_Auto1.uasset'
+[2017.08.17-12.03.27:539][518]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/BluePrints/3rdController_Auto1.uasset
+[2017.08.17-12.03.27:539][518]LogFileHelpers: Auto-saving content packages took 0.590
+[2017.08.17-12.03.27:541][518]LogSlate: Took 0.000301 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.17-12.03.30:157][679]BlueprintLog: New page: Compile Bp_Inventory
+[2017.08.17-12.09.17:898][368]BlueprintLog: New page: Compile Bp_Inventory
+[2017.08.17-12.09.20:618][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InventorySystem/Blueprints/Bp_Inventory" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/InventorySystem/Blueprints/Bp_Inventory.uasset" SILENT=true
+[2017.08.17-12.09.20:932][528]LogSavePackage: Save=279.12ms
+[2017.08.17-12.09.20:932][528]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Bp_Inventory4C567EB24BA98C8E35694C8FF8E6B70B.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/InventorySystem/Blueprints/Bp_Inventory.uasset'
+[2017.08.17-12.09.20:940][528]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/InventorySystem/Blueprints/Bp_Inventory.uasset
+[2017.08.17-12.10.13:891][156]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.17-12.11.01:713][555]BlueprintLog: New page: Compile 3rdController
+[2017.08.17-12.12.18:476][335]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.17-12.12.54:614][533]BlueprintLog: New page: Compile Bp_Inventory
+[2017.08.17-12.13.13:610][846]LogEditorTransaction: Undo Promote To Variable
+[2017.08.17-12.13.36:036][408]BlueprintLog: New page: Compile Bp_Inventory
+[2017.08.17-12.13.37:972][536]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InventorySystem/Blueprints/Bp_Inventory" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/InventorySystem/Blueprints/Bp_Inventory.uasset" SILENT=true
+[2017.08.17-12.13.38:299][536]LogSavePackage: Save=318.99ms
+[2017.08.17-12.13.38:299][536]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Bp_InventoryF720FD71434CF5319D42409C75B8160F.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/InventorySystem/Blueprints/Bp_Inventory.uasset'
+[2017.08.17-12.13.38:305][536]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/InventorySystem/Blueprints/Bp_Inventory.uasset
+[2017.08.17-12.15.40:313][285]BlueprintLog: New page: Compile 3rdController
+[2017.08.17-12.15.43:405][539]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.17-12.15.43:606][539]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.17-12.15.43:628][539]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-12.15.43:744][539]PIE: New page: PIE session: Minimal_Default (Aug 17, 2017, 2:15:43 PM)
+[2017.08.17-12.15.43:767][539]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.08.17-12.15.43:864][539]LogPlayLevel: PIE: StaticDuplicateObject took: (0.097058s)
+[2017.08.17-12.15.43:865][539]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.08.17-12.15.43:865][539]LogPlayLevel: PIE: World Init took: (0.001212s)
+[2017.08.17-12.15.43:876][539]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.118797s)
+[2017.08.17-12.15.43:985][539]LogInit: XAudio2 using 'Auriculares (Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.17-12.15.43:999][539]LogInit: FAudioDevice initialized.
+[2017.08.17-12.15.44:115][539]LogLoad: Game class is 'GM_ModoJuego_C'
+[2017.08.17-12.15.44:288][539]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.08.17-13.15.44
+[2017.08.17-12.15.44:313][539]LogWorld: Bringing up level for play took: 0.007500
+[2017.08.17-12.15.44:550][539]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 11 classes and 0 folders.
+[2017.08.17-12.15.44:679][539]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.556
+[2017.08.17-12.15.44:680][539]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.17-12.15.48:000][900]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.17-12.15.48:082][900]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.17-12.15.50:505][168]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.17-12.15.50:539][168]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.17-12.15.50:539][168]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-12.15.50:539][168]PIE: New page: PIE session: Minimal_Default (Aug 17, 2017, 2:15:50 PM)
+[2017.08.17-12.15.50:539][168]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.08.17-12.15.50:550][168]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011391s)
+[2017.08.17-12.15.50:552][168]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.08.17-12.15.50:552][168]LogPlayLevel: PIE: World Init took: (0.001729s)
+[2017.08.17-12.15.50:552][168]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.013482s)
+[2017.08.17-12.15.50:637][168]LogInit: XAudio2 using 'Auriculares (Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.17-12.15.50:651][168]LogInit: FAudioDevice initialized.
+[2017.08.17-12.15.50:698][168]LogLoad: Game class is 'GM_ModoJuego_C'
+[2017.08.17-12.15.50:701][168]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.08.17-13.15.50
+[2017.08.17-12.15.50:701][168]LogWorld: Bringing up level for play took: 0.001346
+[2017.08.17-12.15.50:703][168]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.42
+[2017.08.17-12.15.50:703][168]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.17-12.15.57:551][958]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.17-12.15.57:584][958]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.17-12.16.43:501][473]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.026
+[2017.08.17-12.16.43:504][473]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/3rdController] ([1] browsable assets)...
+[2017.08.17-12.16.43:531][473]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/3rdController.3rdController]
+[2017.08.17-12.16.43:531][473]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/3rdController]
+[2017.08.17-12.16.43:703][473]LogSavePackage: Save=156.83ms
+[2017.08.17-12.16.43:704][473]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/3rdController_Auto2C249E94F41355E3F8466C9893237888F.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/BluePrints/3rdController_Auto2.uasset'
+[2017.08.17-12.16.43:717][473]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/BluePrints/3rdController_Auto2.uasset
+[2017.08.17-12.16.43:717][473]LogFileHelpers: Auto-saving content packages took 0.215
+[2017.08.17-12.20.16:587][376]BlueprintLog: New page: Compile Bp_Inventory
+[2017.08.17-12.20.18:950][497]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InventorySystem/Blueprints/Bp_Inventory" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/InventorySystem/Blueprints/Bp_Inventory.uasset" SILENT=true
+[2017.08.17-12.20.19:266][497]LogSavePackage: Save=297.09ms
+[2017.08.17-12.20.19:266][497]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Bp_Inventory16C0B4E84F2939FD4224388D82BF74AA.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/InventorySystem/Blueprints/Bp_Inventory.uasset'
+[2017.08.17-12.20.19:272][497]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/InventorySystem/Blueprints/Bp_Inventory.uasset
+[2017.08.17-12.22.17:659][858]BlueprintLog: New page: Compile Bp_PickupActor
+[2017.08.17-12.22.31:742][154]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.17-12.22.31:777][154]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.17-12.22.31:777][154]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.08.17-12.22.31:777][154]LogPlayLevel: [PlayLevel] Compiling 3rdController before play...
+[2017.08.17-12.22.31:982][154]LogPlayLevel: PlayLevel: Blueprint regeneration took 204 ms (1 blueprints)
+[2017.08.17-12.22.31:982][154]PIE: New page: PIE session: Minimal_Default (Aug 17, 2017, 2:22:31 PM)
+[2017.08.17-12.22.31:982][154]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.08.17-12.22.31:995][154]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012485s)
+[2017.08.17-12.22.31:996][154]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.08.17-12.22.31:996][154]LogPlayLevel: PIE: World Init took: (0.001275s)
+[2017.08.17-12.22.31:996][154]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.014024s)
+[2017.08.17-12.22.32:063][154]LogInit: XAudio2 using 'Auriculares (Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.17-12.22.32:076][154]LogInit: FAudioDevice initialized.
+[2017.08.17-12.22.32:112][154]LogLoad: Game class is 'GM_ModoJuego_C'
+[2017.08.17-12.22.32:116][154]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.08.17-13.22.32
+[2017.08.17-12.22.32:151][154]LogWorld: Bringing up level for play took: 0.036834
+[2017.08.17-12.22.32:154][154]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.031
+[2017.08.17-12.22.32:155][154]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.17-12.22.33:728][332]LogScript:Warning: Accessed None trying to read Class from property ItemClass
+	Bp_Inventory_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Bp_Inventory_C_0
+	Function /Game/InventorySystem/Blueprints/Bp_Inventory.Bp_Inventory_C:AddItem:004E
+[2017.08.17-12.22.33:728][332]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read Class from property ItemClass from function: 'AddItem' from node: Branch in graph: AddItem in object: Bp_Inventory with description: Accessed None trying to read Class from property ItemClass
+[2017.08.17-12.22.33:728][332]LogScript:Warning: Accessed None reading structure canBeUsed?_13_50C6DC5748B42ADEDA8B4184CE2AC766
+	Bp_Inventory_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Bp_Inventory_C_0
+	Function /Game/InventorySystem/Blueprints/Bp_Inventory.Bp_Inventory_C:AddItem:0063
+[2017.08.17-12.22.33:728][332]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure canBeUsed?_13_50C6DC5748B42ADEDA8B4184CE2AC766 from function: 'AddItem' from node: Branch in graph: AddItem in object: Bp_Inventory with description: Accessed None reading structure canBeUsed?_13_50C6DC5748B42ADEDA8B4184CE2AC766
+[2017.08.17-12.22.37:333][760]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.17-12.22.37:376][760]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.17-12.22.46:855][102]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.17-12.24.44:834][573]LogSavePackage: Save=59.29ms
+[2017.08.17-12.24.44:834][573]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Bp_PickupActorE8A0BF5A4411B34A820158ADDAB305E6.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/InventorySystem/Blueprints/ItemClasses/Bp_PickupActor.uasset'
+[2017.08.17-12.24.44:839][573]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/InventorySystem/Blueprints/ItemClasses/Bp_PickupActor.uasset
+[2017.08.17-12.24.50:065][920]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/3rdController" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/BluePrints/3rdController.uasset" SILENT=true
+[2017.08.17-12.24.50:207][920]LogSavePackage: Save=106.69ms
+[2017.08.17-12.24.50:207][920]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/3rdController9B02327D42BFA239B0797BB0051A92AF.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/BluePrints/3rdController.uasset'
+[2017.08.17-12.24.50:227][920]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/BluePrints/3rdController.uasset
+[2017.08.17-12.25.03:229][972]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.17-12.25.03:328][972]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.17-12.25.03:421][972]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.17-12.26.50:837][415]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.17-12.26.52:978][567]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.17-12.27.03:995][592]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.17-12.27.27:643][284]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.17-12.27.27:677][284]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.17-12.27.27:677][284]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.08.17-12.27.27:677][284]LogPlayLevel: [PlayLevel] Compiling Bp_PickupActor before play...
+[2017.08.17-12.27.27:840][284]LogPlayLevel: PlayLevel: Blueprint regeneration took 162 ms (1 blueprints)
+[2017.08.17-12.27.27:840][284]PIE: New page: PIE session: Minimal_Default (Aug 17, 2017, 2:27:27 PM)
+[2017.08.17-12.27.27:840][284]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.08.17-12.27.27:850][284]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009954s)
+[2017.08.17-12.27.27:851][284]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.08.17-12.27.27:851][284]LogPlayLevel: PIE: World Init took: (0.001640s)
+[2017.08.17-12.27.27:852][284]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.011947s)
+[2017.08.17-12.27.27:962][284]LogInit: XAudio2 using 'Auriculares (Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.17-12.27.27:976][284]LogInit: FAudioDevice initialized.
+[2017.08.17-12.27.28:011][284]LogLoad: Game class is 'GM_ModoJuego_C'
+[2017.08.17-12.27.28:014][284]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.08.17-13.27.28
+[2017.08.17-12.27.28:014][284]LogWorld: Bringing up level for play took: 0.001441
+[2017.08.17-12.27.28:016][284]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.893
+[2017.08.17-12.27.28:017][284]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.17-12.27.31:008][628]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.17-12.27.31:052][628]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.17-12.27.35:040][  3]Cmd: DELETE
+[2017.08.17-12.27.35:110][  3]Cmd: ACTOR DELETE
+[2017.08.17-12.27.35:291][  3]LogEditorActor: Deleted Actor: Bp_PickupActor_C
+[2017.08.17-12.27.35:339][  3]LogEditorActor: Deleted 1 Actors (0.049 secs)
+[2017.08.17-12.27.42:973][878]LogAIModule: Creating AISystem for world 00_pepe
+[2017.08.17-12.27.49:266][878]LogSavePackage: Save=18.83ms
+[2017.08.17-12.27.49:266][878]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/KinderBuenoA46CF978487520B28998918D7D78A9EF.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/InventorySystem/Blueprints/ItemClasses/KinderBueno.uasset'
+[2017.08.17-12.27.49:289][878]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/InventorySystem/Blueprints/ItemClasses/KinderBueno.uasset
+[2017.08.17-12.27.49:290][878]Cmd: MAP LOAD FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/00_pepe.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.17-12.27.49:291][878]LightingResults: New page: Lighting Build
+[2017.08.17-12.27.49:292][878]LoadErrors: New page: Loading map: 00_pepe.umap
+[2017.08.17-12.27.49:293][878]MapCheck: New page: Map Check
+[2017.08.17-12.27.49:293][878]LightingResults: New page: Lighting Build
+[2017.08.17-12.27.49:336][878]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.17-12.27.49:423][878]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.17-12.27.49:511][878]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 88.083ms to complete.
+[2017.08.17-12.27.49:512][878]LogFileHelpers: Loading map '00_pepe' took 0.223
+[2017.08.17-12.27.53:765][365]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.17-12.27.53:793][365]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.27.53:793][365]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-12.27.53:793][365]PIE: New page: PIE session: 00_pepe (Aug 17, 2017, 2:27:53 PM)
+[2017.08.17-12.27.53:793][365]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_00_pepe
+[2017.08.17-12.27.53:795][365]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002324s)
+[2017.08.17-12.27.53:796][365]LogAIModule: Creating AISystem for world 00_pepe
+[2017.08.17-12.27.53:796][365]LogPlayLevel: PIE: World Init took: (0.000982s)
+[2017.08.17-12.27.53:797][365]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/00_pepe.00_pepe to /Game/UEDPIE_0_00_pepe.00_pepe (0.003541s)
+[2017.08.17-12.27.53:861][365]LogInit: XAudio2 using 'Auriculares (Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.17-12.27.53:874][365]LogInit: FAudioDevice initialized.
+[2017.08.17-12.27.53:911][365]LogLoad: Game class is 'GM_ModoJuego_C'
+[2017.08.17-12.27.53:913][365]LogWorld: Bringing World /Game/UEDPIE_0_00_pepe.00_pepe up for play (max tick rate 0) at 2017.08.17-13.27.53
+[2017.08.17-12.27.53:914][365]LogWorld: Bringing up level for play took: 0.001078
+[2017.08.17-12.27.53:937][365]PIE: Info Play in editor start time for /Game/UEDPIE_0_00_pepe 0.814
+[2017.08.17-12.27.53:937][365]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.27.54:837][471]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.27.54:873][471]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.31.38:363][938]LogWindows: LaunchFileInExternalEditor B:/UnrealEngine/UE_4.16/Engine/Source/Runtime/Engine/Classes/GameFramework/Actor.h 
+[2017.08.17-12.31.38:639][938]LogWindows: Launch application code for B:/UnrealEngine/UE_4.16/Engine/Source/Runtime/Engine/Classes/GameFramework/Actor.h : 42
+[2017.08.17-12.31.38:681][938]LogVSAccessor:Warning: Couldn't access Visual Studio
+[2017.08.17-12.31.38:685][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:686][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:686][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:686][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:686][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:686][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:686][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:686][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:686][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:686][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:686][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:686][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:686][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:687][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:687][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:687][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:687][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:687][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:687][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:687][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:687][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:687][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:687][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:687][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:687][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:687][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:688][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:688][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:688][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:688][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:688][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:688][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:688][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:688][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:688][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:688][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:688][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:688][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:689][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:689][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:689][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:689][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:689][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:689][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:689][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:689][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:689][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:689][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:689][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:689][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:690][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:690][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:690][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:690][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:690][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:690][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:690][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:690][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:690][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:690][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:690][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:690][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:691][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:691][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:691][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:691][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:691][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:691][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:691][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:691][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:691][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:691][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:691][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:691][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:692][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:692][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:692][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:692][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:692][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:692][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:692][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:692][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:695][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:698][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:698][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:738][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:738][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:772][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:774][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:774][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:774][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.31.38:779][938]LogVSAccessor:Warning: Couldn't access module table
+[2017.08.17-12.34.31:823][980]BlueprintLog: New page: Compile 3rdController
+[2017.08.17-12.34.32:052][980]LogBlueprint:Error: [Compiler 3rdController] Error No input structure to break for  S Iteminfo
+[2017.08.17-12.34.32:361][980]BlueprintEditorCompileResults:Error: Error No input structure to break for  S Iteminfo
+[2017.08.17-12.34.32:361][980]LogBlueprint:Warning: [Compiler 3rdController] Warning [2487.22] Compile of 3rdController failed. 1 Fatal Issue(s) 0 Warning(s) [in 537 ms] (/Game/BluePrints/3rdController.3rdController)
+[2017.08.17-12.35.16:588][824]BlueprintLog: New page: Compile Bp_Inventory
+[2017.08.17-12.35.16:693][824]LogBlueprint:Error: [Compiler 3rdController] Error No input structure to break for  S Iteminfo
+[2017.08.17-12.35.35:604][290]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InventorySystem/Blueprints/Bp_Inventory" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/InventorySystem/Blueprints/Bp_Inventory.uasset" SILENT=true
+[2017.08.17-12.35.35:911][290]LogSavePackage: Save=281.27ms
+[2017.08.17-12.35.35:912][290]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Bp_Inventory65693DC243C7E44E12703E8D120BAF6E.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/InventorySystem/Blueprints/Bp_Inventory.uasset'
+[2017.08.17-12.35.35:917][290]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/InventorySystem/Blueprints/Bp_Inventory.uasset
+[2017.08.17-12.35.53:388][741]BlueprintLog: New page: Compile 3rdController
+[2017.08.17-12.35.53:413][741]LogBlueprint:Error: [Compiler 3rdController] Error No input structure to break for  S Iteminfo
+[2017.08.17-12.35.53:692][741]BlueprintEditorCompileResults:Error: Error No input structure to break for  S Iteminfo
+[2017.08.17-12.35.53:693][741]LogBlueprint:Warning: [Compiler 3rdController] Warning [2568.55] Compile of 3rdController failed. 1 Fatal Issue(s) 0 Warning(s) [in 304 ms] (/Game/BluePrints/3rdController.3rdController)
+[2017.08.17-12.37.01:671][750]BlueprintLog: New page: Compile 3rdController
+[2017.08.17-12.37.04:823][ 20]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.17-12.37.04:853][ 20]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.37.04:853][ 20]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-12.37.04:853][ 20]PIE: New page: PIE session: 00_pepe (Aug 17, 2017, 2:37:04 PM)
+[2017.08.17-12.37.04:853][ 20]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_00_pepe
+[2017.08.17-12.37.04:856][ 20]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003037s)
+[2017.08.17-12.37.04:857][ 20]LogAIModule: Creating AISystem for world 00_pepe
+[2017.08.17-12.37.04:857][ 20]LogPlayLevel: PIE: World Init took: (0.001265s)
+[2017.08.17-12.37.04:858][ 20]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/00_pepe.00_pepe to /Game/UEDPIE_0_00_pepe.00_pepe (0.004546s)
+[2017.08.17-12.37.04:920][ 20]LogInit: XAudio2 using 'Auriculares (Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.17-12.37.04:933][ 20]LogInit: FAudioDevice initialized.
+[2017.08.17-12.37.04:968][ 20]LogLoad: Game class is 'GM_ModoJuego_C'
+[2017.08.17-12.37.04:971][ 20]LogWorld: Bringing World /Game/UEDPIE_0_00_pepe.00_pepe up for play (max tick rate 0) at 2017.08.17-13.37.04
+[2017.08.17-12.37.04:971][ 20]LogWorld: Bringing up level for play took: 0.001097
+[2017.08.17-12.37.05:020][ 20]PIE: Info Play in editor start time for /Game/UEDPIE_0_00_pepe -0.103
+[2017.08.17-12.37.05:020][ 20]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.37.07:310][293]LogBlueprintUserMessages: [3rdController_C_0]  
+[2017.08.17-12.37.09:195][519]LogBlueprintUserMessages: [3rdController_C_0]  
+[2017.08.17-12.37.11:224][762]LogBlueprintUserMessages: [3rdController_C_0]  
+[2017.08.17-12.37.11:934][847]LogBlueprintUserMessages: [3rdController_C_0]  
+[2017.08.17-12.37.12:101][867]LogBlueprintUserMessages: [3rdController_C_0]  
+[2017.08.17-12.37.12:519][917]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.37.12:556][917]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.37.16:101][273]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.17-12.37.16:149][273]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.37.16:149][273]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-12.37.16:149][273]PIE: New page: PIE session: 00_pepe (Aug 17, 2017, 2:37:16 PM)
+[2017.08.17-12.37.16:149][273]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_00_pepe
+[2017.08.17-12.37.16:152][273]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002737s)
+[2017.08.17-12.37.16:153][273]LogAIModule: Creating AISystem for world 00_pepe
+[2017.08.17-12.37.16:153][273]LogPlayLevel: PIE: World Init took: (0.000870s)
+[2017.08.17-12.37.16:153][273]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/00_pepe.00_pepe to /Game/UEDPIE_0_00_pepe.00_pepe (0.003812s)
+[2017.08.17-12.37.16:215][273]LogInit: XAudio2 using 'Auriculares (Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.17-12.37.16:228][273]LogInit: FAudioDevice initialized.
+[2017.08.17-12.37.16:258][273]LogLoad: Game class is 'GM_ModoJuego_C'
+[2017.08.17-12.37.16:261][273]LogWorld: Bringing World /Game/UEDPIE_0_00_pepe.00_pepe up for play (max tick rate 0) at 2017.08.17-13.37.16
+[2017.08.17-12.37.16:261][273]LogWorld: Bringing up level for play took: 0.000975
+[2017.08.17-12.37.16:263][273]PIE: Info Play in editor start time for /Game/UEDPIE_0_00_pepe -0.86
+[2017.08.17-12.37.16:263][273]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.37.21:054][845]LogBlueprintUserMessages: [3rdController_C_0]  
+[2017.08.17-12.37.21:666][918]LogBlueprintUserMessages: [3rdController_C_0]  
+[2017.08.17-12.37.21:900][946]LogBlueprintUserMessages: [3rdController_C_0]  
+[2017.08.17-12.37.22:151][976]LogBlueprintUserMessages: [3rdController_C_0]  
+[2017.08.17-12.37.22:561][ 25]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.37.22:609][ 25]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.37.29:817][774]Cmd: DELETE
+[2017.08.17-12.37.29:817][774]Cmd: ACTOR DELETE
+[2017.08.17-12.37.29:817][774]LogEditorActor: Deleted Actor: Bp_Inventory_C
+[2017.08.17-12.37.29:849][774]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2017.08.17-12.37.31:079][920]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.17-12.37.31:109][920]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.37.31:109][920]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-12.37.31:110][920]PIE: New page: PIE session: 00_pepe (Aug 17, 2017, 2:37:31 PM)
+[2017.08.17-12.37.31:110][920]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_00_pepe
+[2017.08.17-12.37.31:112][920]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002338s)
+[2017.08.17-12.37.31:113][920]LogAIModule: Creating AISystem for world 00_pepe
+[2017.08.17-12.37.31:113][920]LogPlayLevel: PIE: World Init took: (0.000911s)
+[2017.08.17-12.37.31:113][920]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/00_pepe.00_pepe to /Game/UEDPIE_0_00_pepe.00_pepe (0.003485s)
+[2017.08.17-12.37.31:178][920]LogInit: XAudio2 using 'Auriculares (Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.17-12.37.31:192][920]LogInit: FAudioDevice initialized.
+[2017.08.17-12.37.31:223][920]LogLoad: Game class is 'GM_ModoJuego_C'
+[2017.08.17-12.37.31:226][920]LogWorld: Bringing World /Game/UEDPIE_0_00_pepe.00_pepe up for play (max tick rate 0) at 2017.08.17-13.37.31
+[2017.08.17-12.37.31:226][920]LogWorld: Bringing up level for play took: 0.001059
+[2017.08.17-12.37.31:228][920]PIE: Info Play in editor start time for /Game/UEDPIE_0_00_pepe 0.105
+[2017.08.17-12.37.31:228][920]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.37.34:564][316]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.37.34:602][316]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.37.45:149][506]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.17-12.37.47:407][759]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.17-12.37.47:442][759]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.37.47:442][759]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-12.37.47:442][759]PIE: New page: PIE session: 00_pepe (Aug 17, 2017, 2:37:47 PM)
+[2017.08.17-12.37.47:442][759]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_00_pepe
+[2017.08.17-12.37.47:445][759]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002454s)
+[2017.08.17-12.37.47:446][759]LogAIModule: Creating AISystem for world 00_pepe
+[2017.08.17-12.37.47:446][759]LogPlayLevel: PIE: World Init took: (0.001415s)
+[2017.08.17-12.37.47:446][759]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/00_pepe.00_pepe to /Game/UEDPIE_0_00_pepe.00_pepe (0.004092s)
+[2017.08.17-12.37.47:512][759]LogInit: XAudio2 using 'Auriculares (Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.17-12.37.47:526][759]LogInit: FAudioDevice initialized.
+[2017.08.17-12.37.47:558][759]LogLoad: Game class is 'GM_ModoJuego_C'
+[2017.08.17-12.37.47:561][759]LogWorld: Bringing World /Game/UEDPIE_0_00_pepe.00_pepe up for play (max tick rate 0) at 2017.08.17-13.37.47
+[2017.08.17-12.37.47:561][759]LogWorld: Bringing up level for play took: 0.001207
+[2017.08.17-12.37.47:564][759]PIE: Info Play in editor start time for /Game/UEDPIE_0_00_pepe 0.441
+[2017.08.17-12.37.47:564][759]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.37.50:550][114]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion ES COMO LOS KINDER PERO CURANDOTE!!!
+[2017.08.17-12.37.53:305][444]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion ES COMO LOS KINDER PERO CURANDOTE!!!
+[2017.08.17-12.37.54:464][582]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion ES COMO LOS KINDER PERO CURANDOTE!!!
+[2017.08.17-12.37.55:014][648]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion ES COMO LOS KINDER PERO CURANDOTE!!!
+[2017.08.17-12.37.55:273][679]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion ES COMO LOS KINDER PERO CURANDOTE!!!
+[2017.08.17-12.37.55:481][704]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion ES COMO LOS KINDER PERO CURANDOTE!!!
+[2017.08.17-12.37.55:823][745]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion ES COMO LOS KINDER PERO CURANDOTE!!!
+[2017.08.17-12.37.56:017][768]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion ES COMO LOS KINDER PERO CURANDOTE!!!
+[2017.08.17-12.37.56:200][790]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion ES COMO LOS KINDER PERO CURANDOTE!!!
+[2017.08.17-12.37.58:245][ 34]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.37.58:288][ 34]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.38.47:766][136]BlueprintLog: New page: Compile 3rdController
+[2017.08.17-12.38.51:102][458]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.17-12.38.51:133][458]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.38.51:133][458]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-12.38.51:133][458]PIE: New page: PIE session: 00_pepe (Aug 17, 2017, 2:38:51 PM)
+[2017.08.17-12.38.51:133][458]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_00_pepe
+[2017.08.17-12.38.51:136][458]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002374s)
+[2017.08.17-12.38.51:137][458]LogAIModule: Creating AISystem for world 00_pepe
+[2017.08.17-12.38.51:137][458]LogPlayLevel: PIE: World Init took: (0.001417s)
+[2017.08.17-12.38.51:137][458]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/00_pepe.00_pepe to /Game/UEDPIE_0_00_pepe.00_pepe (0.004246s)
+[2017.08.17-12.38.51:199][458]LogInit: XAudio2 using 'Auriculares (Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.17-12.38.51:212][458]LogInit: FAudioDevice initialized.
+[2017.08.17-12.38.51:242][458]LogLoad: Game class is 'GM_ModoJuego_C'
+[2017.08.17-12.38.51:245][458]LogWorld: Bringing World /Game/UEDPIE_0_00_pepe.00_pepe up for play (max tick rate 0) at 2017.08.17-13.38.51
+[2017.08.17-12.38.51:245][458]LogWorld: Bringing up level for play took: 0.001191
+[2017.08.17-12.38.51:247][458]PIE: Info Play in editor start time for /Game/UEDPIE_0_00_pepe 0.124
+[2017.08.17-12.38.51:247][458]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.38.54:185][806]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 2
+[2017.08.17-12.38.55:677][984]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.38.55:723][984]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.38.59:572][422]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.17-12.38.59:604][422]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.38.59:604][422]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-12.38.59:604][422]PIE: New page: PIE session: 00_pepe (Aug 17, 2017, 2:38:59 PM)
+[2017.08.17-12.38.59:604][422]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_00_pepe
+[2017.08.17-12.38.59:606][422]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002314s)
+[2017.08.17-12.38.59:607][422]LogAIModule: Creating AISystem for world 00_pepe
+[2017.08.17-12.38.59:607][422]LogPlayLevel: PIE: World Init took: (0.000972s)
+[2017.08.17-12.38.59:608][422]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/00_pepe.00_pepe to /Game/UEDPIE_0_00_pepe.00_pepe (0.003598s)
+[2017.08.17-12.38.59:675][422]LogInit: XAudio2 using 'Auriculares (Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.17-12.38.59:687][422]LogInit: FAudioDevice initialized.
+[2017.08.17-12.38.59:720][422]LogLoad: Game class is 'GM_ModoJuego_C'
+[2017.08.17-12.38.59:723][422]LogWorld: Bringing World /Game/UEDPIE_0_00_pepe.00_pepe up for play (max tick rate 0) at 2017.08.17-13.38.59
+[2017.08.17-12.38.59:723][422]LogWorld: Bringing up level for play took: 0.001154
+[2017.08.17-12.38.59:727][422]PIE: Info Play in editor start time for /Game/UEDPIE_0_00_pepe 0.604
+[2017.08.17-12.38.59:727][422]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.39.01:851][672]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.39.01:897][672]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.39.15:490][836]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.17-12.39.15:520][836]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.39.15:521][836]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-12.39.15:521][836]PIE: New page: PIE session: 00_pepe (Aug 17, 2017, 2:39:15 PM)
+[2017.08.17-12.39.15:521][836]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_00_pepe
+[2017.08.17-12.39.15:523][836]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002635s)
+[2017.08.17-12.39.15:525][836]LogAIModule: Creating AISystem for world 00_pepe
+[2017.08.17-12.39.15:525][836]LogPlayLevel: PIE: World Init took: (0.001708s)
+[2017.08.17-12.39.15:525][836]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/00_pepe.00_pepe to /Game/UEDPIE_0_00_pepe.00_pepe (0.004688s)
+[2017.08.17-12.39.15:589][836]LogInit: XAudio2 using 'Auriculares (Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.17-12.39.15:603][836]LogInit: FAudioDevice initialized.
+[2017.08.17-12.39.15:633][836]LogLoad: Game class is 'GM_ModoJuego_C'
+[2017.08.17-12.39.15:636][836]LogWorld: Bringing World /Game/UEDPIE_0_00_pepe.00_pepe up for play (max tick rate 0) at 2017.08.17-13.39.15
+[2017.08.17-12.39.15:637][836]LogWorld: Bringing up level for play took: 0.001278
+[2017.08.17-12.39.15:639][836]PIE: Info Play in editor start time for /Game/UEDPIE_0_00_pepe 0.516
+[2017.08.17-12.39.15:639][836]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.39.17:224][ 21]LogScript:Warning: Accessed None trying to read Class from property ItemClass
+	Bp_Inventory_C /Game/UEDPIE_0_00_pepe.00_pepe:PersistentLevel.Bp_Inventory_C_0
+	Function /Game/InventorySystem/Blueprints/Bp_Inventory.Bp_Inventory_C:AddItem:004E
+[2017.08.17-12.39.17:224][ 21]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read Class from property ItemClass from function: 'AddItem' from node: Branch in graph: AddItem in object: Bp_Inventory with description: Accessed None trying to read Class from property ItemClass
+[2017.08.17-12.39.17:224][ 21]LogScript:Warning: Accessed None reading structure canBeUsed?_13_50C6DC5748B42ADEDA8B4184CE2AC766
+	Bp_Inventory_C /Game/UEDPIE_0_00_pepe.00_pepe:PersistentLevel.Bp_Inventory_C_0
+	Function /Game/InventorySystem/Blueprints/Bp_Inventory.Bp_Inventory_C:AddItem:0063
+[2017.08.17-12.39.17:224][ 21]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure canBeUsed?_13_50C6DC5748B42ADEDA8B4184CE2AC766 from function: 'AddItem' from node: Branch in graph: AddItem in object: Bp_Inventory with description: Accessed None reading structure canBeUsed?_13_50C6DC5748B42ADEDA8B4184CE2AC766
+[2017.08.17-12.39.17:716][ 80]LogBlueprintUserMessages: [3rdController_C_0]  0
+[2017.08.17-12.39.19:430][285]LogBlueprintUserMessages: [3rdController_C_0]  0
+[2017.08.17-12.39.26:375][ 99]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 2
+[2017.08.17-12.39.27:855][276]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 2
+[2017.08.17-12.39.28:313][331]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 2
+[2017.08.17-12.39.28:676][374]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.39.28:726][374]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.39.30:147][512]LogEditorViewport: Clicking on Actor (LMB): Bp_PickupActor_C (Bp_PickupActor2)
+[2017.08.17-12.39.33:109][854]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.17-12.39.35:218][ 93]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.17-12.39.35:254][ 93]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.39.35:254][ 93]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-12.39.35:254][ 93]PIE: New page: PIE session: 00_pepe (Aug 17, 2017, 2:39:35 PM)
+[2017.08.17-12.39.35:254][ 93]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_00_pepe
+[2017.08.17-12.39.35:257][ 93]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002582s)
+[2017.08.17-12.39.35:258][ 93]LogAIModule: Creating AISystem for world 00_pepe
+[2017.08.17-12.39.35:258][ 93]LogPlayLevel: PIE: World Init took: (0.000877s)
+[2017.08.17-12.39.35:258][ 93]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/00_pepe.00_pepe to /Game/UEDPIE_0_00_pepe.00_pepe (0.003722s)
+[2017.08.17-12.39.35:325][ 93]LogInit: XAudio2 using 'Auriculares (Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.17-12.39.35:338][ 93]LogInit: FAudioDevice initialized.
+[2017.08.17-12.39.35:372][ 93]LogLoad: Game class is 'GM_ModoJuego_C'
+[2017.08.17-12.39.35:375][ 93]LogWorld: Bringing World /Game/UEDPIE_0_00_pepe.00_pepe up for play (max tick rate 0) at 2017.08.17-13.39.35
+[2017.08.17-12.39.35:375][ 93]LogWorld: Bringing up level for play took: 0.001419
+[2017.08.17-12.39.35:377][ 93]PIE: Info Play in editor start time for /Game/UEDPIE_0_00_pepe 0.254
+[2017.08.17-12.39.35:378][ 93]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.39.38:350][447]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 2
+[2017.08.17-12.39.41:059][769]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 2
+[2017.08.17-12.39.42:476][938]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.39.42:522][938]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.39.53:992][327]BlueprintLog: New page: Compile ItemHealthPotion
+[2017.08.17-12.39.56:790][508]LogSavePackage: Save=18.73ms
+[2017.08.17-12.39.56:790][508]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/ItemHealthPotion50F9B0F74BCC10BE2B2F958697F231F1.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/InventorySystem/Blueprints/ItemClasses/ItemHealthPotion.uasset'
+[2017.08.17-12.39.56:797][508]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/InventorySystem/Blueprints/ItemClasses/ItemHealthPotion.uasset
+[2017.08.17-12.40.07:933][322]BlueprintLog: New page: Compile 3rdController
+[2017.08.17-12.40.11:355][648]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.08.17-12.40.16:953][272]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.17-12.40.16:986][272]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.40.16:986][272]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-12.40.16:986][272]PIE: New page: PIE session: 00_pepe (Aug 17, 2017, 2:40:16 PM)
+[2017.08.17-12.40.16:986][272]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_00_pepe
+[2017.08.17-12.40.16:992][272]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005155s)
+[2017.08.17-12.40.16:993][272]LogAIModule: Creating AISystem for world 00_pepe
+[2017.08.17-12.40.16:993][272]LogPlayLevel: PIE: World Init took: (0.001145s)
+[2017.08.17-12.40.16:993][272]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/00_pepe.00_pepe to /Game/UEDPIE_0_00_pepe.00_pepe (0.006563s)
+[2017.08.17-12.40.17:055][272]LogInit: XAudio2 using 'Auriculares (Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.17-12.40.17:068][272]LogInit: FAudioDevice initialized.
+[2017.08.17-12.40.17:099][272]LogLoad: Game class is 'GM_ModoJuego_C'
+[2017.08.17-12.40.17:102][272]LogWorld: Bringing World /Game/UEDPIE_0_00_pepe.00_pepe up for play (max tick rate 0) at 2017.08.17-13.40.17
+[2017.08.17-12.40.17:102][272]LogWorld: Bringing up level for play took: 0.001313
+[2017.08.17-12.40.17:104][272]PIE: Info Play in editor start time for /Game/UEDPIE_0_00_pepe -0.019
+[2017.08.17-12.40.17:104][272]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.40.20:475][673]LogBlueprintUserMessages: [3rdController_C_0]  0
+[2017.08.17-12.40.22:377][899]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 2
+[2017.08.17-12.40.23:648][ 50]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.40.23:695][ 50]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.40.27:085][432]LogEditorViewport: Clicking on Actor (LMB): Bp_PickupActor_C (Bp_PickupActor)
+[2017.08.17-12.40.31:206][907]LogEditorViewport: Clicking on Actor (LMB): Bp_PickupActor_C (Bp_PickupActor2)
+[2017.08.17-12.40.38:756][783]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.17-12.40.38:789][783]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.40.38:790][783]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-12.40.38:790][783]PIE: New page: PIE session: 00_pepe (Aug 17, 2017, 2:40:38 PM)
+[2017.08.17-12.40.38:790][783]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_00_pepe
+[2017.08.17-12.40.38:792][783]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002667s)
+[2017.08.17-12.40.38:793][783]LogAIModule: Creating AISystem for world 00_pepe
+[2017.08.17-12.40.38:793][783]LogPlayLevel: PIE: World Init took: (0.000912s)
+[2017.08.17-12.40.38:794][783]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/00_pepe.00_pepe to /Game/UEDPIE_0_00_pepe.00_pepe (0.003827s)
+[2017.08.17-12.40.38:865][783]LogInit: XAudio2 using 'Auriculares (Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.17-12.40.38:878][783]LogInit: FAudioDevice initialized.
+[2017.08.17-12.40.38:909][783]LogLoad: Game class is 'GM_ModoJuego_C'
+[2017.08.17-12.40.38:912][783]LogWorld: Bringing World /Game/UEDPIE_0_00_pepe.00_pepe up for play (max tick rate 0) at 2017.08.17-13.40.38
+[2017.08.17-12.40.38:912][783]LogWorld: Bringing up level for play took: 0.001365
+[2017.08.17-12.40.38:914][783]PIE: Info Play in editor start time for /Game/UEDPIE_0_00_pepe -0.209
+[2017.08.17-12.40.38:915][783]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.40.42:285][183]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 4
+[2017.08.17-12.40.43:109][281]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.40.43:157][281]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.41.03:291][915]BlueprintLog: New page: Compile ItemHealthPotion
+[2017.08.17-12.41.05:149][ 71]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.17-12.41.05:183][ 71]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.41.05:183][ 71]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-12.41.05:183][ 71]PIE: New page: PIE session: 00_pepe (Aug 17, 2017, 2:41:05 PM)
+[2017.08.17-12.41.05:183][ 71]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_00_pepe
+[2017.08.17-12.41.05:186][ 71]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002464s)
+[2017.08.17-12.41.05:186][ 71]LogAIModule: Creating AISystem for world 00_pepe
+[2017.08.17-12.41.05:187][ 71]LogPlayLevel: PIE: World Init took: (0.000831s)
+[2017.08.17-12.41.05:187][ 71]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/00_pepe.00_pepe to /Game/UEDPIE_0_00_pepe.00_pepe (0.003515s)
+[2017.08.17-12.41.05:257][ 71]LogInit: XAudio2 using 'Auriculares (Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.17-12.41.05:270][ 71]LogInit: FAudioDevice initialized.
+[2017.08.17-12.41.05:306][ 71]LogLoad: Game class is 'GM_ModoJuego_C'
+[2017.08.17-12.41.05:309][ 71]LogWorld: Bringing World /Game/UEDPIE_0_00_pepe.00_pepe up for play (max tick rate 0) at 2017.08.17-13.41.05
+[2017.08.17-12.41.05:310][ 71]LogWorld: Bringing up level for play took: 0.001340
+[2017.08.17-12.41.05:312][ 71]PIE: Info Play in editor start time for /Game/UEDPIE_0_00_pepe 0.189
+[2017.08.17-12.41.05:312][ 71]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.41.07:898][379]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 4
+[2017.08.17-12.41.11:063][758]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 4
+[2017.08.17-12.41.11:873][855]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.41.11:921][855]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.41.20:894][462]LogSavePackage: Save=19.74ms
+[2017.08.17-12.41.20:894][462]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/ItemHealthPotion33E029F84B1DD004012FE19CD14FDB8F.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/InventorySystem/Blueprints/ItemClasses/ItemHealthPotion.uasset'
+[2017.08.17-12.41.20:900][462]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/InventorySystem/Blueprints/ItemClasses/ItemHealthPotion.uasset
+[2017.08.17-12.41.27:158][987]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.17-12.41.30:737][395]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.17-12.41.30:775][395]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.41.30:775][395]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-12.41.30:775][395]PIE: New page: PIE session: 00_pepe (Aug 17, 2017, 2:41:30 PM)
+[2017.08.17-12.41.30:776][395]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_00_pepe
+[2017.08.17-12.41.30:778][395]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002834s)
+[2017.08.17-12.41.30:780][395]LogAIModule: Creating AISystem for world 00_pepe
+[2017.08.17-12.41.30:780][395]LogPlayLevel: PIE: World Init took: (0.001495s)
+[2017.08.17-12.41.30:780][395]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/00_pepe.00_pepe to /Game/UEDPIE_0_00_pepe.00_pepe (0.004605s)
+[2017.08.17-12.41.30:850][395]LogInit: XAudio2 using 'Auriculares (Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.17-12.41.30:863][395]LogInit: FAudioDevice initialized.
+[2017.08.17-12.41.30:898][395]LogLoad: Game class is 'GM_ModoJuego_C'
+[2017.08.17-12.41.30:901][395]LogWorld: Bringing World /Game/UEDPIE_0_00_pepe.00_pepe up for play (max tick rate 0) at 2017.08.17-13.41.30
+[2017.08.17-12.41.30:901][395]LogWorld: Bringing up level for play took: 0.001317
+[2017.08.17-12.41.30:903][395]PIE: Info Play in editor start time for /Game/UEDPIE_0_00_pepe -0.219
+[2017.08.17-12.41.30:903][395]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.41.33:315][682]LogBlueprintUserMessages: [3rdController_C_0]  0
+[2017.08.17-12.41.34:781][857]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 4
+[2017.08.17-12.41.35:375][927]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 4
+[2017.08.17-12.41.35:920][992]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 4
+[2017.08.17-12.41.36:181][ 23]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 4
+[2017.08.17-12.41.36:356][ 44]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 4
+[2017.08.17-12.41.36:531][ 65]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 4
+[2017.08.17-12.41.36:741][ 90]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 4
+[2017.08.17-12.41.36:929][112]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 4
+[2017.08.17-12.41.37:573][189]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 4
+[2017.08.17-12.41.38:042][245]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.41.38:091][245]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.42.23:198][381]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.17-12.42.23:232][381]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.42.23:232][381]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.08.17-12.42.23:232][381]LogPlayLevel: [PlayLevel] Compiling 3rdController before play...
+[2017.08.17-12.42.23:464][381]LogPlayLevel: PlayLevel: Blueprint regeneration took 232 ms (1 blueprints)
+[2017.08.17-12.42.23:465][381]PIE: New page: PIE session: 00_pepe (Aug 17, 2017, 2:42:23 PM)
+[2017.08.17-12.42.23:465][381]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_00_pepe
+[2017.08.17-12.42.23:467][381]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002483s)
+[2017.08.17-12.42.23:468][381]LogAIModule: Creating AISystem for world 00_pepe
+[2017.08.17-12.42.23:469][381]LogPlayLevel: PIE: World Init took: (0.001408s)
+[2017.08.17-12.42.23:469][381]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/00_pepe.00_pepe to /Game/UEDPIE_0_00_pepe.00_pepe (0.004142s)
+[2017.08.17-12.42.23:538][381]LogInit: XAudio2 using 'Auriculares (Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.17-12.42.23:551][381]LogInit: FAudioDevice initialized.
+[2017.08.17-12.42.23:587][381]LogLoad: Game class is 'GM_ModoJuego_C'
+[2017.08.17-12.42.23:590][381]LogWorld: Bringing World /Game/UEDPIE_0_00_pepe.00_pepe up for play (max tick rate 0) at 2017.08.17-13.42.23
+[2017.08.17-12.42.23:590][381]LogWorld: Bringing up level for play took: 0.001410
+[2017.08.17-12.42.23:593][381]PIE: Info Play in editor start time for /Game/UEDPIE_0_00_pepe 0.471
+[2017.08.17-12.42.23:593][381]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.42.25:419][597]LogBlueprintUserMessages: [3rdController_C_0]  0
+[2017.08.17-12.42.26:883][772]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 2
+[2017.08.17-12.42.27:358][829]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 2
+[2017.08.17-12.42.27:627][861]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 2
+[2017.08.17-12.42.27:841][886]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 2
+[2017.08.17-12.42.28:959][ 19]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 2
+[2017.08.17-12.42.29:184][ 46]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 2
+[2017.08.17-12.42.29:367][ 68]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 2
+[2017.08.17-12.42.29:559][ 91]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 2
+[2017.08.17-12.42.29:743][113]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 2
+[2017.08.17-12.42.29:941][136]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 2
+[2017.08.17-12.42.30:149][161]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 2
+[2017.08.17-12.42.30:363][185]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 2
+[2017.08.17-12.42.31:657][339]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.42.31:702][339]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.42.49:168][442]BlueprintLog: New page: Compile ItemHealthPotion
+[2017.08.17-12.42.51:332][610]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.17-12.42.51:368][610]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.42.51:368][610]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-12.42.51:368][610]PIE: New page: PIE session: 00_pepe (Aug 17, 2017, 2:42:51 PM)
+[2017.08.17-12.42.51:368][610]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_00_pepe
+[2017.08.17-12.42.51:371][610]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002569s)
+[2017.08.17-12.42.51:372][610]LogAIModule: Creating AISystem for world 00_pepe
+[2017.08.17-12.42.51:372][610]LogPlayLevel: PIE: World Init took: (0.001354s)
+[2017.08.17-12.42.51:373][610]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/00_pepe.00_pepe to /Game/UEDPIE_0_00_pepe.00_pepe (0.004305s)
+[2017.08.17-12.42.51:445][610]LogInit: XAudio2 using 'Auriculares (Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.17-12.42.51:458][610]LogInit: FAudioDevice initialized.
+[2017.08.17-12.42.51:490][610]LogLoad: Game class is 'GM_ModoJuego_C'
+[2017.08.17-12.42.51:493][610]LogWorld: Bringing World /Game/UEDPIE_0_00_pepe.00_pepe up for play (max tick rate 0) at 2017.08.17-13.42.51
+[2017.08.17-12.42.51:493][610]LogWorld: Bringing up level for play took: 0.001193
+[2017.08.17-12.42.51:495][610]PIE: Info Play in editor start time for /Game/UEDPIE_0_00_pepe 0.372
+[2017.08.17-12.42.51:495][610]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.42.53:219][810]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 1
+[2017.08.17-12.42.54:437][956]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 1
+[2017.08.17-12.42.55:140][ 39]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.42.55:187][ 39]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.43.16:095][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/00_pepe" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/00_pepe.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.17-12.43.16:335][866]LogSavePackage: Save=178.89ms
+[2017.08.17-12.43.16:335][866]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/00_pepe2504BDCA494C67F338A093917A8B6BC0.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/00_pepe.umap'
+[2017.08.17-12.43.16:347][866]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/00_pepe.umap
+[2017.08.17-12.43.16:406][866]LogFileHelpers: Saving map '00_pepe' took 0.409
+[2017.08.17-12.43.16:434][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/3rdController" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/BluePrints/3rdController.uasset" SILENT=true
+[2017.08.17-12.43.16:591][866]LogSavePackage: Save=141.55ms
+[2017.08.17-12.43.16:591][866]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/3rdController6A312CAD4238E99516E0ECB069BFAA1C.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/BluePrints/3rdController.uasset'
+[2017.08.17-12.43.16:597][866]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/BluePrints/3rdController.uasset
+[2017.08.17-12.43.16:634][866]LogSavePackage: Save=21.04ms
+[2017.08.17-12.43.16:634][866]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/ItemHealthPotion4228607D4D12753D0F327DBF7CD6EDF1.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/InventorySystem/Blueprints/ItemClasses/ItemHealthPotion.uasset'
+[2017.08.17-12.43.16:640][866]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/InventorySystem/Blueprints/ItemClasses/ItemHealthPotion.uasset
+[2017.08.17-12.43.18:218][ 24]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.17-12.43.18:251][ 24]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.43.18:251][ 24]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-12.43.18:251][ 24]PIE: New page: PIE session: 00_pepe (Aug 17, 2017, 2:43:18 PM)
+[2017.08.17-12.43.18:251][ 24]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_00_pepe
+[2017.08.17-12.43.18:253][ 24]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002471s)
+[2017.08.17-12.43.18:254][ 24]LogAIModule: Creating AISystem for world 00_pepe
+[2017.08.17-12.43.18:254][ 24]LogPlayLevel: PIE: World Init took: (0.000848s)
+[2017.08.17-12.43.18:254][ 24]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/00_pepe.00_pepe to /Game/UEDPIE_0_00_pepe.00_pepe (0.003523s)
+[2017.08.17-12.43.18:322][ 24]LogInit: XAudio2 using 'Auriculares (Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.17-12.43.18:335][ 24]LogInit: FAudioDevice initialized.
+[2017.08.17-12.43.18:370][ 24]LogLoad: Game class is 'GM_ModoJuego_C'
+[2017.08.17-12.43.18:373][ 24]LogWorld: Bringing World /Game/UEDPIE_0_00_pepe.00_pepe up for play (max tick rate 0) at 2017.08.17-13.43.18
+[2017.08.17-12.43.18:373][ 24]LogWorld: Bringing up level for play took: 0.001262
+[2017.08.17-12.43.18:376][ 24]PIE: Info Play in editor start time for /Game/UEDPIE_0_00_pepe -0.747
+[2017.08.17-12.43.18:376][ 24]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.43.20:423][263]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 1
+[2017.08.17-12.43.21:686][412]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 1
+[2017.08.17-12.43.22:058][456]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 1
+[2017.08.17-12.43.22:270][480]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 1
+[2017.08.17-12.43.22:504][508]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 1
+[2017.08.17-12.43.23:657][643]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.43.23:706][643]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.43.32:305][218]BlueprintLog: New page: Compile ItemHealthPotion
+[2017.08.17-12.43.34:579][413]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.17-12.43.34:613][413]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.43.34:613][413]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-12.43.34:613][413]PIE: New page: PIE session: 00_pepe (Aug 17, 2017, 2:43:34 PM)
+[2017.08.17-12.43.34:613][413]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_00_pepe
+[2017.08.17-12.43.34:615][413]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002499s)
+[2017.08.17-12.43.34:617][413]LogAIModule: Creating AISystem for world 00_pepe
+[2017.08.17-12.43.34:617][413]LogPlayLevel: PIE: World Init took: (0.001457s)
+[2017.08.17-12.43.34:617][413]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/00_pepe.00_pepe to /Game/UEDPIE_0_00_pepe.00_pepe (0.004173s)
+[2017.08.17-12.43.34:688][413]LogInit: XAudio2 using 'Auriculares (Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.17-12.43.34:704][413]LogInit: FAudioDevice initialized.
+[2017.08.17-12.43.34:734][413]LogLoad: Game class is 'GM_ModoJuego_C'
+[2017.08.17-12.43.34:737][413]LogWorld: Bringing World /Game/UEDPIE_0_00_pepe.00_pepe up for play (max tick rate 0) at 2017.08.17-13.43.34
+[2017.08.17-12.43.34:737][413]LogWorld: Bringing up level for play took: 0.001219
+[2017.08.17-12.43.34:739][413]PIE: Info Play in editor start time for /Game/UEDPIE_0_00_pepe -0.384
+[2017.08.17-12.43.34:740][413]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.43.36:183][581]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 1
+[2017.08.17-12.43.37:204][702]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 1
+[2017.08.17-12.43.37:706][762]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.43.37:750][762]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.43.43:140][ 98]BlueprintLog: New page: Compile ItemHealthPotion
+[2017.08.17-12.43.45:013][257]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.17-12.43.45:052][257]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.43.45:052][257]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-12.43.45:052][257]PIE: New page: PIE session: 00_pepe (Aug 17, 2017, 2:43:45 PM)
+[2017.08.17-12.43.45:052][257]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_00_pepe
+[2017.08.17-12.43.45:055][257]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002753s)
+[2017.08.17-12.43.45:056][257]LogAIModule: Creating AISystem for world 00_pepe
+[2017.08.17-12.43.45:056][257]LogPlayLevel: PIE: World Init took: (0.001212s)
+[2017.08.17-12.43.45:056][257]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/00_pepe.00_pepe to /Game/UEDPIE_0_00_pepe.00_pepe (0.004248s)
+[2017.08.17-12.43.45:125][257]LogInit: XAudio2 using 'Auriculares (Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.17-12.43.45:141][257]LogInit: FAudioDevice initialized.
+[2017.08.17-12.43.45:175][257]LogLoad: Game class is 'GM_ModoJuego_C'
+[2017.08.17-12.43.45:178][257]LogWorld: Bringing World /Game/UEDPIE_0_00_pepe.00_pepe up for play (max tick rate 0) at 2017.08.17-13.43.45
+[2017.08.17-12.43.45:178][257]LogWorld: Bringing up level for play took: 0.001310
+[2017.08.17-12.43.45:180][257]PIE: Info Play in editor start time for /Game/UEDPIE_0_00_pepe 0.058
+[2017.08.17-12.43.45:180][257]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.43.46:964][468]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 1
+[2017.08.17-12.43.47:861][575]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 1
+[2017.08.17-12.43.48:439][642]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 1
+[2017.08.17-12.43.48:681][671]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 1
+[2017.08.17-12.43.48:856][692]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 1
+[2017.08.17-12.43.49:409][758]LogBlueprintUserMessages: [3rdController_C_0] HealthPotion 1
+[2017.08.17-12.43.50:581][898]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.43.50:626][898]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-12.43.51:917][ 35]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.08.17-12.43.52:262][ 69]LogEditorViewport: Clicking on Actor (LMB): Bp_PickupActor_C (Bp_PickupActor2)
+[2017.08.17-12.43.54:383][313]LogEditorViewport: Clicking on Actor (LMB): Bp_PickupActor_C (Bp_PickupActor)
+[2017.08.17-12.44.09:450][319]BlueprintLog: New page: Compile 3rdController
+[2017.08.17-12.45.13:819][740]LogSavePackage: Save=22.76ms
+[2017.08.17-12.45.13:819][740]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/ItemHealthPotion37E5E97E4EAF253B8358C89ECFB6FD63.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/InventorySystem/Blueprints/ItemClasses/ItemHealthPotion.uasset'
+[2017.08.17-12.45.13:825][740]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/InventorySystem/Blueprints/ItemClasses/ItemHealthPotion.uasset
+[2017.08.17-12.46.14:967][826]LogLinker: Can't find file '/Game/InventorySystem/Widget/InventorySlot'
+[2017.08.17-12.46.14:968][826]LogLinker: Can't find file '/Game/InventorySystem/Widget/InventorySlot'
+[2017.08.17-12.49.40:364][721]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Pepe\Desktop\InventorySystemTextures\InventoryButton.png)
+[2017.08.17-12.49.40:427][721]LogTexture:Display: Building textures: InventoryButton (AutoDXT, 64X64)
+[2017.08.17-12.56.44:029][771]BlueprintLog: New page: Compile InventorySlot
+[2017.08.17-12.56.44:204][771]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.17-12.56.46:272][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InventorySystem/Widget/InventorySlot" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/InventorySystem/Widget/InventorySlot.uasset" SILENT=true
+[2017.08.17-12.56.46:302][896]LogSavePackage: Save=25.91ms
+[2017.08.17-12.56.46:302][896]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/InventorySlotCFDAB17841D86FD4E660BA9D13FDDE75.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/InventorySystem/Widget/InventorySlot.uasset'
+[2017.08.17-12.56.46:308][896]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/InventorySystem/Widget/InventorySlot.uasset
+[2017.08.17-12.57.00:385][547]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.08.17-12.57.02:390][709]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.17-12.57.02:494][709]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.17-12.57.02:596][709]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.17-12.57.57:955][755]BlueprintLog: New page: Compile InventorySlot
+[2017.08.17-12.57.58:129][755]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.17-12.59.31:541][277]LogClass:Warning: Type mismatch in Amount of SKEL_InventorySlot_C - Previous (StructProperty) Current(IntProperty) for package:  FObjectReader
+[2017.08.17-13.03.13:418][574]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/00_pepe" FILE="../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/00_pepe_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.17-13.03.13:817][574]LogSavePackage: Save=176.26ms
+[2017.08.17-13.03.13:817][574]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/00_pepe_Auto32F3E0F7E414D1E97B6906E952BAC5FD9.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/00_pepe_Auto3.umap'
+[2017.08.17-13.03.13:820][574]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/00_pepe_Auto3.umap
+[2017.08.17-13.03.13:823][574]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/00_pepe' took 0.431
+[2017.08.17-13.03.13:823][574]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.431
+[2017.08.17-13.03.13:826][574]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/InventorySystem/Widget/InventorySlot] ([1] browsable assets)...
+[2017.08.17-13.03.13:826][574]OBJ SavePackage: Finished generating thumbnails for package [/Game/InventorySystem/Widget/InventorySlot]
+[2017.08.17-13.03.13:909][574]LogSavePackage: Save=69.40ms
+[2017.08.17-13.03.13:909][574]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/InventorySlot_Auto37B10583A4A26FD8BD1CE44B999A6C6FC.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/InventorySystem/Widget/InventorySlot_Auto3.uasset'
+[2017.08.17-13.03.13:911][574]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/InventorySystem/Widget/InventorySlot_Auto3.uasset
+[2017.08.17-13.03.13:913][574]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/3rdController] ([1] browsable assets)...
+[2017.08.17-13.03.13:941][574]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/3rdController.3rdController]
+[2017.08.17-13.03.13:941][574]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/3rdController]
+[2017.08.17-13.03.14:059][574]LogSavePackage: Save=101.97ms
+[2017.08.17-13.03.14:059][574]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/3rdController_Auto3199F3F1846C08065FF6D3995D3A8CDC0.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/BluePrints/3rdController_Auto3.uasset'
+[2017.08.17-13.03.14:071][574]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/BluePrints/3rdController_Auto3.uasset
+[2017.08.17-13.03.14:073][574]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/InventorySystem/Textures/InventoryButton] ([1] browsable assets)...
+[2017.08.17-13.03.14:075][574]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/InventorySystem/Textures/InventoryButton.InventoryButton]
+[2017.08.17-13.03.14:075][574]OBJ SavePackage: Finished generating thumbnails for package [/Game/InventorySystem/Textures/InventoryButton]
+[2017.08.17-13.03.14:086][574]LogSavePackage: Save=7.55ms
+[2017.08.17-13.03.14:086][574]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/InventoryButton_Auto34E40AE414798F54AE23CFABBFCB186B7.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/InventorySystem/Textures/InventoryButton_Auto3.uasset'
+[2017.08.17-13.03.14:089][574]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/InventorySystem/Textures/InventoryButton_Auto3.uasset
+[2017.08.17-13.03.14:089][574]LogFileHelpers: Auto-saving content packages took 0.265
+[2017.08.17-13.03.21:328][677]BlueprintLog: New page: Compile InventorySlot
+[2017.08.17-13.03.21:341][677]LogLinker: Can't find file '/Game/InventorySystem/Textures/InventoryButton'
+[2017.08.17-13.03.21:341][677]LogLinker: Can't find file for asset '/Game/InventorySystem/Textures/InventoryButton' while loading ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/InventorySystem/Widget/InventorySlot.uasset.
+[2017.08.17-13.03.21:341][677]LogLinker: Can't find file '/Game/InventorySystem/Textures/InventoryButton'
+[2017.08.17-13.03.21:341][677]LogLinker: Can't find file for asset '/Game/InventorySystem/Textures/InventoryButton' while loading ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/InventorySystem/Widget/InventorySlot.uasset.
+[2017.08.17-13.03.21:483][677]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.17-13.05.38:270][ 41]BlueprintLog: New page: Compile Bp_Inventory
+[2017.08.17-13.05.38:383][ 41]LogLinker: Can't find file '/Game/InventorySystem/Textures/InventoryButton'
+[2017.08.17-13.05.38:383][ 41]LogLinker: Can't find file for asset '/Game/InventorySystem/Textures/InventoryButton' while loading ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/InventorySystem/Widget/InventorySlot.uasset.
+[2017.08.17-13.05.38:383][ 41]LogLinker: Can't find file '/Game/InventorySystem/Textures/InventoryButton'
+[2017.08.17-13.05.38:383][ 41]LogLinker: Can't find file for asset '/Game/InventorySystem/Textures/InventoryButton' while loading ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/InventorySystem/Widget/InventorySlot.uasset.
+[2017.08.17-13.08.10:728][164]BlueprintLog: New page: Compile InventorySlot
+[2017.08.17-13.08.10:742][164]LogLinker: Can't find file '/Game/InventorySystem/Textures/InventoryButton'
+[2017.08.17-13.08.10:742][164]LogLinker: Can't find file for asset '/Game/InventorySystem/Textures/InventoryButton' while loading ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/InventorySystem/Widget/InventorySlot.uasset.
+[2017.08.17-13.08.10:742][164]LogLinker: Can't find file '/Game/InventorySystem/Textures/InventoryButton'
+[2017.08.17-13.08.10:743][164]LogLinker: Can't find file for asset '/Game/InventorySystem/Textures/InventoryButton' while loading ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/InventorySystem/Widget/InventorySlot.uasset.
+[2017.08.17-13.08.10:902][164]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.17-13.13.14:903][166]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/00_pepe' took 0.027
+[2017.08.17-13.13.14:906][166]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/InventorySystem/Widget/InventorySlot] ([1] browsable assets)...
+[2017.08.17-13.13.14:906][166]OBJ SavePackage: Finished generating thumbnails for package [/Game/InventorySystem/Widget/InventorySlot]
+[2017.08.17-13.13.15:242][166]LogSavePackage: Save=110.28ms
+[2017.08.17-13.13.15:242][166]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/InventorySlot_Auto44B1D14D9414E1302EB8A01914A7C4F81.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/InventorySystem/Widget/InventorySlot_Auto4.uasset'
+[2017.08.17-13.13.15:244][166]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/InventorySystem/Widget/InventorySlot_Auto4.uasset
+[2017.08.17-13.13.15:246][166]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/InventorySystem/Blueprints/Bp_Inventory] ([1] browsable assets)...
+[2017.08.17-13.13.15:246][166]OBJ SavePackage: Finished generating thumbnails for package [/Game/InventorySystem/Blueprints/Bp_Inventory]
+[2017.08.17-13.13.15:631][166]LogSavePackage: Save=330.03ms
+[2017.08.17-13.13.15:631][166]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Bp_Inventory_Auto42273D6414E0CA1167A85DCA1B6484074.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/InventorySystem/Blueprints/Bp_Inventory_Auto4.uasset'
+[2017.08.17-13.13.15:633][166]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/InventorySystem/Blueprints/Bp_Inventory_Auto4.uasset
+[2017.08.17-13.13.15:635][166]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/3rdController] ([1] browsable assets)...
+[2017.08.17-13.13.15:666][166]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/3rdController.3rdController]
+[2017.08.17-13.13.15:666][166]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/3rdController]
+[2017.08.17-13.13.15:833][166]LogSavePackage: Save=102.93ms
+[2017.08.17-13.13.15:834][166]LogSavePackage: Moving '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/3rdController_Auto4DCF54023472DC02F4A80E4A3C4460EF0.tmp' to '../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/BluePrints/3rdController_Auto4.uasset'
+[2017.08.17-13.13.15:836][166]LogSavePackage:Display: Finished SavePackage ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Saved/Autosaves/Game/BluePrints/3rdController_Auto4.uasset
+[2017.08.17-13.13.15:836][166]LogFileHelpers: Auto-saving content packages took 0.932
+[2017.08.17-13.35.46:264][415]LogAudio:Warning: Current Audio Device with ID {0.0.0.00000000}.{322daa3a-caff-4f42-b135-39311ce5b7c1} was removed. Shutting down audio device.
+[2017.08.17-13.52.02:248][  2]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.17-13.52.02:384][  2]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-13.52.02:385][  2]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.08.17-13.52.02:386][  2]LogPlayLevel: [PlayLevel] Compiling InventorySlot before play...
+[2017.08.17-13.52.02:429][  2]LogLinker: Can't find file '/Game/InventorySystem/Textures/InventoryButton'
+[2017.08.17-13.52.02:429][  2]LogLinker: Can't find file for asset '/Game/InventorySystem/Textures/InventoryButton' while loading ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/InventorySystem/Widget/InventorySlot.uasset.
+[2017.08.17-13.52.02:429][  2]LogLinker: Can't find file '/Game/InventorySystem/Textures/InventoryButton'
+[2017.08.17-13.52.02:429][  2]LogLinker: Can't find file for asset '/Game/InventorySystem/Textures/InventoryButton' while loading ../../../../../FreedomReal/FREEDOM/PROYECTO/source/Content/InventorySystem/Widget/InventorySlot.uasset.
+[2017.08.17-13.52.02:937][  2]LogPlayLevel: PlayLevel: Blueprint regeneration took 551 ms (1 blueprints)
+[2017.08.17-13.52.02:937][  2]PIE: New page: PIE session: 00_pepe (Aug 17, 2017, 3:52:02 PM)
+[2017.08.17-13.52.02:938][  2]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_00_pepe
+[2017.08.17-13.52.02:948][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009812s)
+[2017.08.17-13.52.02:953][  2]LogAIModule: Creating AISystem for world 00_pepe
+[2017.08.17-13.52.02:953][  2]LogPlayLevel: PIE: World Init took: (0.004736s)
+[2017.08.17-13.52.02:954][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/00_pepe.00_pepe to /Game/UEDPIE_0_00_pepe.00_pepe (0.015217s)
+[2017.08.17-13.52.03:008][  2]LogInit: XAudio2 using 'Altavoces (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.08.17-13.52.03:045][  2]LogInit: FAudioDevice initialized.
+[2017.08.17-13.52.03:085][  2]LogLoad: Game class is 'GM_ModoJuego_C'
+[2017.08.17-13.52.03:089][  2]LogWorld: Bringing World /Game/UEDPIE_0_00_pepe.00_pepe up for play (max tick rate 0) at 2017.08.17-14.52.03
+[2017.08.17-13.52.03:089][  2]LogWorld: Bringing up level for play took: 0.002055
+[2017.08.17-13.52.03:095][  2]PIE: Info Play in editor start time for /Game/UEDPIE_0_00_pepe -0.028
+[2017.08.17-13.52.03:095][  2]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-13.52.13:647][258]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
+[2017.08.17-13.52.13:703][258]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/00_pepe.00_pepe:PersistentLevel' has LevelScriptBlueprint '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe' with GeneratedClass '/Game/00_pepe.00_pepe_C' with ClassGeneratedBy '/Game/00_pepe.00_pepe:PersistentLevel.00_pepe'
